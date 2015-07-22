@@ -1,0 +1,1498 @@
+﻿[2015.07.22-01.12.16:775][  0]Log file open, 07/22/15 03:12:16
+[2015.07.22-01.12.16:775][  0]LogInit:Display: Running engine for game: ProjectTron
+[2015.07.22-01.12.16:775][  0]LogInit:Display: RandInit(1882267262) SRandInit(1882267262).
+[2015.07.22-01.12.16:775][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.07.22-01.12.16:775][  0]LogStats: Stats thread started
+[2015.07.22-01.12.16:775][  0]LogInit: Version: 4.8.2-2614606+++depot+UE4-Releases+4.8
+[2015.07.22-01.12.16:775][  0]LogInit: API Version: 2579680
+[2015.07.22-01.12.16:775][  0]LogInit: Compiled (64-bit): Jul  8 2015 23:43:41
+[2015.07.22-01.12.16:775][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.07.22-01.12.16:775][  0]LogInit: Build Configuration: Development
+[2015.07.22-01.12.16:775][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.07.22-01.12.16:775][  0]LogInit: Command line:  
+[2015.07.22-01.12.16:775][  0]LogInit: Base directory: D:/UnrealEngine/4.8/Engine/Binaries/Win64/
+[2015.07.22-01.12.16:775][  0]LogInit: Rocket: 1
+[2015.07.22-01.12.16:784][  0]LogInit: Using libcurl 7.41.0
+[2015.07.22-01.12.16:784][  0]LogInit:  - built for x86_64-pc-win32
+[2015.07.22-01.12.16:784][  0]LogInit:  - supports SSL with WinSSL
+[2015.07.22-01.12.16:784][  0]LogInit:  - other features:
+[2015.07.22-01.12.16:784][  0]LogInit:      CURL_VERSION_SSL
+[2015.07.22-01.12.16:784][  0]LogInit:      CURL_VERSION_IPV6
+[2015.07.22-01.12.16:784][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.07.22-01.12.16:784][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.07.22-01.12.16:784][  0]LogInit:      CURL_VERSION_IDN
+[2015.07.22-01.12.16:784][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.07.22-01.12.16:784][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.07.22-01.12.16:784][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.07.22-01.12.16:784][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.07.22-01.12.16:784][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.07.22-01.12.16:792][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.07.22-01.12.16:802][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.07.22-01.12.16:812][  0]LogInit: Object subsystem initialized
+[2015.07.22-01.12.16:813][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.07.22-01.12.16:813][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/UnrealEngineProject/ProjectTron/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.22-01.12.16:813][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.07.22-01.12.16:813][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/UnrealEngineProject/ProjectTron/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.22-01.12.16:813][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.07.22-01.12.16:813][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/UnrealEngineProject/ProjectTron/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.22-01.12.16:813][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.22-01.12.16:813][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.07.22-01.12.16:821][  0]LogInit: Computer: FIELDRAIN-PC
+[2015.07.22-01.12.16:821][  0]LogInit: User: Adrien
+[2015.07.22-01.12.16:821][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.07.22-01.12.16:821][  0]LogInit: High frequency timer resolution =2.338345 MHz
+[2015.07.22-01.12.16:821][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.07.22-01.12.16:821][  0]LogMemory: Platform Memory Stats for Windows
+[2015.07.22-01.12.16:821][  0]LogMemory: Process Physical Memory: 47.75 MB used, 47.75 MB peak
+[2015.07.22-01.12.16:821][  0]LogMemory: Process Virtual Memory: 24.30 MB used, 24.30 MB peak
+[2015.07.22-01.12.16:821][  0]LogMemory: Physical Memory: 5097.86 MB used, 16271.36 MB total
+[2015.07.22-01.12.16:821][  0]LogMemory: Virtual Memory: 293.72 MB used, 134217728.00 MB total
+[2015.07.22-01.12.16:860][  0]LogTextLocalizationManager: The requested culture ('en_150') has no localization data; parent culture's ('en') localization data will be used.
+[2015.07.22-01.12.17:102][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (D:/UnrealEngine/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (D:/UnrealEngine/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.07.22-01.12.17:728][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.07.22-01.12.17:728][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 2 output[s]
+[2015.07.22-01.12.17:761][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GTX 780M (Feature Level 11_0)
+[2015.07.22-01.12.17:761][  0]LogD3D11RHI: Adapter has 3995MB of dedicated video memory, 0MB of dedicated system memory, and 8135MB of shared system memory, 0 output[s]
+[2015.07.22-01.12.17:763][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.07.22-01.12.17:763][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.07.22-01.12.17:763][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.07.22-01.12.17:769][  0]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.12.17:769][  0]LogD3D11RHI: !Direct3DDevice
+[2015.07.22-01.12.17:769][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.07.22-01.12.17:792][  0]LogD3D11RHI: Async texture creation enabled
+[2015.07.22-01.12.18:298][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.07.22-01.12.19:167][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.07.22-01.12.19:183][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.07.22-01.12.19:196][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.07.22-01.12.19:209][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.07.22-01.12.19:222][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.07.22-01.12.19:236][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.07.22-01.12.19:249][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.07.22-01.12.19:264][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.07.22-01.12.19:274][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.07.22-01.12.19:285][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.07.22-01.12.19:296][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.07.22-01.12.19:309][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.07.22-01.12.19:352][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.07.22-01.12.19:365][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.07.22-01.12.19:376][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.07.22-01.12.19:393][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.07.22-01.12.19:393][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.07.22-01.12.19:596][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.07.22-01.12.19:691][  0]LogDerivedDataCache: Loaded boot cache 0.10s 61MB C:/Users/Adrien/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.22-01.12.19:691][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Adrien/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.07.22-01.12.19:691][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../UnrealEngineProject/ProjectTron/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.07.22-01.12.19:691][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.07.22-01.12.19:691][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../UnrealEngineProject/ProjectTron/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.07.22-01.12.19:691][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.07.22-01.12.19:855][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.07.22-01.12.19:867][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Adrien/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.07.22-01.12.20:110][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.22-01.12.20:221][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.22-01.12.20:222][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.22-01.12.20:242][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.07.22-01.12.20:242][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.07.22-01.12.20:581][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.07.22-01.12.21:398][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.07.22-01.12.21:672][  0]SourceControl: Info Source control is disabled
+[2015.07.22-01.12.21:680][  0]SourceControl: Info Source control is disabled
+[2015.07.22-01.12.21:687][  0]SourceControl: Info Source control is disabled
+[2015.07.22-01.12.21:694][  0]SourceControl: Info Source control is disabled
+[2015.07.22-01.12.21:855][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.07.22-01.12.21:855][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.07.22-01.12.21:915][  0]LogEngine: Initializing Engine...
+[2015.07.22-01.12.21:919][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.07.22-01.12.21:920][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.07.22-01.12.22:047][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.07.22-01.12.22:052][  0]LogInit: XAudio2 using 'Haut-parleurs (2- Plantronics GameCom 780)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x60f)
+[2015.07.22-01.12.22:070][  0]LogInit: FAudioDevice initialized.
+[2015.07.22-01.12.22:100][  0]LogDerivedDataCache: Saved boot cache 0.03s 61MB C:/Users/Adrien/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.22-01.12.22:104][  0]LogInit: Texture streaming: Disabled
+[2015.07.22-01.12.22:123][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.07.22-01.12.22:124][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.2-2614606+++depot+UE4-Releases+4.8
+[2015.07.22-01.12.22:124][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 2e87543741be94097c1db6846465a91d|d27d10dde35e45258d9f88e0d3b9cd63|7789eb87-d837-4324-a798-0149adb08d39
+[2015.07.22-01.12.22:124][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.07.22-01.12.22:146][  0]LogInit: Transaction tracking system initialized
+[2015.07.22-01.12.22:237][  0]BlueprintLog: New page: Editor Load
+[2015.07.22-01.12.22:266][  0]LogAssetRegistry: FAssetRegistry took 0.0115 seconds to start up
+[2015.07.22-01.12.22:267][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.07.22-01.12.22:816][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.07.22-01.12.22:816][  0]LogConsoleResponse:Display: 
+[2015.07.22-01.12.22:912][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.07.22-01.12.23:051][  0]SourceControl: Info Source control is disabled
+[2015.07.22-01.12.23:051][  0]Cmd: MAP LOAD FILE="../../../../../UnrealEngineProject/ProjectTron/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.22-01.12.23:051][  0]LightingResults: New page: Lighting Build
+[2015.07.22-01.12.23:060][  0]MapCheck: New page: Map Check
+[2015.07.22-01.12.23:060][  0]LightingResults: New page: Lighting Build
+[2015.07.22-01.12.23:070][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000057670F8B80
+[2015.07.22-01.12.23:792][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.22-01.12.23:802][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.22-01.12.23:833][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.22-01.12.23:871][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 37,545ms to complete.
+[2015.07.22-01.12.23:871][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.819
+[2015.07.22-01.12.23:991][  0]LogCollectionManager: Loaded 0 collections in 0.001135 seconds
+[2015.07.22-01.12.23:999][  0]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 1792 classes and 301 folders.
+[2015.07.22-01.12.24:031][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.07.22-01.12.24:054][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.07.22-01.12.24:065][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2015.07.22-01.12.24:097][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.07.22-01.12.24:097][  0]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.12.24:101][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.07.22-01.12.24:124][  0]LogLoad: Full Startup: 8.49 seconds (BP compile: 0.16 seconds)
+[2015.07.22-01.12.24:132][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.07.22-01.12.24:201][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.07.22-01.12.24:254][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.07.22-01.12.24:398][  0]LogRenderer: Reallocating scene render targets to support 1208x600 (Frame:2).
+[2015.07.22-01.12.24:788][  9]LogAssetRegistry: Asset discovery search completed in 2.5332 seconds
+[2015.07.22-01.12.25:497][ 58]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.12.50:663][109]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.12.51:018][109]LogTexture:Display: Building textures: T_PrototypeFemale_M (AutoDXT)
+[2015.07.22-01.12.57:540][109]LogTexture:Display: Building textures: T_PrototypeFemale_D (AutoDXT)
+[2015.07.22-01.13.09:203][109]LogTexture:Display: Building textures: T_PrototypeFemale_N (BC5)
+[2015.07.22-01.13.11:302][109]LogTexture:Display: Building textures: ProtoFemaleColors_Masks (AutoDXT)
+[2015.07.22-01.13.13:302][109]LogTexture:Display: Building textures: T_PrototypeMale_N (BC5)
+[2015.07.22-01.13.15:530][109]LogTexture:Display: Building textures: T_PrototypeMale_M (AutoDXT)
+[2015.07.22-01.13.25:336][109]LogTexture:Display: Building textures: T_PrototypeMale_D (AutoDXT)
+[2015.07.22-01.13.37:329][109]LogTexture:Display: Building textures: ProtoMaleColors_Masks (AutoDXT)
+[2015.07.22-01.13.38:829][109]LogMaterial: Missing cached shader map for material M_CharacterMaster, compiling. 
+[2015.07.22-01.13.39:005][109]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.07.22-01.13.39:008][109]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.07.22-01.13.39:009][109]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2015.07.22-01.13.39:014][109]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.07.22-01.13.39:019][109]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT)
+[2015.07.22-01.13.39:021][109]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
+[2015.07.22-01.13.39:024][109]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2015.07.22-01.13.39:026][109]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2015.07.22-01.13.39:031][109]LogMaterial: Missing cached shader map for material M_CharacterMaster, compiling. 
+[2015.07.22-01.13.39:053][109]LogAIModule: Creating AISystem for world Showcase
+[2015.07.22-01.13.39:105][109]Cmd: MAP LOAD FILE="../../../../../UnrealEngineProject/ProjectTron/Content/ProtoCharacters/Showcase.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.22-01.13.39:105][109]LightingResults: New page: Lighting Build
+[2015.07.22-01.13.39:122][109]LoadErrors: New page: Loading map: Showcase.umap
+[2015.07.22-01.13.39:123][109]MapCheck: New page: Map Check
+[2015.07.22-01.13.39:123][109]LightingResults: New page: Lighting Build
+[2015.07.22-01.13.39:132][109]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000575E5B7600
+[2015.07.22-01.13.39:189][109]LogAIModule: Creating AISystem for world Showcase
+[2015.07.22-01.13.39:213][109]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.22-01.13.39:236][109]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.22-01.13.39:274][109]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 37,369ms to complete.
+[2015.07.22-01.13.39:274][109]LogFileHelpers: Loading map 'Showcase' took 0.171
+[2015.07.22-01.13.40:319][164]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.13.49:209][748]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.13.50:243][824]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.14.07:568][ 55]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.14.07:619][ 55]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.22-01.14.07:643][ 55]Cmd: MAP LOAD FILE="../../../../../UnrealEngineProject/ProjectTron/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.22-01.14.07:644][ 55]LightingResults: New page: Lighting Build
+[2015.07.22-01.14.07:657][ 55]LoadErrors: New page: Loading map: Minimal_Default.umap
+[2015.07.22-01.14.07:658][ 55]MapCheck: New page: Map Check
+[2015.07.22-01.14.07:658][ 55]LightingResults: New page: Lighting Build
+[2015.07.22-01.14.07:666][ 55]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000575E7A9300
+[2015.07.22-01.14.07:742][ 55]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.22-01.14.07:744][ 55]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.22-01.14.07:783][ 55]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.22-01.14.07:817][ 55]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 33,578ms to complete.
+[2015.07.22-01.14.07:817][ 55]LogFileHelpers: Loading map 'Minimal_Default' took 0.175
+[2015.07.22-01.14.07:846][ 55]LogAudio:Warning: Detected orphaned looping sound 'Starter_Background_Cue'.
+[2015.07.22-01.14.15:772][721]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.14.16:331][785]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.14.19:885][111]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.14.21:155][257]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.14.24:624][592]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.14.28:341][ 29]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.14.41:243][129]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.14.41:827][196]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.14.49:848][899]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.14.50:223][942]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.14.56:933][531]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.15.03:490][303]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.15.03:527][304]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.15.03:543][305]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.15.11:258][981]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.15.13:641][259]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.15.16:428][534]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.15.18:619][763]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.15.19:088][817]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.15.19:649][881]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.15.20:440][974]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.15.20:742][975]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.15.26:051][451]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.15.26:487][501]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.15.52:185][397]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.15.54:388][651]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.15.54:988][721]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.15.57:901][ 62]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.15.58:403][120]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.16.07:250][794]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.16.07:294][794]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProtoCharacters/SK_PrototypeF_2" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/ProtoCharacters/SK_PrototypeF_2.uasset" SILENT=true
+[2015.07.22-01.16.07:330][794]LogSavePackage: Save=35.533680ms
+[2015.07.22-01.16.07:330][794]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/SK_PrototypeF_2BB47F4F74397B67B386AC799141E349C.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/ProtoCharacters/SK_PrototypeF_2.uasset'
+[2015.07.22-01.16.07:346][794]LogSavePackage: Save=6.277089ms
+[2015.07.22-01.16.07:346][794]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/SK_PrototypeF_PhysicsAsset_2A765E2D1464AA36081B953B05933193D.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/ProtoCharacters/SK_PrototypeF_PhysicsAsset_2.uasset'
+[2015.07.22-01.16.08:452][839]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.16.10:340][ 60]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.16.11:720][219]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.16.11:746][219]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.16.11:819][219]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.16.11:856][219]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/SK_PrototypeF_2" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/SK_PrototypeF_2.uasset" SILENT=true
+[2015.07.22-01.16.11:889][219]LogSavePackage: Save=31.441040ms
+[2015.07.22-01.16.11:889][219]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/SK_PrototypeF_2ABFE084F4D0A13A1F6AC46AAF87AC0AB.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/SK_PrototypeF_2.uasset'
+[2015.07.22-01.16.11:894][219]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/SK_PrototypeF_PhysicsAsset_2" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/SK_PrototypeF_PhysicsAsset_2.uasset" SILENT=true
+[2015.07.22-01.16.11:901][219]LogSavePackage: Save=6.017076ms
+[2015.07.22-01.16.11:901][219]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/SK_PrototypeF_PhysicsAsset_296573AE74D4C1B3E9B56BF887BF808FA.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/SK_PrototypeF_PhysicsAsset_2.uasset'
+[2015.07.22-01.16.11:921][219]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.16.11:970][219]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.16.15:981][488]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.16.18:476][785]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.16.19:686][925]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.16.19:710][925]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.16.19:726][925]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.16.19:749][925]LogSavePackage: Save=6.190703ms
+[2015.07.22-01.16.19:749][925]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/SK_PrototypeF_PhysicsAsset_22D49CDED4F14827FB05DC18476C49F03.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Mesh/SK_PrototypeF_PhysicsAsset_2.uasset'
+[2015.07.22-01.16.19:771][925]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Mesh/SK_PrototypeF_2" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Mesh/SK_PrototypeF_2.uasset" SILENT=true
+[2015.07.22-01.16.19:803][925]LogSavePackage: Save=31.365774ms
+[2015.07.22-01.16.19:803][925]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/SK_PrototypeF_2A4F194D84A89D9ECF89C1B8616A51CAE.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Mesh/SK_PrototypeF_2.uasset'
+[2015.07.22-01.16.19:813][925]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.16.19:860][925]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.16.27:175][375]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.16.28:510][523]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.16.29:260][608]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.16.30:481][750]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.16.49:579][717]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.16.51:089][846]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.16.51:976][942]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.16.56:020][218]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.16.56:049][218]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.16.56:064][218]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.16.56:091][218]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Mesh/SK_PrototypeF" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Mesh/SK_PrototypeF.uasset" SILENT=true
+[2015.07.22-01.16.56:124][218]LogSavePackage: Save=32.313454ms
+[2015.07.22-01.16.56:124][218]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/SK_PrototypeFB4E2F3A14AC458C7A6C65EAD1D868B8B.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Mesh/SK_PrototypeF.uasset'
+[2015.07.22-01.16.56:135][218]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.16.56:165][218]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.16.57:184][321]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.16.57:935][401]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.17.01:558][657]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.17.01:579][657]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.17.01:595][657]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.17.01:608][657]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Mesh/SK_PrototypeF_PhysicsAsset" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Mesh/SK_PrototypeF_PhysicsAsset.uasset" SILENT=true
+[2015.07.22-01.17.01:615][657]LogSavePackage: Save=6.115864ms
+[2015.07.22-01.17.01:615][657]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/SK_PrototypeF_PhysicsAssetD5C0FE8E4E5AD33631BA54AE79ED78E8.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Mesh/SK_PrototypeF_PhysicsAsset.uasset'
+[2015.07.22-01.17.01:624][657]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.17.01:654][657]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.17.04:407][966]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.17.05:088][966]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.17.05:527][966]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2015.07.22-01.17.05:622][966]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/SubEditors/PersonaAnimEditorTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.22-01.17.05:815][966]LogRenderer: Reallocating scene render targets to support 1208x920 (Frame:15693).
+[2015.07.22-01.17.15:614][313]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.18.07:569][775]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2015.07.22-01.18.11:792][951]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.18.11:901][951]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.18.11:982][951]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2015.07.22-01.18.13:081][999]Cmd: TRANSACTION UNDO
+[2015.07.22-01.18.13:145][999]LogEditorTransaction: Undo Replace material on mesh
+[2015.07.22-01.18.13:158][999]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.18.17:658][197]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000575C2040E0
+[2015.07.22-01.18.17:671][197]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000575C206340
+[2015.07.22-01.18.17:672][197]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.18.17:702][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Mesh/SK_PrototypeF" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Mesh/SK_PrototypeF.uasset" SILENT=true
+[2015.07.22-01.18.17:738][197]LogSavePackage: Save=31.676678ms
+[2015.07.22-01.18.17:738][197]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/SK_PrototypeF9E7ED535412BBB36F831A895725BD5E5.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Mesh/SK_PrototypeF.uasset'
+[2015.07.22-01.18.27:273][646]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2015.07.22-01.18.27:354][647]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2015.07.22-01.18.27:418][648]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2015.07.22-01.18.27:492][649]LogMaterial: Missing cached shader map for material Material_3, compiling. 
+[2015.07.22-01.18.28:418][691]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.18.42:478][298]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.18.43:551][424]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.18.44:378][519]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.18.44:391][519]LogMaterial: Missing cached shader map for material M_CharacterMaster, compiling. 
+[2015.07.22-01.18.44:432][519]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.18.44:461][519]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.18.44:499][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Materials/M_CharacterMaster" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Materials/M_CharacterMaster.uasset" SILENT=true
+[2015.07.22-01.18.44:524][519]LogSavePackage: Save=23.329748ms
+[2015.07.22-01.18.44:524][519]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/M_CharacterMaster692C216444E9BC6E9D3AB9BD983C3C88.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Materials/M_CharacterMaster.uasset'
+[2015.07.22-01.18.44:556][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Materials/MI_PrototypeFemale" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Materials/MI_PrototypeFemale.uasset" SILENT=true
+[2015.07.22-01.18.44:576][519]LogSavePackage: Save=17.864773ms
+[2015.07.22-01.18.44:576][519]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/MI_PrototypeFemale6F163350487B5E082FD4E280F04BBF2A.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Materials/MI_PrototypeFemale.uasset'
+[2015.07.22-01.18.44:594][519]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.18.44:671][519]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.18.44:689][519]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000575FB91DA0
+[2015.07.22-01.18.44:689][519]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000574D5C19E0
+[2015.07.22-01.18.44:785][519]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.18.44:853][519]LogSavePackage: Save=15.222304ms
+[2015.07.22-01.18.44:853][519]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/MI_PrototypeFemaleVer1116E840E4ED5BE1DE80D708A94F666C5.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/ProtoCharacters/Materials/MI_PrototypeFemaleVer1.uasset'
+[2015.07.22-01.18.44:905][519]LogSavePackage: Save=17.021013ms
+[2015.07.22-01.18.44:905][519]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/MI_PrototypeFemaleVer28F7CA6864416068652BA7B9280DB57F4.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/ProtoCharacters/Materials/MI_PrototypeFemaleVer2.uasset'
+[2015.07.22-01.18.44:932][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProtoCharacters/Materials/MI_PrototypeMale" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/ProtoCharacters/Materials/MI_PrototypeMale.uasset" SILENT=true
+[2015.07.22-01.18.44:951][519]LogSavePackage: Save=16.458221ms
+[2015.07.22-01.18.44:951][519]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/MI_PrototypeMaleB8FD808540A62DBF53439EBA4D121AAB.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/ProtoCharacters/Materials/MI_PrototypeMale.uasset'
+[2015.07.22-01.18.44:998][519]LogSavePackage: Save=15.915102ms
+[2015.07.22-01.18.44:998][519]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/MI_PrototypeMaleVer14E2B30A449A3F1AE3697C4A8E7E9DCEC.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/ProtoCharacters/Materials/MI_PrototypeMaleVer1.uasset'
+[2015.07.22-01.18.45:046][519]LogSavePackage: Save=15.394649ms
+[2015.07.22-01.18.45:046][519]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/MI_PrototypeMaleVer2D125011B48F077D77D11E1BDD6281A4B.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/ProtoCharacters/Materials/MI_PrototypeMaleVer2.uasset'
+[2015.07.22-01.18.45:074][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProtoCharacters/SK_PrototypeF" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/ProtoCharacters/SK_PrototypeF.uasset" SILENT=true
+[2015.07.22-01.18.45:122][519]LogSavePackage: Save=44.688873ms
+[2015.07.22-01.18.45:122][519]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/SK_PrototypeFE114D6EB4A6D54DF0C61779DBDB1615F.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/ProtoCharacters/SK_PrototypeF.uasset'
+[2015.07.22-01.18.45:130][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Mesh/SK_PrototypeF" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Mesh/SK_PrototypeF.uasset" SILENT=true
+[2015.07.22-01.18.45:166][519]LogSavePackage: Save=33.137966ms
+[2015.07.22-01.18.45:166][519]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/SK_PrototypeFDCCE301446E534ADADC744A83FE31F29.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Mesh/SK_PrototypeF.uasset'
+[2015.07.22-01.18.55:826][977]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.18.55:951][977]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.18.56:007][977]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2015.07.22-01.19.10:273][591]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.19.11:115][680]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.19.12:391][821]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.19.13:393][937]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.19.16:959][354]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.19.20:433][594]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005701090A40
+[2015.07.22-01.19.20:433][594]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005701090D60
+[2015.07.22-01.19.20:515][594]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.19.21:815][594]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.19.31:690][975]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.19.32:180][ 26]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.19.37:289][295]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.19.38:588][448]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.19.39:484][550]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.19.39:509][550]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.19.39:524][550]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.19.39:554][550]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Mesh/SK_PrototypeM_2" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Mesh/SK_PrototypeM_2.uasset" SILENT=true
+[2015.07.22-01.19.39:587][550]LogSavePackage: Save=31.581310ms
+[2015.07.22-01.19.39:587][550]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/SK_PrototypeM_271A0D84B48CB89D4DF22AF8F3941ACD6.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Mesh/SK_PrototypeM_2.uasset'
+[2015.07.22-01.19.39:605][550]LogSavePackage: Save=10.555757ms
+[2015.07.22-01.19.39:605][550]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/SK_PrototypeM_PhysicsAsset_20722DE1E4A94B65467B83A81EBE5585E.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Mesh/SK_PrototypeM_PhysicsAsset_2.uasset'
+[2015.07.22-01.19.39:616][550]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.19.45:082][810]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.19.47:602][ 80]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.19.48:343][158]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.19.55:029][655]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.19.55:054][655]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.19.55:067][655]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.19.55:097][655]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Mesh/SK_PrototypeM" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Mesh/SK_PrototypeM.uasset" SILENT=true
+[2015.07.22-01.19.55:129][655]LogSavePackage: Save=31.346529ms
+[2015.07.22-01.19.55:129][655]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/SK_PrototypeM46D521224E61ED6BB29A27BE074919AA.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Mesh/SK_PrototypeM.uasset'
+[2015.07.22-01.19.55:138][655]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.19.55:166][655]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.19.56:276][716]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.19.57:005][795]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.19.57:445][846]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.19.58:604][980]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.20.03:931][347]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.20.03:952][347]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.20.03:965][347]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.20.03:979][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Mesh/SK_PrototypeM_PhysicsAsset" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Mesh/SK_PrototypeM_PhysicsAsset.uasset" SILENT=true
+[2015.07.22-01.20.03:987][347]LogSavePackage: Save=6.863401ms
+[2015.07.22-01.20.03:987][347]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/SK_PrototypeM_PhysicsAsset99610AF7491D25D09946229ADF7B2D79.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Mesh/SK_PrototypeM_PhysicsAsset.uasset'
+[2015.07.22-01.20.03:996][347]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.20.04:026][347]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.20.13:932][123]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.20.15:026][123]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.20.15:081][123]LogMaterial: 0.000064 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2015.07.22-01.20.15:231][123]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.20.19:127][578]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.20.20:334][578]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.20.20:417][578]LogMaterial: Missing cached shader map for material Material_3, compiling. 
+[2015.07.22-01.20.20:435][578]LogMaterial: Missing cached shader map for material Material_3, compiling. 
+[2015.07.22-01.20.20:444][578]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Material_3' or package '/Engine/Transient'.
+[2015.07.22-01.20.20:446][578]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2015.07.22-01.20.20:462][578]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2015.07.22-01.20.20:477][578]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Material_0' or package '/Engine/Transient'.
+[2015.07.22-01.20.30:356][213]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.20.31:459][213]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.20.44:613][131]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.20.45:632][252]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.20.46:570][360]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.20.46:628][360]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.20.46:677][360]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.20.46:735][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Textures/ProtoFemaleColors_Masks" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Textures/ProtoFemaleColors_Masks.uasset" SILENT=true
+[2015.07.22-01.20.46:753][360]LogSavePackage: Save=17.720224ms
+[2015.07.22-01.20.46:753][360]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/ProtoFemaleColors_Masks7C941DA045AC3948200A07B80A8157D2.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Textures/ProtoFemaleColors_Masks.uasset'
+[2015.07.22-01.20.46:766][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Textures/ProtoMaleColors_Masks" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Textures/ProtoMaleColors_Masks.uasset" SILENT=true
+[2015.07.22-01.20.46:781][360]LogSavePackage: Save=13.359877ms
+[2015.07.22-01.20.46:781][360]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/ProtoMaleColors_MasksD2235EB444AEB3AD0D9A3CAD0D98CC5B.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Textures/ProtoMaleColors_Masks.uasset'
+[2015.07.22-01.20.46:797][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Textures/T_PrototypeFemale_D" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Textures/T_PrototypeFemale_D.uasset" SILENT=true
+[2015.07.22-01.20.47:104][360]LogSavePackage: Save=305.575958ms
+[2015.07.22-01.20.47:104][360]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/T_PrototypeFemale_DAE9DDA9249FC5898FCC4F1B59356C5C1.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Textures/T_PrototypeFemale_D.uasset'
+[2015.07.22-01.20.47:116][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Textures/T_PrototypeFemale_M" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Textures/T_PrototypeFemale_M.uasset" SILENT=true
+[2015.07.22-01.20.47:241][360]LogSavePackage: Save=123.990257ms
+[2015.07.22-01.20.47:241][360]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/T_PrototypeFemale_M7E45D12D41285474A103629C257A7E12.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Textures/T_PrototypeFemale_M.uasset'
+[2015.07.22-01.20.47:256][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Textures/T_PrototypeMale_D" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Textures/T_PrototypeMale_D.uasset" SILENT=true
+[2015.07.22-01.20.47:571][360]LogSavePackage: Save=314.424103ms
+[2015.07.22-01.20.47:571][360]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/T_PrototypeMale_D8B3639E8406491DBF20CFCACEF2A5370.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Textures/T_PrototypeMale_D.uasset'
+[2015.07.22-01.20.47:591][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Textures/T_PrototypeFemale_N" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Textures/T_PrototypeFemale_N.uasset" SILENT=true
+[2015.07.22-01.20.47:715][360]LogSavePackage: Save=123.532242ms
+[2015.07.22-01.20.47:715][360]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/T_PrototypeFemale_N470A0B4B4E25745BA4DB4BB33BE6D22E.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Textures/T_PrototypeFemale_N.uasset'
+[2015.07.22-01.20.47:728][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Textures/T_PrototypeMale_M" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Textures/T_PrototypeMale_M.uasset" SILENT=true
+[2015.07.22-01.20.47:925][360]LogSavePackage: Save=196.199875ms
+[2015.07.22-01.20.47:925][360]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/T_PrototypeMale_M58C5CC1F483F7C9E3D96DBABEAD465C0.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Textures/T_PrototypeMale_M.uasset'
+[2015.07.22-01.20.47:939][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Textures/T_PrototypeMale_N" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Textures/T_PrototypeMale_N.uasset" SILENT=true
+[2015.07.22-01.20.48:077][360]LogSavePackage: Save=136.067169ms
+[2015.07.22-01.20.48:077][360]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/T_PrototypeMale_N2DF721D4458B1E1CAE75129658BBB3C8.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Textures/T_PrototypeMale_N.uasset'
+[2015.07.22-01.20.48:086][360]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.20.48:242][360]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.20.48:409][360]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.20.48:430][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Materials/MI_PrototypeFemale" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Materials/MI_PrototypeFemale.uasset" SILENT=true
+[2015.07.22-01.20.48:433][360]LogSavePackage: Save=1.378753ms
+[2015.07.22-01.20.48:433][360]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/MI_PrototypeFemaleB58ED5AB46AC0B809774B5815586D8D3.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Materials/MI_PrototypeFemale.uasset'
+[2015.07.22-01.20.48:443][360]LogSavePackage: Save=1.676827ms
+[2015.07.22-01.20.48:443][360]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/MI_PrototypeFemaleVer16A3FC2F540EF55167E30BA98E1CA26BE.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/ProtoCharacters/Materials/MI_PrototypeFemaleVer1.uasset'
+[2015.07.22-01.20.48:452][360]LogSavePackage: Save=1.386023ms
+[2015.07.22-01.20.48:452][360]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/MI_PrototypeFemaleVer234B0380A43A037ED9739598BDA1633E4.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/ProtoCharacters/Materials/MI_PrototypeFemaleVer2.uasset'
+[2015.07.22-01.20.48:457][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProtoCharacters/Materials/MI_PrototypeMale" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/ProtoCharacters/Materials/MI_PrototypeMale.uasset" SILENT=true
+[2015.07.22-01.20.48:460][360]LogSavePackage: Save=1.420663ms
+[2015.07.22-01.20.48:460][360]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/MI_PrototypeMaleE578341049A9A912CBFEAFBACB85F243.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/ProtoCharacters/Materials/MI_PrototypeMale.uasset'
+[2015.07.22-01.20.48:469][360]LogSavePackage: Save=1.354377ms
+[2015.07.22-01.20.48:469][360]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/MI_PrototypeMaleVer1FEE41DDB44D1D2D21D5089A93E32A887.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/ProtoCharacters/Materials/MI_PrototypeMaleVer1.uasset'
+[2015.07.22-01.20.48:476][360]LogSavePackage: Save=1.406978ms
+[2015.07.22-01.20.48:476][360]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/MI_PrototypeMaleVer29B225DBC44CF98116319D0B44B437B1A.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/ProtoCharacters/Materials/MI_PrototypeMaleVer2.uasset'
+[2015.07.22-01.20.48:482][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Materials/M_CharacterMaster" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Materials/M_CharacterMaster.uasset" SILENT=true
+[2015.07.22-01.20.48:488][360]LogSavePackage: Save=4.258995ms
+[2015.07.22-01.20.48:488][360]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/M_CharacterMaster69338D1E4DC0B227C0F9CDA7891784A5.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Materials/M_CharacterMaster.uasset'
+[2015.07.22-01.20.48:494][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Materials/MI_PrototypeFemale" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Materials/MI_PrototypeFemale.uasset" SILENT=true
+[2015.07.22-01.20.48:497][360]LogSavePackage: Save=1.362502ms
+[2015.07.22-01.20.48:497][360]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/MI_PrototypeFemaleA6A5481542FDB386C272EDB88773FE19.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Materials/MI_PrototypeFemale.uasset'
+[2015.07.22-01.20.48:505][360]LogSavePackage: Save=1.322730ms
+[2015.07.22-01.20.48:505][360]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/MI_PrototypeFemaleVer1E3064B7342DA607AEBC303842D86786A.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/ProtoCharacters/Materials/MI_PrototypeFemaleVer1.uasset'
+[2015.07.22-01.20.48:514][360]LogSavePackage: Save=1.418097ms
+[2015.07.22-01.20.48:514][360]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/MI_PrototypeFemaleVer2792C332C4759498533A4EF948D9DCD50.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/ProtoCharacters/Materials/MI_PrototypeFemaleVer2.uasset'
+[2015.07.22-01.20.48:519][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Materials/MI_PrototypeFemale" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Materials/MI_PrototypeFemale.uasset" SILENT=true
+[2015.07.22-01.20.48:522][360]LogSavePackage: Save=1.350955ms
+[2015.07.22-01.20.48:522][360]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/MI_PrototypeFemale2E1A32BD4D67B0A6533847A72CA90C87.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Materials/MI_PrototypeFemale.uasset'
+[2015.07.22-01.20.48:530][360]LogSavePackage: Save=1.372338ms
+[2015.07.22-01.20.48:530][360]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/MI_PrototypeFemaleVer12BC814734C904E005F945C88400AC266.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/ProtoCharacters/Materials/MI_PrototypeFemaleVer1.uasset'
+[2015.07.22-01.20.48:538][360]LogSavePackage: Save=1.352666ms
+[2015.07.22-01.20.48:538][360]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/MI_PrototypeFemaleVer245A011AA460DA9B2EAE940A8ED79182C.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/ProtoCharacters/Materials/MI_PrototypeFemaleVer2.uasset'
+[2015.07.22-01.20.48:543][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProtoCharacters/Materials/MI_PrototypeMale" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/ProtoCharacters/Materials/MI_PrototypeMale.uasset" SILENT=true
+[2015.07.22-01.20.48:546][360]LogSavePackage: Save=1.347534ms
+[2015.07.22-01.20.48:546][360]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/MI_PrototypeMaleC7070BD34B53D84A9E37F49A55722F58.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/ProtoCharacters/Materials/MI_PrototypeMale.uasset'
+[2015.07.22-01.20.48:554][360]LogSavePackage: Save=1.354804ms
+[2015.07.22-01.20.48:554][360]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/MI_PrototypeMaleVer18A0BA1E444084A9D0BD7F6B553156261.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/ProtoCharacters/Materials/MI_PrototypeMaleVer1.uasset'
+[2015.07.22-01.20.48:563][360]LogSavePackage: Save=1.885522ms
+[2015.07.22-01.20.48:563][360]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/MI_PrototypeMaleVer2B3D179C84C5A859AEFD2BEB8AB1D1320.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/ProtoCharacters/Materials/MI_PrototypeMaleVer2.uasset'
+[2015.07.22-01.20.48:570][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Materials/M_CharacterMaster" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Materials/M_CharacterMaster.uasset" SILENT=true
+[2015.07.22-01.20.48:575][360]LogSavePackage: Save=4.046452ms
+[2015.07.22-01.20.48:575][360]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/M_CharacterMasterF3BC4E4F462641B69AB7D79F7E58B0BA.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Materials/M_CharacterMaster.uasset'
+[2015.07.22-01.20.48:580][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Materials/MI_PrototypeFemale" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Materials/MI_PrototypeFemale.uasset" SILENT=true
+[2015.07.22-01.20.48:583][360]LogSavePackage: Save=1.450171ms
+[2015.07.22-01.20.48:583][360]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/MI_PrototypeFemaleFF1AF5F74DCC975056805C81B924F46C.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Materials/MI_PrototypeFemale.uasset'
+[2015.07.22-01.20.48:593][360]LogSavePackage: Save=1.382602ms
+[2015.07.22-01.20.48:593][360]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/MI_PrototypeFemaleVer1C18C4091438D58007C5FC484B8B0B6BC.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/ProtoCharacters/Materials/MI_PrototypeFemaleVer1.uasset'
+[2015.07.22-01.20.48:601][360]LogSavePackage: Save=1.349245ms
+[2015.07.22-01.20.48:601][360]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/MI_PrototypeFemaleVer2440AF0AB44483B404C4E1DB7BF45EAED.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/ProtoCharacters/Materials/MI_PrototypeFemaleVer2.uasset'
+[2015.07.22-01.20.48:607][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProtoCharacters/Materials/MI_PrototypeMale" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/ProtoCharacters/Materials/MI_PrototypeMale.uasset" SILENT=true
+[2015.07.22-01.20.48:610][360]LogSavePackage: Save=1.406123ms
+[2015.07.22-01.20.48:610][360]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/MI_PrototypeMale54019AE14B282A5AF4E59F8D9425EC6D.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/ProtoCharacters/Materials/MI_PrototypeMale.uasset'
+[2015.07.22-01.20.48:617][360]LogSavePackage: Save=1.338126ms
+[2015.07.22-01.20.48:617][360]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/MI_PrototypeMaleVer146C07C47414CA2350A04A19669CA0828.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/ProtoCharacters/Materials/MI_PrototypeMaleVer1.uasset'
+[2015.07.22-01.20.48:626][360]LogSavePackage: Save=1.408261ms
+[2015.07.22-01.20.48:626][360]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/MI_PrototypeMaleVer2BD8716FE4CAF9DA6B8170E92AF0F0BF0.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/ProtoCharacters/Materials/MI_PrototypeMaleVer2.uasset'
+[2015.07.22-01.20.48:631][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Materials/M_CharacterMaster" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Materials/M_CharacterMaster.uasset" SILENT=true
+[2015.07.22-01.20.48:637][360]LogSavePackage: Save=4.112310ms
+[2015.07.22-01.20.48:637][360]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/M_CharacterMaster19E8C1AC4719B4CBFAA80EA51468F42C.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Materials/M_CharacterMaster.uasset'
+[2015.07.22-01.20.48:642][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProtoCharacters/Materials/MI_PrototypeMale" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/ProtoCharacters/Materials/MI_PrototypeMale.uasset" SILENT=true
+[2015.07.22-01.20.48:645][360]LogSavePackage: Save=1.361219ms
+[2015.07.22-01.20.48:645][360]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/MI_PrototypeMale63E90E564848DA1FC34668A367C4C3BD.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/ProtoCharacters/Materials/MI_PrototypeMale.uasset'
+[2015.07.22-01.20.48:653][360]LogSavePackage: Save=1.335132ms
+[2015.07.22-01.20.48:653][360]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/MI_PrototypeMaleVer196B683134C9CA72C562F43B5EF4172CF.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/ProtoCharacters/Materials/MI_PrototypeMaleVer1.uasset'
+[2015.07.22-01.20.48:662][360]LogSavePackage: Save=1.365923ms
+[2015.07.22-01.20.48:662][360]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/MI_PrototypeMaleVer2902D6C13440D3F08E3FBB0B2144B2B78.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/ProtoCharacters/Materials/MI_PrototypeMaleVer2.uasset'
+[2015.07.22-01.20.48:667][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Materials/M_CharacterMaster" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Materials/M_CharacterMaster.uasset" SILENT=true
+[2015.07.22-01.20.48:673][360]LogSavePackage: Save=4.053294ms
+[2015.07.22-01.20.48:673][360]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/M_CharacterMaster8CE11E164E9CE0BF6973F1962FF37329.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Materials/M_CharacterMaster.uasset'
+[2015.07.22-01.20.54:155][662]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.20.55:928][873]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.20.56:749][968]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.20.56:775][968]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.20.56:804][968]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.20.56:843][968]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Materials/MI_PrototypeFemaleVer1" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Materials/MI_PrototypeFemaleVer1.uasset" SILENT=true
+[2015.07.22-01.20.56:857][968]LogSavePackage: Save=12.930941ms
+[2015.07.22-01.20.56:857][968]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/MI_PrototypeFemaleVer1E767324C401A8563033A5DAA869838F2.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Materials/MI_PrototypeFemaleVer1.uasset'
+[2015.07.22-01.20.56:878][968]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Materials/MI_PrototypeFemaleVer2" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Materials/MI_PrototypeFemaleVer2.uasset" SILENT=true
+[2015.07.22-01.20.56:891][968]LogSavePackage: Save=11.850689ms
+[2015.07.22-01.20.56:891][968]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/MI_PrototypeFemaleVer26E6EB9FC4CF61F8E396E24834903B989.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Materials/MI_PrototypeFemaleVer2.uasset'
+[2015.07.22-01.20.56:913][968]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Materials/MI_PrototypeMale" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Materials/MI_PrototypeMale.uasset" SILENT=true
+[2015.07.22-01.20.56:924][968]LogSavePackage: Save=10.837152ms
+[2015.07.22-01.20.56:924][968]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/MI_PrototypeMaleD392ECCB472A125061420B868FA82970.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Materials/MI_PrototypeMale.uasset'
+[2015.07.22-01.20.56:945][968]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Materials/MI_PrototypeMaleVer1" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Materials/MI_PrototypeMaleVer1.uasset" SILENT=true
+[2015.07.22-01.20.56:957][968]LogSavePackage: Save=10.965020ms
+[2015.07.22-01.20.56:957][968]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/MI_PrototypeMaleVer17E95014C496EE81B21A24891FACE622C.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Materials/MI_PrototypeMaleVer1.uasset'
+[2015.07.22-01.20.56:977][968]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Materials/MI_PrototypeMaleVer2" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Materials/MI_PrototypeMaleVer2.uasset" SILENT=true
+[2015.07.22-01.20.56:989][968]LogSavePackage: Save=11.172859ms
+[2015.07.22-01.20.56:989][968]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/MI_PrototypeMaleVer29BAE8EF3465F342F27E03FB3C985AA35.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Materials/MI_PrototypeMaleVer2.uasset'
+[2015.07.22-01.20.57:000][968]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.20.57:103][968]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.20.57:221][968]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.20.57:257][968]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProtoCharacters/SK_PrototypeM" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/ProtoCharacters/SK_PrototypeM.uasset" SILENT=true
+[2015.07.22-01.20.57:292][968]LogSavePackage: Save=31.325146ms
+[2015.07.22-01.20.57:292][968]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/SK_PrototypeM5A6431614D30FDF40F498199B52C26AE.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/ProtoCharacters/SK_PrototypeM.uasset'
+[2015.07.22-01.20.57:298][968]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Mesh/SK_PrototypeM" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Mesh/SK_PrototypeM.uasset" SILENT=true
+[2015.07.22-01.20.57:323][968]LogSavePackage: Save=23.204447ms
+[2015.07.22-01.20.57:323][968]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/SK_PrototypeM349D0D564C0A51E4BBBFBB9D41BBFC75.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Mesh/SK_PrototypeM.uasset'
+[2015.07.22-01.21.03:255][336]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.21.03:360][336]LogMaterial: Missing cached shader map for material M_CharacterMaster, compiling. 
+[2015.07.22-01.21.03:570][336]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.21.03:620][336]LogMaterial: Missing cached shader map for material M_CharacterMaster, compiling. 
+[2015.07.22-01.21.03:633][336]LogMaterial: 0.000050 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.22-01.21.03:664][336]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_3, compiling. 
+[2015.07.22-01.21.03:667][336]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2015.07.22-01.21.03:671][336]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2015.07.22-01.21.03:674][336]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionScalarParameter_0, compiling. 
+[2015.07.22-01.21.03:678][336]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2015.07.22-01.21.03:682][336]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2015.07.22-01.21.03:685][336]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_5, compiling. 
+[2015.07.22-01.21.03:689][336]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2015.07.22-01.21.03:692][336]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2015.07.22-01.21.03:695][336]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_6, compiling. 
+[2015.07.22-01.21.07:807][495]MaterialEditorStats: Info Base pass shader with static lighting: 123 instructions
+[2015.07.22-01.21.07:807][495]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 91 instructions
+[2015.07.22-01.21.07:807][495]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.07.22-01.21.07:807][495]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.07.22-01.21.25:705][517]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.21.36:351][121]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.21.37:792][284]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.21.38:656][387]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.07.22-01.21.38:704][387]LogAIModule: Creating AISystem for world Showcase
+[2015.07.22-01.21.38:719][387]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000575C567600
+[2015.07.22-01.21.38:736][387]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.21.47:588][492]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.21.48:569][601]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.21.50:352][811]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.21.57:790][811]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.21.58:275][811]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.21.58:275][811]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.21.58:276][811]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.21.58:276][811]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.21.58:276][811]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.21.58:276][811]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.21.58:276][811]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.21.58:276][811]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.21.58:277][811]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.21.58:277][811]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.05:692][382]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.05:692][382]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.05:702][383]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.05:702][383]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.05:725][384]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.05:725][384]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.05:747][385]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.05:747][385]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.05:768][386]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.05:768][386]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.05:789][387]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.05:789][387]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.05:810][388]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.05:810][388]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.05:832][389]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.05:832][389]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.05:853][390]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.05:853][390]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.05:873][391]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.05:874][391]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.05:895][392]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.05:895][392]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.05:915][393]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.05:915][393]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.05:935][394]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.05:936][394]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.05:957][395]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.05:957][395]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.05:977][396]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.05:978][396]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.05:998][397]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.05:998][397]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:019][398]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:019][398]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:041][399]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:041][399]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:062][400]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:063][400]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:085][401]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:086][401]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:108][402]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:109][402]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:129][403]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:129][403]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:150][404]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:150][404]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:171][405]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:171][405]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:193][406]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:194][406]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:216][407]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:216][407]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:236][408]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:236][408]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:257][409]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:258][409]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:279][410]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:279][410]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:300][411]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:300][411]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:322][412]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:322][412]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:343][413]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:343][413]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:364][414]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:365][414]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:387][415]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:387][415]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:409][416]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:409][416]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:430][417]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:430][417]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:452][418]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:452][418]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:475][419]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:475][419]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:499][420]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:499][420]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:520][421]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:520][421]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:541][422]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:542][422]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:563][423]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:563][423]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:587][424]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:587][424]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:607][425]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:608][425]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:628][426]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:629][426]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:651][427]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:652][427]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:673][428]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:673][428]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:695][429]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:695][429]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:716][430]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:717][430]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:739][431]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:739][431]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:762][432]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:762][432]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:786][433]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:786][433]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:806][434]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:806][434]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:828][435]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:828][435]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:850][436]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:850][436]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:871][437]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:871][437]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:894][438]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:895][438]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:916][439]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:916][439]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:937][440]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.06:937][440]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:022][447]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:022][447]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:030][448]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:031][448]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:047][449]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:047][449]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:068][450]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:069][450]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:091][451]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:092][451]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:114][452]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:115][452]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:136][453]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:138][453]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:158][454]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:159][454]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:181][455]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:181][455]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:204][456]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:204][456]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:226][457]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:226][457]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:247][458]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:248][458]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:270][459]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:270][459]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:292][460]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:292][460]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:315][461]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:315][461]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:337][462]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:337][462]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:359][463]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:360][463]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:381][464]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:382][464]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:404][465]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:404][465]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:425][466]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:426][466]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:447][467]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:447][467]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:468][468]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:469][468]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:491][469]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:491][469]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:618][481]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:618][481]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:626][482]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:626][482]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:641][483]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:642][483]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.07:690][484]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.22.07:744][484]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.22.11:777][484]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.22.11:785][484]LogContentBrowser:Verbose: The majority of assets in the view are of type: Skeleton
+[2015.07.22-01.22.21:604][484]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.22.21:725][484]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.22.21:773][484]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Character/Mesh/SK_Mannequin.SK_Mannequin'
+[2015.07.22-01.22.21:806][484]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/SubEditors/PersonaAnimEditorTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.22-01.22.21:883][485]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.21:952][486]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.21:996][487]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.22:039][488]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.22:083][489]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.22:123][490]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.22:158][491]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.22:170][492]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.22:199][493]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.22:229][494]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.22:256][495]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.22:287][496]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.22:317][497]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.22:345][498]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.22:376][499]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.22:408][500]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.22:437][501]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.22:467][502]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.22:498][503]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.22:526][504]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.22:557][505]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.22:587][506]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.22:616][507]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.22:645][508]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.22:674][509]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.22:719][510]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.22:734][511]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.22:766][512]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.22:793][513]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.22:822][514]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.22:850][515]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.22:879][516]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.22:908][517]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.22:939][518]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.22:967][519]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.22:997][520]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.23:025][521]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.23:055][522]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.23:085][523]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.23:114][524]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.23:144][525]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.23:173][526]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.23:203][527]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.23:232][528]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.23:261][529]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.23:290][530]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.23:318][531]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.23:348][532]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.23:376][533]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.23:405][534]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.23:432][535]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.23:461][536]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.23:490][537]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.23:518][538]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.23:547][539]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.23:575][540]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.23:604][541]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.23:632][542]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.23:660][543]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.23:688][544]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.23:719][545]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.23:749][546]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.23:776][547]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.23:805][548]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.23:833][549]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.23:862][550]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.23:890][551]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.23:922][552]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.23:952][553]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.24:049][558]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.24:063][559]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.24:090][560]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.24:154][561]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.22.24:181][561]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.22.25:482][561]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.22.25:492][561]LogContentBrowser:Verbose: The majority of assets in the view are of type: Skeleton
+[2015.07.22-01.22.27:824][561]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.22.27:897][561]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2015.07.22-01.22.29:298][608]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.22.29:317][608]LogSavePackage: Save=0.708193ms
+[2015.07.22-01.22.29:317][608]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/SK_PrototypeM_PhysicsAsset_25F5EC76740E5A469F789EDAEDC893915.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/ProtoCharacters/SK_PrototypeM_PhysicsAsset_2.uasset'
+[2015.07.22-01.22.29:324][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProtoCharacters/SK_PrototypeM_2" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/ProtoCharacters/SK_PrototypeM_2.uasset" SILENT=true
+[2015.07.22-01.22.29:325][608]LogSavePackage: Save=0.665428ms
+[2015.07.22-01.22.29:326][608]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/SK_PrototypeM_244F5303942B21CE1BFA628BE143E1A39.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/ProtoCharacters/SK_PrototypeM_2.uasset'
+[2015.07.22-01.22.29:332][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProtoCharacters/HeroTPP_Skeleton" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/ProtoCharacters/HeroTPP_Skeleton.uasset" SILENT=true
+[2015.07.22-01.22.29:337][608]LogSavePackage: Save=0.766782ms
+[2015.07.22-01.22.29:337][608]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/HeroTPP_SkeletonB8A97CE54CBA99B8D2521092BD0848B8.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/ProtoCharacters/HeroTPP_Skeleton.uasset'
+[2015.07.22-01.22.29:344][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Mesh/SK_Mannequin" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Mesh/SK_Mannequin.uasset" SILENT=true
+[2015.07.22-01.22.29:349][608]LogSavePackage: Save=0.685955ms
+[2015.07.22-01.22.29:349][608]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/SK_Mannequin0A0C47674D3DABDDCF46B09F4F2E2957.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Mesh/SK_Mannequin.uasset'
+[2015.07.22-01.22.29:357][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Materials/M_UE4Man_Body" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Materials/M_UE4Man_Body.uasset" SILENT=true
+[2015.07.22-01.22.29:362][608]LogSavePackage: Save=0.709476ms
+[2015.07.22-01.22.29:362][608]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/M_UE4Man_Body7CD84B874A74DF9EFEB0D99E991231F0.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Materials/M_UE4Man_Body.uasset'
+[2015.07.22-01.22.29:373][608]LogSavePackage: Save=0.774907ms
+[2015.07.22-01.22.29:373][608]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/ML_GlossyBlack_Latex_UE4FC776F5845E6C3618DF4DABBD9FCABF6.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset'
+[2015.07.22-01.22.29:385][608]LogSavePackage: Save=0.669277ms
+[2015.07.22-01.22.29:385][608]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/T_ML_Rubber_Blue_01_DD542D7DC462E1E414F5296AC9A20B642.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset'
+[2015.07.22-01.22.29:396][608]LogSavePackage: Save=0.654737ms
+[2015.07.22-01.22.29:396][608]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/T_ML_Rubber_Blue_01_N6C1B4B3B4EA32D6AF51FD6A2F20EEB7A.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset'
+[2015.07.22-01.22.29:407][608]LogSavePackage: Save=0.879682ms
+[2015.07.22-01.22.29:407][608]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/ML_Plastic_Shiny_BeigeC0411662479F8FB07B67C095CC0F31DB.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset'
+[2015.07.22-01.22.29:419][608]LogSavePackage: Save=0.710759ms
+[2015.07.22-01.22.29:419][608]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/ML_Plastic_Shiny_Beige_LOGOD645281D4E52D5B15D5E16AE4F47D8E1.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset'
+[2015.07.22-01.22.29:426][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Textures/UE4_LOGO_CARD" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Textures/UE4_LOGO_CARD.uasset" SILENT=true
+[2015.07.22-01.22.29:429][608]LogSavePackage: Save=0.599997ms
+[2015.07.22-01.22.29:429][608]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/UE4_LOGO_CARDE179EB474E52D94B8F9DB3820B01A86A.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Textures/UE4_LOGO_CARD.uasset'
+[2015.07.22-01.22.29:441][608]LogSavePackage: Save=0.836917ms
+[2015.07.22-01.22.29:441][608]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/ML_SoftMetal_UE4084CA38740D91D25987B6EBAE5765B76.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset'
+[2015.07.22-01.22.29:452][608]LogSavePackage: Save=0.627367ms
+[2015.07.22-01.22.29:452][608]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/T_ML_Aluminum01FC1B9B754A467C8F77BC439419D11682.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset'
+[2015.07.22-01.22.29:463][608]LogSavePackage: Save=0.990016ms
+[2015.07.22-01.22.29:463][608]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/T_ML_Aluminum01_NDF69D79F4C894A6951C57CA0908D990B.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset'
+[2015.07.22-01.22.29:472][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Textures/UE4_Mannequin__normals" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Textures/UE4_Mannequin__normals.uasset" SILENT=true
+[2015.07.22-01.22.29:480][608]LogSavePackage: Save=0.747965ms
+[2015.07.22-01.22.29:480][608]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/UE4_Mannequin__normalsB4915D804502705B21FF1BAB5FD22B14.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Textures/UE4_Mannequin__normals.uasset'
+[2015.07.22-01.22.29:487][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Textures/UE4_Mannequin_MAT_MASKA" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset" SILENT=true
+[2015.07.22-01.22.29:491][608]LogSavePackage: Save=0.632499ms
+[2015.07.22-01.22.29:491][608]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/UE4_Mannequin_MAT_MASKAE865818F4134A6834C4309A0396FC32D.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset'
+[2015.07.22-01.22.29:501][608]LogSavePackage: Save=0.617531ms
+[2015.07.22-01.22.29:501][608]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/UE4_Mannequin_occlusion_MobileEE9C65064114071D1C8220992223EF5A.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Textures/UE4_Mannequin_occlusion_Mobile.uasset'
+[2015.07.22-01.22.29:508][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Materials/M_UE4Man_ChestLogo" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Materials/M_UE4Man_ChestLogo.uasset" SILENT=true
+[2015.07.22-01.22.29:511][608]LogSavePackage: Save=0.610261ms
+[2015.07.22-01.22.29:511][608]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/M_UE4Man_ChestLogoCCD9E50643593EAE8E028B9649DA6EF1.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Materials/M_UE4Man_ChestLogo.uasset'
+[2015.07.22-01.22.29:518][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Textures/UE4Man_Logo_N" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Textures/UE4Man_Logo_N.uasset" SILENT=true
+[2015.07.22-01.22.29:522][608]LogSavePackage: Save=0.638058ms
+[2015.07.22-01.22.29:522][608]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/UE4Man_Logo_NAB30152A45A75A3771A4F6821E729432.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Textures/UE4Man_Logo_N.uasset'
+[2015.07.22-01.22.29:528][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Mesh/SK_Mannequin_PhysicsAsset" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Mesh/SK_Mannequin_PhysicsAsset.uasset" SILENT=true
+[2015.07.22-01.22.29:531][608]LogSavePackage: Save=0.661151ms
+[2015.07.22-01.22.29:532][608]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/SK_Mannequin_PhysicsAssetE017BCF54B31FFBB8E20648D4062BD78.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Mesh/SK_Mannequin_PhysicsAsset.uasset'
+[2015.07.22-01.22.29:538][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Mesh/UE4_Mannequin_Skeleton" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Mesh/UE4_Mannequin_Skeleton.uasset" SILENT=true
+[2015.07.22-01.22.29:542][608]LogSavePackage: Save=1.242759ms
+[2015.07.22-01.22.29:542][608]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/UE4_Mannequin_SkeletonA7338C0940298A56BF06A092DBBFE381.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2015.07.22-01.22.29:564][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Mesh/SK_PrototypeF" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Mesh/SK_PrototypeF.uasset" SILENT=true
+[2015.07.22-01.22.29:598][608]LogSavePackage: Save=31.895208ms
+[2015.07.22-01.22.29:598][608]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/SK_PrototypeF91149FCA474D7DB879DB47B8BE5203A1.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Mesh/SK_PrototypeF.uasset'
+[2015.07.22-01.22.29:619][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Mesh/SK_PrototypeM" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Mesh/SK_PrototypeM.uasset" SILENT=true
+[2015.07.22-01.22.29:652][608]LogSavePackage: Save=30.706333ms
+[2015.07.22-01.22.29:652][608]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/SK_PrototypeM5D2B562640BB0BBCE4063698FC8D5654.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Mesh/SK_PrototypeM.uasset'
+[2015.07.22-01.22.34:048][786]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2015.07.22-01.22.35:700][846]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.22.35:735][846]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2015.07.22-01.22.48:363][507]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.22.49:218][601]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.22.50:570][761]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000571E7E1C60
+[2015.07.22-01.22.50:570][761]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000571E7E2DE0
+[2015.07.22-01.22.50:582][761]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.22.51:957][761]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.22.52:114][761]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:114][761]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:114][761]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:114][761]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:115][761]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:115][761]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:116][761]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:116][761]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:116][761]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:116][761]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:116][761]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:116][761]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:124][762]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:124][762]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:238][763]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:239][763]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:276][764]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:276][764]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:309][765]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:309][765]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:337][766]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:337][766]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:361][767]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:361][767]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:385][768]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:385][768]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:408][769]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:408][769]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:430][770]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:430][770]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:457][771]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:457][771]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:484][772]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:484][772]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:506][773]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:507][773]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:528][774]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:528][774]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:548][775]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:549][775]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:571][776]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:571][776]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:593][777]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:593][777]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:695][786]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:695][786]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:703][787]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:703][787]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:719][788]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:719][788]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:742][789]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:742][789]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:763][790]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:763][790]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:785][791]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:785][791]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:807][792]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:807][792]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:830][793]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:830][793]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:853][794]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:853][794]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:876][795]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:876][795]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:898][796]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:898][796]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:919][797]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:919][797]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:941][798]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:941][798]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:961][799]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:962][799]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:982][800]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.52:982][800]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:003][801]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:003][801]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:024][802]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:024][802]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:046][803]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:046][803]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:069][804]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:069][804]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:093][805]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:093][805]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:116][806]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:116][806]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:138][807]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:138][807]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:160][808]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:161][808]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:183][809]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:183][809]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:204][810]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:204][810]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:225][811]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:225][811]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:247][812]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:247][812]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:268][813]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:268][813]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:289][814]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:290][814]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:312][815]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:312][815]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:334][816]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:334][816]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:379][817]LogD3D11RHI: InitD3DDevice
+[2015.07.22-01.22.53:403][817]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Mesh/UE4_Mannequin_Skeleton" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Mesh/UE4_Mannequin_Skeleton.uasset" SILENT=true
+[2015.07.22-01.22.53:406][817]LogSavePackage: Save=0.570489ms
+[2015.07.22-01.22.53:406][817]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/UE4_Mannequin_Skeleton50A391CF42C59132F1466FA711B3CC01.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2015.07.22-01.22.53:412][817]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:427][817]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Mesh/SK_PrototypeF" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Mesh/SK_PrototypeF.uasset" SILENT=true
+[2015.07.22-01.22.53:460][817]LogSavePackage: Save=30.466846ms
+[2015.07.22-01.22.53:460][817]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/SK_PrototypeF1EA086E24AB431BF20176F8B3691A3CB.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Mesh/SK_PrototypeF.uasset'
+[2015.07.22-01.22.53:467][817]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:481][817]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Mesh/SK_PrototypeM" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Character/Mesh/SK_PrototypeM.uasset" SILENT=true
+[2015.07.22-01.22.53:516][817]LogSavePackage: Save=31.580883ms
+[2015.07.22-01.22.53:516][817]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/SK_PrototypeM9B0AC9A843D7F660C3AED294C27F074F.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Character/Mesh/SK_PrototypeM.uasset'
+[2015.07.22-01.22.53:529][818]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:529][818]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:537][819]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:537][819]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:558][820]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:558][820]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:578][821]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:578][821]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:600][822]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:600][822]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:621][823]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:621][823]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:642][824]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:642][824]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:663][825]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:663][825]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:685][826]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:685][826]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:707][827]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:708][827]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:729][828]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:729][828]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:751][829]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:751][829]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:771][830]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:772][830]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:792][831]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:793][831]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:814][832]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:814][832]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:835][833]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:835][833]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:857][834]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:857][834]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:879][835]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:879][835]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:900][836]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:900][836]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:922][837]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:922][837]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:943][838]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:943][838]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:964][839]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:964][839]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:985][840]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.53:985][840]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:006][841]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:007][841]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:028][842]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:028][842]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:049][843]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:049][843]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:071][844]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:071][844]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:092][845]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:092][845]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:114][846]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:114][846]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:135][847]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:135][847]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:157][848]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:157][848]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:178][849]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:178][849]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:200][850]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:200][850]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:221][851]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:221][851]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:242][852]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:242][852]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:264][853]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:264][853]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:285][854]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:286][854]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:307][855]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:307][855]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:328][856]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:328][856]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:350][857]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:350][857]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:372][858]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:372][858]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:393][859]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:393][859]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:414][860]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:415][860]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:436][861]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:436][861]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:457][862]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:458][862]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:480][863]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:480][863]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:501][864]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:502][864]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:523][865]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:523][865]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:545][866]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:545][866]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:566][867]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:567][867]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:588][868]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:589][868]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:610][869]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:610][869]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:632][870]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:632][870]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:653][871]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:654][871]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:676][872]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:676][872]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:697][873]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:697][873]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:720][874]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:720][874]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:743][875]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:743][875]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:766][876]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:766][876]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:785][877]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:785][877]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:809][878]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:809][878]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:831][879]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:831][879]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:853][880]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:853][880]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:874][881]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:875][881]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:897][882]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:897][882]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:920][883]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:920][883]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:941][884]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:941][884]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:965][885]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:966][885]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:988][886]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.54:988][886]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:009][887]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:010][887]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:031][888]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:031][888]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:054][889]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:054][889]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:075][890]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:075][890]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:097][891]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:098][891]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:120][892]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:121][892]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:143][893]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:143][893]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:165][894]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:165][894]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:187][895]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:187][895]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:208][896]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:209][896]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:231][897]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:231][897]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:254][898]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:254][898]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:275][899]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:275][899]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:298][900]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:299][900]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:320][901]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:320][901]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:343][902]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:343][902]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:366][903]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:367][903]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:388][904]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:388][904]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:411][905]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:411][905]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:433][906]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:433][906]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:454][907]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:454][907]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:476][908]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:477][908]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:498][909]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:498][909]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:519][910]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:519][910]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:542][911]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:543][911]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:564][912]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:565][912]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:607][914]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:607][914]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:619][915]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:619][915]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:640][916]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:640][916]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:661][917]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:661][917]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:682][918]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:682][918]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:703][919]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:703][919]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:724][920]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:724][920]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:746][921]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:747][921]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:768][922]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:768][922]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:789][923]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:790][923]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:811][924]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:811][924]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:833][925]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:833][925]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:853][926]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:853][926]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:875][927]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:875][927]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:897][928]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:897][928]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:918][929]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:918][929]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:939][930]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:939][930]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:960][931]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:960][931]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:981][932]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.55:981][932]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:003][933]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:003][933]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:024][934]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:025][934]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:046][935]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:046][935]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:068][936]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:068][936]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:089][937]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:089][937]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:110][938]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:110][938]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:131][939]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:131][939]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:154][940]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:154][940]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:175][941]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:175][941]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:196][942]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:196][942]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:218][943]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:218][943]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:239][944]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:239][944]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:260][945]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:260][945]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:282][946]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:282][946]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:303][947]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:303][947]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:324][948]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:324][948]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:345][949]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:345][949]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:367][950]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:367][950]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:388][951]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:388][951]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:411][952]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:412][952]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:433][953]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:433][953]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:454][954]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:455][954]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:476][955]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:476][955]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:497][956]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:497][956]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:518][957]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:518][957]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:539][958]LogAnimation:Warning: SkeletalMesh SK_PrototypeM has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.56:540][958]LogAnimation:Warning: SkeletalMesh SK_PrototypeF has no skeleton. This needs to fixed before an animation can be set
+[2015.07.22-01.22.58:393][ 95]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.07.22-01.22.58:662][ 96]Cmd: QUIT_EDITOR
+[2015.07.22-01.22.58:917][ 96]LogExit: Preparing to exit.
+[2015.07.22-01.22.59:889][ 96]LogExit: Editor shut down
+[2015.07.22-01.22.59:890][ 96]LogExit: Transaction tracking system shut down
+[2015.07.22-01.22.59:890][ 96]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005770CAE840
+[2015.07.22-01.22.59:891][ 96]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000575E7A8AE0
+[2015.07.22-01.22.59:891][ 96]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005770CAC220
+[2015.07.22-01.22.59:891][ 96]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005770ECB1A0
+[2015.07.22-01.22.59:891][ 96]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005701093F60
+[2015.07.22-01.23.00:021][ 96]LogExit: Object subsystem successfully closed.
+[2015.07.22-01.23.00:036][ 96]LogD3D11RHI: Shutdown
+[2015.07.22-01.23.00:036][ 96]LogD3D11RHI: CleanupD3DDevice
+[2015.07.22-01.23.00:174][ 96]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.07.22-01.23.00:185][ 96]LogModuleManager: Shutting down and abandoning module MaterialEditor (189)
+[2015.07.22-01.23.00:185][ 96]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2015.07.22-01.23.00:185][ 96]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2015.07.22-01.23.00:185][ 96]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2015.07.22-01.23.00:185][ 96]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2015.07.22-01.23.00:185][ 96]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2015.07.22-01.23.00:186][ 96]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2015.07.22-01.23.00:186][ 96]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2015.07.22-01.23.00:186][ 96]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2015.07.22-01.23.00:186][ 96]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2015.07.22-01.23.00:186][ 96]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2015.07.22-01.23.00:186][ 96]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2015.07.22-01.23.00:186][ 96]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2015.07.22-01.23.00:186][ 96]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2015.07.22-01.23.00:186][ 96]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2015.07.22-01.23.00:186][ 96]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2015.07.22-01.23.00:186][ 96]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2015.07.22-01.23.00:186][ 96]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2015.07.22-01.23.00:186][ 96]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2015.07.22-01.23.00:186][ 96]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2015.07.22-01.23.00:186][ 96]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2015.07.22-01.23.00:186][ 96]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2015.07.22-01.23.00:186][ 96]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2015.07.22-01.23.00:186][ 96]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2015.07.22-01.23.00:186][ 96]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2015.07.22-01.23.00:186][ 96]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2015.07.22-01.23.00:186][ 96]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2015.07.22-01.23.01:111][ 96]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2015.07.22-01.23.01:111][ 96]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2015.07.22-01.23.01:111][ 96]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2015.07.22-01.23.01:111][ 96]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2015.07.22-01.23.01:111][ 96]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2015.07.22-01.23.01:111][ 96]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2015.07.22-01.23.01:111][ 96]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2015.07.22-01.23.01:111][ 96]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2015.07.22-01.23.01:111][ 96]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2015.07.22-01.23.01:111][ 96]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2015.07.22-01.23.01:111][ 96]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2015.07.22-01.23.01:111][ 96]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2015.07.22-01.23.01:111][ 96]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2015.07.22-01.23.01:111][ 96]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2015.07.22-01.23.01:111][ 96]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2015.07.22-01.23.01:111][ 96]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2015.07.22-01.23.01:111][ 96]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2015.07.22-01.23.01:111][ 96]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2015.07.22-01.23.01:111][ 96]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2015.07.22-01.23.01:111][ 96]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2015.07.22-01.23.01:111][ 96]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2015.07.22-01.23.01:111][ 96]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2015.07.22-01.23.01:111][ 96]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2015.07.22-01.23.01:111][ 96]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2015.07.22-01.23.01:112][ 96]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2015.07.22-01.23.01:112][ 96]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2015.07.22-01.23.01:112][ 96]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2015.07.22-01.23.01:112][ 96]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2015.07.22-01.23.01:112][ 96]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2015.07.22-01.23.01:112][ 96]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2015.07.22-01.23.01:112][ 96]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2015.07.22-01.23.01:112][ 96]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2015.07.22-01.23.01:171][ 96]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2015.07.22-01.23.01:171][ 96]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2015.07.22-01.23.01:171][ 96]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2015.07.22-01.23.01:171][ 96]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2015.07.22-01.23.01:171][ 96]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2015.07.22-01.23.01:171][ 96]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2015.07.22-01.23.01:171][ 96]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2015.07.22-01.23.01:171][ 96]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2015.07.22-01.23.01:171][ 96]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2015.07.22-01.23.01:171][ 96]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2015.07.22-01.23.01:171][ 96]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2015.07.22-01.23.01:171][ 96]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2015.07.22-01.23.01:171][ 96]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2015.07.22-01.23.01:171][ 96]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2015.07.22-01.23.01:171][ 96]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2015.07.22-01.23.01:171][ 96]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2015.07.22-01.23.01:171][ 96]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2015.07.22-01.23.01:171][ 96]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2015.07.22-01.23.01:324][ 96]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2015.07.22-01.23.01:324][ 96]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2015.07.22-01.23.01:324][ 96]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2015.07.22-01.23.01:324][ 96]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2015.07.22-01.23.01:324][ 96]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2015.07.22-01.23.01:324][ 96]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2015.07.22-01.23.01:324][ 96]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2015.07.22-01.23.01:339][ 96]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2015.07.22-01.23.01:339][ 96]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2015.07.22-01.23.01:339][ 96]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2015.07.22-01.23.01:339][ 96]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2015.07.22-01.23.01:339][ 96]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2015.07.22-01.23.01:339][ 96]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2015.07.22-01.23.01:339][ 96]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2015.07.22-01.23.01:339][ 96]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2015.07.22-01.23.01:339][ 96]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2015.07.22-01.23.01:339][ 96]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2015.07.22-01.23.01:339][ 96]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2015.07.22-01.23.01:339][ 96]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2015.07.22-01.23.01:339][ 96]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2015.07.22-01.23.01:339][ 96]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2015.07.22-01.23.01:339][ 96]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2015.07.22-01.23.01:339][ 96]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2015.07.22-01.23.01:339][ 96]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2015.07.22-01.23.01:339][ 96]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2015.07.22-01.23.01:339][ 96]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2015.07.22-01.23.01:339][ 96]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2015.07.22-01.23.01:339][ 96]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2015.07.22-01.23.01:339][ 96]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2015.07.22-01.23.01:340][ 96]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2015.07.22-01.23.01:340][ 96]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.07.22-01.23.01:341][ 96]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.07.22-01.23.01:342][ 96]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.07.22-01.23.01:443][ 96]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.07.22-01.23.01:443][ 96]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.07.22-01.23.01:446][ 96]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.07.22-01.23.01:446][ 96]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.07.22-01.23.01:447][ 96]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.07.22-01.23.01:447][ 96]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.07.22-01.23.01:447][ 96]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.07.22-01.23.01:447][ 96]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.07.22-01.23.01:447][ 96]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.07.22-01.23.01:447][ 96]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.07.22-01.23.01:447][ 96]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.07.22-01.23.01:447][ 96]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.07.22-01.23.01:447][ 96]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.07.22-01.23.01:447][ 96]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.07.22-01.23.01:447][ 96]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.07.22-01.23.01:447][ 96]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.07.22-01.23.01:447][ 96]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.07.22-01.23.01:449][ 96]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.07.22-01.23.01:449][ 96]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.07.22-01.23.01:449][ 96]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.07.22-01.23.01:449][ 96]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.07.22-01.23.01:449][ 96]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.07.22-01.23.01:449][ 96]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.07.22-01.23.01:449][ 96]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.07.22-01.23.01:449][ 96]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.07.22-01.23.01:449][ 96]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.07.22-01.23.01:449][ 96]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.07.22-01.23.01:505][ 96]LogDerivedDataCache: Shutdown
+[2015.07.22-01.23.01:505][ 96]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.07.22-01.23.01:505][ 96]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.07.22-01.23.01:505][ 96]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.07.22-01.23.01:505][ 96]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.07.22-01.23.01:505][ 96]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.07.22-01.23.01:505][ 96]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.07.22-01.23.01:505][ 96]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.07.22-01.23.01:505][ 96]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.07.22-01.23.01:505][ 96]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.07.22-01.23.01:505][ 96]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.07.22-01.23.01:505][ 96]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.07.22-01.23.01:505][ 96]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.07.22-01.23.01:505][ 96]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.07.22-01.23.01:505][ 96]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.07.22-01.23.01:505][ 96]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.07.22-01.23.01:505][ 96]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.07.22-01.23.01:505][ 96]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.07.22-01.23.01:505][ 96]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.07.22-01.23.01:505][ 96]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.07.22-01.23.01:505][ 96]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.07.22-01.23.01:505][ 96]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.07.22-01.23.01:505][ 96]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.07.22-01.23.01:505][ 96]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.07.22-01.23.01:505][ 96]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.07.22-01.23.01:505][ 96]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.07.22-01.23.01:505][ 96]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.07.22-01.23.01:505][ 96]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.07.22-01.23.01:505][ 96]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.07.22-01.23.01:505][ 96]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.07.22-01.23.01:505][ 96]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.07.22-01.23.01:505][ 96]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.07.22-01.23.01:505][ 96]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.07.22-01.23.01:505][ 96]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.07.22-01.23.01:505][ 96]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.07.22-01.23.01:505][ 96]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.07.22-01.23.01:505][ 96]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.07.22-01.23.01:506][ 96]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.07.22-01.23.01:506][ 96]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.07.22-01.23.01:506][ 96]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.07.22-01.23.01:506][ 96]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.07.22-01.23.01:506][ 96]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.07.22-01.23.01:507][ 96]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.07.22-01.23.01:507][ 96]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.07.22-01.23.01:507][ 96]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.07.22-01.23.01:507][ 96]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.07.22-01.23.01:507][ 96]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.07.22-01.23.01:507][ 96]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.07.22-01.23.01:507][ 96]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.07.22-01.23.01:507][ 96]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.07.22-01.23.01:507][ 96]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.07.22-01.23.01:508][ 96]LogExit: Exiting.
+[2015.07.22-01.23.01:516][ 96]Log file closed, 07/22/15 03:23:01
