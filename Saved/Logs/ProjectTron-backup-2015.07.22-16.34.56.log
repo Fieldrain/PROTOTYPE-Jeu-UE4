@@ -1,0 +1,1141 @@
+﻿[2015.07.22-14.13.31:420][  0]Log file open, 07/22/15 16:13:31
+[2015.07.22-14.13.31:420][  0]LogInit:Display: Running engine for game: ProjectTron
+[2015.07.22-14.13.31:420][  0]LogInit:Display: RandInit(-1769832932) SRandInit(-1769832932).
+[2015.07.22-14.13.31:420][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.07.22-14.13.31:420][  0]LogStats: Stats thread started
+[2015.07.22-14.13.31:420][  0]LogInit: Version: 4.8.2-2614606+++depot+UE4-Releases+4.8
+[2015.07.22-14.13.31:420][  0]LogInit: API Version: 2579680
+[2015.07.22-14.13.31:420][  0]LogInit: Compiled (64-bit): Jul  8 2015 23:43:41
+[2015.07.22-14.13.31:420][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.07.22-14.13.31:420][  0]LogInit: Build Configuration: Development
+[2015.07.22-14.13.31:420][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.07.22-14.13.31:420][  0]LogInit: Command line:  
+[2015.07.22-14.13.31:420][  0]LogInit: Base directory: D:/UnrealEngine/4.8/Engine/Binaries/Win64/
+[2015.07.22-14.13.31:420][  0]LogInit: Rocket: 1
+[2015.07.22-14.13.31:428][  0]LogInit: Using libcurl 7.41.0
+[2015.07.22-14.13.31:428][  0]LogInit:  - built for x86_64-pc-win32
+[2015.07.22-14.13.31:428][  0]LogInit:  - supports SSL with WinSSL
+[2015.07.22-14.13.31:428][  0]LogInit:  - other features:
+[2015.07.22-14.13.31:428][  0]LogInit:      CURL_VERSION_SSL
+[2015.07.22-14.13.31:428][  0]LogInit:      CURL_VERSION_IPV6
+[2015.07.22-14.13.31:428][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.07.22-14.13.31:428][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.07.22-14.13.31:428][  0]LogInit:      CURL_VERSION_IDN
+[2015.07.22-14.13.31:429][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.07.22-14.13.31:429][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.07.22-14.13.31:429][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.07.22-14.13.31:429][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.07.22-14.13.31:429][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.07.22-14.13.31:437][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.07.22-14.13.31:447][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.07.22-14.13.31:456][  0]LogInit: Object subsystem initialized
+[2015.07.22-14.13.31:457][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.07.22-14.13.31:457][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/UnrealEngineProject/ProjectTron/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.22-14.13.31:457][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.07.22-14.13.31:457][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/UnrealEngineProject/ProjectTron/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.22-14.13.31:457][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.07.22-14.13.31:457][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/UnrealEngineProject/ProjectTron/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.22-14.13.31:458][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.22-14.13.31:458][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.07.22-14.13.31:464][  0]LogInit: Computer: FIELDRAIN-PC
+[2015.07.22-14.13.31:464][  0]LogInit: User: Adrien
+[2015.07.22-14.13.31:464][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.07.22-14.13.31:464][  0]LogInit: High frequency timer resolution =2.338343 MHz
+[2015.07.22-14.13.31:464][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.07.22-14.13.31:464][  0]LogMemory: Platform Memory Stats for Windows
+[2015.07.22-14.13.31:464][  0]LogMemory: Process Physical Memory: 48.52 MB used, 48.52 MB peak
+[2015.07.22-14.13.31:464][  0]LogMemory: Process Virtual Memory: 22.35 MB used, 22.35 MB peak
+[2015.07.22-14.13.31:464][  0]LogMemory: Physical Memory: 4346.48 MB used, 16271.36 MB total
+[2015.07.22-14.13.31:464][  0]LogMemory: Virtual Memory: 291.79 MB used, 134217728.00 MB total
+[2015.07.22-14.13.31:501][  0]LogTextLocalizationManager: The requested culture ('en_150') has no localization data; parent culture's ('en') localization data will be used.
+[2015.07.22-14.13.31:713][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (D:/UnrealEngine/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (D:/UnrealEngine/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.07.22-14.13.32:143][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.07.22-14.13.32:143][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 2 output[s]
+[2015.07.22-14.13.32:172][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GTX 780M (Feature Level 11_0)
+[2015.07.22-14.13.32:172][  0]LogD3D11RHI: Adapter has 3995MB of dedicated video memory, 0MB of dedicated system memory, and 8135MB of shared system memory, 0 output[s]
+[2015.07.22-14.13.32:173][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.07.22-14.13.32:173][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.07.22-14.13.32:173][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.07.22-14.13.32:178][  0]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.13.32:178][  0]LogD3D11RHI: !Direct3DDevice
+[2015.07.22-14.13.32:178][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.07.22-14.13.32:197][  0]LogD3D11RHI: Async texture creation enabled
+[2015.07.22-14.13.32:650][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.07.22-14.13.33:391][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.07.22-14.13.33:400][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.07.22-14.13.33:410][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.07.22-14.13.33:419][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.07.22-14.13.33:430][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.07.22-14.13.33:438][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.07.22-14.13.33:447][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.07.22-14.13.33:455][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.07.22-14.13.33:463][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.07.22-14.13.33:472][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.07.22-14.13.33:481][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.07.22-14.13.33:490][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.07.22-14.13.33:528][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.07.22-14.13.33:536][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.07.22-14.13.33:545][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.07.22-14.13.33:555][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.07.22-14.13.33:555][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.07.22-14.13.33:687][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.07.22-14.13.33:740][  0]LogDerivedDataCache: Loaded boot cache 0.05s 53MB C:/Users/Adrien/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.22-14.13.33:740][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Adrien/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.07.22-14.13.33:741][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../UnrealEngineProject/ProjectTron/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.07.22-14.13.33:741][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.07.22-14.13.33:741][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../UnrealEngineProject/ProjectTron/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.07.22-14.13.33:741][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.07.22-14.13.33:882][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.07.22-14.13.33:895][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Adrien/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.07.22-14.13.34:080][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.22-14.13.34:158][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.22-14.13.34:159][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.22-14.13.34:177][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.07.22-14.13.34:177][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.07.22-14.13.34:433][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.07.22-14.13.35:200][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.07.22-14.13.35:456][  0]SourceControl: Info Source control is disabled
+[2015.07.22-14.13.35:462][  0]SourceControl: Info Source control is disabled
+[2015.07.22-14.13.35:468][  0]SourceControl: Info Source control is disabled
+[2015.07.22-14.13.35:474][  0]SourceControl: Info Source control is disabled
+[2015.07.22-14.13.35:625][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.07.22-14.13.35:625][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.07.22-14.13.35:683][  0]LogEngine: Initializing Engine...
+[2015.07.22-14.13.35:685][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.07.22-14.13.35:686][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.07.22-14.13.35:810][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.07.22-14.13.35:815][  0]LogInit: XAudio2 using 'Haut-parleurs (2- Plantronics GameCom 780)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x60f)
+[2015.07.22-14.13.35:832][  0]LogInit: FAudioDevice initialized.
+[2015.07.22-14.13.35:856][  0]LogDerivedDataCache: Saved boot cache 0.02s 53MB C:/Users/Adrien/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.22-14.13.35:859][  0]LogInit: Texture streaming: Disabled
+[2015.07.22-14.13.35:873][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.07.22-14.13.35:873][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.2-2614606+++depot+UE4-Releases+4.8
+[2015.07.22-14.13.35:873][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 2e87543741be94097c1db6846465a91d|d27d10dde35e45258d9f88e0d3b9cd63|7789eb87-d837-4324-a798-0149adb08d39
+[2015.07.22-14.13.35:873][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.07.22-14.13.35:894][  0]LogInit: Transaction tracking system initialized
+[2015.07.22-14.13.35:979][  0]BlueprintLog: New page: Editor Load
+[2015.07.22-14.13.36:005][  0]LogAssetRegistry: FAssetRegistry took 0.0109 seconds to start up
+[2015.07.22-14.13.36:005][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.07.22-14.13.36:510][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.07.22-14.13.36:510][  0]LogConsoleResponse:Display: 
+[2015.07.22-14.13.36:600][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.07.22-14.13.36:715][  0]SourceControl: Info Source control is disabled
+[2015.07.22-14.13.36:715][  0]Cmd: MAP LOAD FILE="../../../../../UnrealEngineProject/ProjectTron/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.22-14.13.36:716][  0]LightingResults: New page: Lighting Build
+[2015.07.22-14.13.36:724][  0]MapCheck: New page: Map Check
+[2015.07.22-14.13.36:724][  0]LightingResults: New page: Lighting Build
+[2015.07.22-14.13.36:736][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007105C74B80
+[2015.07.22-14.13.37:410][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.22-14.13.37:419][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.22-14.13.37:437][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.22-14.13.37:468][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 31,725ms to complete.
+[2015.07.22-14.13.37:468][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.753
+[2015.07.22-14.13.37:617][  0]LogCollectionManager: Loaded 0 collections in 0.001139 seconds
+[2015.07.22-14.13.37:624][  0]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 1792 classes and 301 folders.
+[2015.07.22-14.13.37:654][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.07.22-14.13.37:675][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.07.22-14.13.37:686][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2015.07.22-14.13.37:719][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.07.22-14.13.37:721][  0]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.13.37:725][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.07.22-14.13.37:747][  0]LogLoad: Full Startup: 7.46 seconds (BP compile: 0.13 seconds)
+[2015.07.22-14.13.37:755][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.07.22-14.13.37:815][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.07.22-14.13.37:866][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.07.22-14.13.37:997][  0]LogRenderer: Reallocating scene render targets to support 1208x600 (Frame:2).
+[2015.07.22-14.13.38:331][  8]LogAssetRegistry: Asset discovery search completed in 2.3364 seconds
+[2015.07.22-14.13.50:233][554]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.13.50:663][602]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.13.50:832][622]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.13.51:647][712]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.13.52:129][769]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.13.52:422][802]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.13.53:188][892]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.13.57:937][413]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.13.57:997][413]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.13.58:006][413]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.22-14.13.58:083][413]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.22-14.14.15:862][595]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.14.22:266][951]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.14.27:743][319]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.14.47:690][ 12]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.14.48:207][ 64]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.14.48:572][106]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.14.49:772][247]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071141AE7A0
+[2015.07.22-14.14.49:805][247]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.14.51:157][247]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.14.51:186][247]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.14.51:228][247]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007176646840
+[2015.07.22-14.15.00:019][ 78]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.15.00:251][ 78]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.15.00:361][ 78]LogRenderer: Reallocating scene render targets to support 1272x968 (Frame:3812).
+[2015.07.22-14.15.02:712][229]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.15.02:760][229]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.15.04:253][321]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.15.07:473][569]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.15.07:566][569]LogSavePackage: Save=9.135529ms
+[2015.07.22-14.15.07:566][569]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/SM_AssetPlatform5D0458B0435D8C8E0E503DA2662EEC2F.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/StarterContent/Architecture/SM_AssetPlatform.uasset'
+[2015.07.22-14.15.09:858][716]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.15.10:565][793]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.15.11:677][924]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.15.12:276][992]LogContentBrowser: Native class hierarchy updated for 'DestructibleMeshEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2015.07.22-14.15.12:284][992]LogDestructible:Warning: MainMesh Tris: 4096
+[2015.07.22-14.15.12:401][992]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1479) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.07.22-14.15.12:401][992]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (253) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.07.22-14.15.12:418][992]LogApexDestructibleAssetImport:Warning: Using default materials for material slot
+[2015.07.22-14.15.12:419][992]LogApexDestructibleAssetImport:Warning: Bones digested - 2  Depth of hierarchy - 2
+[2015.07.22-14.15.12:424][992]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.15.12:499][992]LogSkeletalMesh: Chunk 0: 2178 rigid vertices, 0 soft vertices, 1 active bones
+[2015.07.22-14.15.12:503][992]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 4096 triangles
+[2015.07.22-14.15.12:509][992]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.15.12:528][992]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_AssetPlatform.M_AssetPlatform needed to have new flag set bUsedWithSkeletalMesh !
+[2015.07.22-14.15.12:529][992]LogMaterial: Missing cached shader map for material M_AssetPlatform, compiling. 
+[2015.07.22-14.15.12:584][992]LogMaterial: 0.000110 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.22-14.15.12:596][992]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.15.13:624][ 40]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.15.22:898][582]LogDestructible:Warning: MainMesh Tris: 4096
+[2015.07.22-14.15.23:012][582]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1479) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.07.22-14.15.23:013][582]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (253) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.07.22-14.19.29:005][582]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1479) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.07.22-14.19.29:005][582]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (253) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.07.22-14.19.29:541][582]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1479) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.07.22-14.19.29:541][582]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (253) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.07.22-14.19.42:011][582]LogApexDestructibleAssetImport:Warning: Using default materials for material slot
+[2015.07.22-14.19.42:013][582]LogApexDestructibleAssetImport:Warning: Bones digested - 27  Depth of hierarchy - 2
+[2015.07.22-14.19.42:024][582]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.19.42:638][582]LogSkeletalMesh: Chunk 0: 8160 rigid vertices, 0 soft vertices, 26 active bones
+[2015.07.22-14.19.42:638][582]LogSkeletalMesh: Chunk 1: 2194 rigid vertices, 0 soft vertices, 25 active bones
+[2015.07.22-14.19.42:656][582]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 11943 triangles
+[2015.07.22-14.19.42:656][582]LogSkeletalMesh: Section 1: Material=1, Chunk=1, 1798 triangles
+[2015.07.22-14.21.50:979][534]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007176BFF060
+[2015.07.22-14.21.50:979][534]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007176644680
+[2015.07.22-14.21.51:000][534]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.21.51:043][534]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Materials/M_AssetPlatform" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/StarterContent/Materials/M_AssetPlatform.uasset" SILENT=true
+[2015.07.22-14.21.51:059][534]LogSavePackage: Save=10.970589ms
+[2015.07.22-14.21.51:059][534]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/M_AssetPlatformC69A2A694DA4D6FF7B0A2EB70E79AC19.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/StarterContent/Materials/M_AssetPlatform.uasset'
+[2015.07.22-14.21.51:141][534]LogSavePackage: Save=54.904263ms
+[2015.07.22-14.21.51:141][534]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/SM_AssetPlatform_DM81CF920A4092D1CDEF5CA89A9CE0B90C.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/StarterContent/Architecture/SM_AssetPlatform_DM.uasset'
+[2015.07.22-14.21.53:318][673]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.21.55:003][870]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.21.55:879][970]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.21.55:913][970]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.21.55:938][970]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.21.55:975][970]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Plateforme/SM_AssetPlatform_DM" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Plateforme/SM_AssetPlatform_DM.uasset" SILENT=true
+[2015.07.22-14.21.56:036][970]LogSavePackage: Save=60.016003ms
+[2015.07.22-14.21.56:036][970]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/SM_AssetPlatform_DM4DF15274431D0941B9D798AEFFF8CC23.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Plateforme/SM_AssetPlatform_DM.uasset'
+[2015.07.22-14.21.56:046][970]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.21.56:096][970]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.21.56:117][970]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007178D59C60
+[2015.07.22-14.22.04:439][684]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.22.04:838][730]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.22.05:509][803]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.22.05:539][803]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.22.05:551][803]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.22.05:584][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Plateforme/Mesh/SM_AssetPlatform_DM" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Plateforme/Mesh/SM_AssetPlatform_DM.uasset" SILENT=true
+[2015.07.22-14.22.05:649][803]LogSavePackage: Save=63.505653ms
+[2015.07.22-14.22.05:649][803]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/SM_AssetPlatform_DM3B57E068449AF0C88CE36F9C6412B640.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Plateforme/Mesh/SM_AssetPlatform_DM.uasset'
+[2015.07.22-14.22.05:659][803]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.22.05:712][803]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.22.07:839][974]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.22.08:745][ 72]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.22.14:822][615]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.22.14:851][615]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.22.14:865][615]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.22.14:896][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Plateforme/Mesh/Cercle" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Plateforme/Mesh/Cercle.uasset" SILENT=true
+[2015.07.22-14.22.14:954][615]LogSavePackage: Save=56.629845ms
+[2015.07.22-14.22.14:954][615]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/CercleC306D9B644C8730BEA523C833B95A656.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Plateforme/Mesh/Cercle.uasset'
+[2015.07.22-14.22.14:964][615]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.22.15:014][615]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.22.32:856][180]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.22.32:895][180]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.22.35:941][378]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.22.43:769][921]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.22.56:915][769]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.22-14.22.56:918][769]PIE: New page: PIE session: Minimal_Default (22 Jul 2015 18:22:56)
+[2015.07.22-14.22.56:918][769]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.07.22-14.22.56:924][769]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005609s)
+[2015.07.22-14.22.56:924][769]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.22-14.22.56:925][769]LogPlayLevel: PIE: World Init took: (0.001361s)
+[2015.07.22-14.22.56:925][769]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007248s)
+[2015.07.22-14.22.56:948][769]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071295A28E0
+[2015.07.22-14.22.56:969][769]LogInit: XAudio2 using 'Haut-parleurs (2- Plantronics GameCom 780)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x60f)
+[2015.07.22-14.22.56:974][769]LogInit: FAudioDevice initialized.
+[2015.07.22-14.22.57:583][769]LogWorld: Game class is 'GameMode_BP_C'
+[2015.07.22-14.22.57:845][769]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.07.22-16.22.57
+[2015.07.22-14.22.57:845][769]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.22-14.22.57:846][769]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.22-14.22.57:846][769]LogWorld: Bringing up level for play took: 0.134332
+[2015.07.22-14.22.57:864][769]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0,721
+[2015.07.22-14.23.23:965][991]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000716AA00360
+[2015.07.22-14.23.29:087][369]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.23.32:435][615]Cmd: DELETE
+[2015.07.22-14.23.32:436][615]Cmd: ACTOR DELETE
+[2015.07.22-14.23.32:462][615]LogEditorActor: Deleted Actor: Plateforme_BP_C
+[2015.07.22-14.23.32:498][615]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2015.07.22-14.23.33:784][730]LogEditorViewport: Clicking on Actor (LMB): Plateforme_BP_C (Plateforme_BP)
+[2015.07.22-14.23.34:604][792]Cmd: DELETE
+[2015.07.22-14.23.34:604][792]Cmd: ACTOR DELETE
+[2015.07.22-14.23.34:605][792]LogEditorActor: Deleted Actor: Plateforme_BP_C
+[2015.07.22-14.23.34:643][792]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2015.07.22-14.23.35:706][881]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.23.35:743][881]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.23.48:265][603]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.23.50:812][737]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.23.51:010][737]LogSavePackage: Save=104.647606ms
+[2015.07.22-14.23.51:010][737]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/Minimal_Default31C2C530478460319DB60B9F197BE559.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.07.22-14.23.51:039][737]LogFileHelpers: Saving map 'Minimal_Default' took 0.210
+[2015.07.22-14.23.51:045][737]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Plateforme/Blueprint/Plateforme_BP" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Plateforme/Blueprint/Plateforme_BP.uasset" SILENT=true
+[2015.07.22-14.23.51:067][737]LogSavePackage: Save=17.290876ms
+[2015.07.22-14.23.51:067][737]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/Plateforme_BP38984B02491D666EFD4E97B87C915BAA.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Plateforme/Blueprint/Plateforme_BP.uasset'
+[2015.07.22-14.23.51:573][769]BlueprintLog: New page: Compile Plateforme_BP
+[2015.07.22-14.23.51:677][769]BlueprintEditorCompileResults: Info [0621,39] Compile of Plateforme_BP successful! [in 103 ms]
+[2015.07.22-14.23.52:282][806]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.23.52:297][806]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Plateforme/Blueprint/Plateforme_BP" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Plateforme/Blueprint/Plateforme_BP.uasset" SILENT=true
+[2015.07.22-14.23.52:324][806]LogSavePackage: Save=22.607462ms
+[2015.07.22-14.23.52:324][806]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/Plateforme_BP73DA5AFE4A9EB558341A559207B6F441.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Plateforme/Blueprint/Plateforme_BP.uasset'
+[2015.07.22-14.24.18:477][ 73]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.24.36:586][384]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007129646FC0
+[2015.07.22-14.24.36:605][384]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.24.36:812][384]LogSavePackage: Save=101.216118ms
+[2015.07.22-14.24.36:812][384]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/Minimal_Default40D23C0D4F78D6B03E1D6CBE8A3D78DB.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.07.22-14.24.36:842][384]LogFileHelpers: Saving map 'Minimal_Default' took 0.210
+[2015.07.22-14.25.16:128][347]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.25.16:173][347]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.25.24:161][777]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.25.31:733][132]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.25.33:397][132]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.25.33:665][132]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.25.36:494][274]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.25.36:513][274]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:518][274]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:524][274]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:527][274]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:531][274]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:535][274]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:538][274]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:543][274]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:548][274]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:551][274]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:553][274]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:557][274]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:560][274]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:563][274]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:565][274]LogSavePackage: Save=74.611809ms
+[2015.07.22-14.25.36:566][274]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:566][274]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/ActorMacros9261DBDA45DDE3B108155CB2B07FA7B3.tmp' to '../../../Engine/Content/EditorBlueprintResources/ActorMacros.uasset'
+[2015.07.22-14.25.36:569][274]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:666][275]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.25.36:710][275]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:755][275]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:759][275]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:763][275]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:766][275]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:770][275]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:773][275]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:783][275]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:786][275]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:790][275]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:793][275]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:796][275]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:801][275]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:805][275]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:806][275]LogSavePackage: Save=144.391983ms
+[2015.07.22-14.25.36:808][275]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:808][275]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/AITesting_MoveGoal014F2B1B4DEE4D1CDC11A09D21807AFB.tmp' to '../../../Engine/Content/FunctionalTesting/Blueprints/AITesting_MoveGoal.uasset'
+[2015.07.22-14.25.36:814][275]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:837][276]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:871][276]LogAIModule: Creating AISystem for world Entry
+[2015.07.22-14.25.36:930][276]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.25.36:950][276]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:953][276]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:956][276]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:959][276]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:962][276]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:965][276]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:968][276]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:976][276]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:980][276]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:985][276]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:989][276]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:992][276]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:995][276]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.36:998][276]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:000][276]LogSavePackage: Save=74.556213ms
+[2015.07.22-14.25.37:001][276]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:001][276]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/Entry1104F0244967D44A55722F903FFDC7FF.tmp' to '../../../Engine/Content/Maps/Entry.umap'
+[2015.07.22-14.25.37:004][276]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:042][277]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:075][277]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.25.37:096][277]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:099][277]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:102][277]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:106][277]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:109][277]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:114][277]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:120][277]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:124][277]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:128][277]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:131][277]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:134][277]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:137][277]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:140][277]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:143][277]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:146][277]LogSavePackage: Save=75.840454ms
+[2015.07.22-14.25.37:148][277]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:149][277]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/ClassBlueprintsEditorOverviewA8F452BF45B65D57BA73C7B143965192.tmp' to '../../../Engine/Content/Tutorial/BlueprintTutorials/ClassBlueprintsEditorOverview.uasset'
+[2015.07.22-14.25.37:152][277]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:178][278]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:209][278]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.25.37:233][278]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:236][278]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:239][278]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:244][278]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:247][278]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:251][278]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:254][278]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:257][278]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:260][278]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:262][278]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:265][278]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:268][278]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:271][278]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:274][278]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:276][278]LogSavePackage: Save=70.940407ms
+[2015.07.22-14.25.37:278][278]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:278][278]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/LevelBlueprintEditorOverview1658567B4846D6645998D5B4BB03211E.tmp' to '../../../Engine/Content/Tutorial/BlueprintTutorials/LevelBlueprintEditorOverview.uasset'
+[2015.07.22-14.25.37:283][278]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:304][279]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:343][279]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.25.37:360][279]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:363][279]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:366][279]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:369][279]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:374][279]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:378][279]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:384][279]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:387][279]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:390][279]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:393][279]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:396][279]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:399][279]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:402][279]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:404][279]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:406][279]LogSavePackage: Save=68.021248ms
+[2015.07.22-14.25.37:407][279]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:408][279]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/FoliageWalkThroughAF500C254BF20515BB266781E05CF6B8.tmp' to '../../../Engine/Content/Tutorial/Foliage/FoliageWalkThrough.uasset'
+[2015.07.22-14.25.37:412][279]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:436][280]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:478][280]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.25.37:500][280]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:504][280]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:509][280]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:513][280]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:516][280]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:520][280]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:524][280]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:527][280]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:530][280]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:533][280]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:536][280]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:539][280]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:541][280]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:545][280]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:548][280]LogSavePackage: Save=75.113449ms
+[2015.07.22-14.25.37:549][280]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:550][280]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/LandscapeWalkThroughBBCE4A57482C2374ED21A9AB2FA78DE6.tmp' to '../../../Engine/Content/Tutorial/Landscape/LandscapeWalkThrough.uasset'
+[2015.07.22-14.25.37:553][280]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:572][281]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:604][281]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.25.37:631][281]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:634][281]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:638][281]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:641][281]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:645][281]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:649][281]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:651][281]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:653][281]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:656][281]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:659][281]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:662][281]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:664][281]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:670][281]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:673][281]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:675][281]LogSavePackage: Save=75.677948ms
+[2015.07.22-14.25.37:677][281]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:678][281]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/MaterialEditorTutorial42CD07D34690B93C60067589EE5AEB88.tmp' to '../../../Engine/Content/Tutorial/SubEditors/MaterialEditorTutorial.uasset'
+[2015.07.22-14.25.37:683][281]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:704][282]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:736][282]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.25.37:759][282]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:762][282]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:766][282]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:769][282]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:772][282]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:777][282]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:781][282]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:785][282]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:790][282]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:792][282]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:796][282]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:799][282]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:802][282]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:805][282]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:806][282]LogSavePackage: Save=73.947662ms
+[2015.07.22-14.25.37:807][282]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:807][282]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/ParticleSystemEditorTutorial424414944E3DFFC226C20993DF99AD33.tmp' to '../../../Engine/Content/Tutorial/SubEditors/ParticleSystemEditorTutorial.uasset'
+[2015.07.22-14.25.37:813][282]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:840][283]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:881][283]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.25.37:900][283]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:902][283]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:907][283]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:912][283]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:918][283]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:922][283]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:925][283]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:928][283]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:930][283]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:933][283]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:936][283]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:939][283]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:943][283]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:948][283]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:950][283]LogSavePackage: Save=75.424774ms
+[2015.07.22-14.25.37:951][283]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:951][283]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/PersonaAnimEditorWalkthroughC4A6A2384B73221C8430FCBA6A90AA2C.tmp' to '../../../Engine/Content/Tutorial/SubEditors/PersonaAnimEditorWalkthrough.uasset'
+[2015.07.22-14.25.37:955][283]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.37:975][284]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:012][284]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.25.38:032][284]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:035][284]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:038][284]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:043][284]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:048][284]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:050][284]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:054][284]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:057][284]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:059][284]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:061][284]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:064][284]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:066][284]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:068][284]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:071][284]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:072][284]LogSavePackage: Save=66.210564ms
+[2015.07.22-14.25.38:073][284]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:073][284]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/PersonaWalkthrough1101E09F410F5499C793E69BA72F26F0.tmp' to '../../../Engine/Content/Tutorial/SubEditors/PersonaWalkthrough.uasset'
+[2015.07.22-14.25.38:079][284]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:099][285]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:178][285]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.25.38:198][285]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:203][285]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:207][285]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:211][285]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:216][285]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:220][285]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:224][285]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:228][285]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:230][285]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:233][285]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:236][285]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:239][285]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:243][285]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:248][285]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:250][285]LogSavePackage: Save=76.613228ms
+[2015.07.22-14.25.38:251][285]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:251][285]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/TutorialAnimationBlueprintC547D98248A6EB046209CA89EA346CA5.tmp' to '../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/TutorialAnimationBlueprint.uasset'
+[2015.07.22-14.25.38:255][285]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:273][286]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:452][286]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.25.38:483][286]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:487][286]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:492][286]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:495][286]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:497][286]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:499][286]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:502][286]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:509][286]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:515][286]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:518][286]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:523][286]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:527][286]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:530][286]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:534][286]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:536][286]LogSavePackage: Save=87.675331ms
+[2015.07.22-14.25.38:537][286]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:537][286]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/TutorialCharacterE74F854B4F6DCE90DF1B4DAF6AC3E464.tmp' to '../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialCharacter.uasset'
+[2015.07.22-14.25.38:540][286]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:558][287]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:573][287]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.25.38:593][287]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:601][287]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:605][287]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:609][287]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:613][287]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:617][287]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:620][287]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:625][287]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:628][287]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:631][287]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:634][287]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:636][287]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:642][287]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:647][287]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:649][287]LogSavePackage: Save=81.045425ms
+[2015.07.22-14.25.38:650][287]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:650][287]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/TutorialTPP_AnimBlueprintA3C25F78453302E168C952A927D20460.tmp' to '../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_AnimBlueprint.uasset'
+[2015.07.22-14.25.38:653][287]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:674][288]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:735][288]LogAIModule: Creating AISystem for world Showcase
+[2015.07.22-14.25.38:956][288]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.25.38:984][288]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:990][288]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:994][288]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.38:997][288]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:001][288]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:004][288]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:007][288]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:023][288]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:027][288]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:030][288]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:032][288]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:036][288]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:044][288]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:049][288]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:051][288]LogSavePackage: Save=98.970940ms
+[2015.07.22-14.25.39:052][288]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:052][288]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/Showcase7EB121384AB4383D266569A557584800.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/AnimStarterPack/Showcase.umap'
+[2015.07.22-14.25.39:056][288]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:076][289]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:313][289]LogBlueprint:Warning: [compiler ASP_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch 
+[2015.07.22-14.25.39:313][289]LogBlueprint:Warning: [compiler ASP_Character] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
+[2015.07.22-14.25.39:313][289]LogBlueprint:Warning: [compiler ASP_Character] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.07.22-14.25.39:314][289]LogBlueprint:Warning: [compiler ASP_Character] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2015.07.22-14.25.39:314][289]LogBlueprint:Warning: [compiler ASP_Character] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2015.07.22-14.25.39:314][289]LogBlueprint:Warning: [compiler ASP_Character] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2015.07.22-14.25.39:317][289]LogBlueprint:Warning: [compiler ASP_Character] Warning [0729,03] Compile of ASP_Character successful, but with 6 Warning(s) [in 20 ms]
+[2015.07.22-14.25.39:318][289]LogBlueprint:Warning: [compiler ASP_Character] Warning [0729,03] Compile of ASP_Character successful, but with 7 Warning(s) [in 0 ms]
+[2015.07.22-14.25.39:318][289]LogBlueprint:Warning: [compiler ASP_Character] Warning [0729,03] Compile of ASP_Character successful, but with 8 Warning(s) [in 0 ms]
+[2015.07.22-14.25.39:411][289]LogBlueprint:Warning: [compiler ASP_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch 
+[2015.07.22-14.25.39:411][289]LogBlueprint:Warning: [compiler ASP_Character] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
+[2015.07.22-14.25.39:411][289]LogBlueprint:Warning: [compiler ASP_Character] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.07.22-14.25.39:412][289]LogBlueprint:Warning: [compiler ASP_Character] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2015.07.22-14.25.39:412][289]LogBlueprint:Warning: [compiler ASP_Character] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2015.07.22-14.25.39:413][289]LogBlueprint:Warning: [compiler ASP_Character] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2015.07.22-14.25.39:418][289]LogBlueprint:Warning: [compiler ASP_Character] Warning [0729,13] Compile of ASP_Character successful, but with 6 Warning(s) [in 22 ms]
+[2015.07.22-14.25.39:418][289]LogBlueprint:Warning: [compiler ASP_Character] Warning [0729,13] Compile of ASP_Character successful, but with 7 Warning(s) [in 0 ms]
+[2015.07.22-14.25.39:594][289]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.25.39:609][289]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:626][289]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:636][289]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:640][289]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:643][289]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:647][289]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:655][289]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:670][289]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:674][289]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:676][289]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:681][289]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:686][289]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:699][289]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:702][289]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:704][289]LogSavePackage: Save=113.221199ms
+[2015.07.22-14.25.39:705][289]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:705][289]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/ASP_Character84507A254B52F943FD390D800950C723.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/AnimStarterPack/Character/ASP_Character.uasset'
+[2015.07.22-14.25.39:709][289]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:728][290]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:743][290]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.25.39:761][290]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:800][290]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:820][290]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:823][290]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:826][290]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:828][290]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:850][290]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:868][290]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:871][290]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:874][290]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:877][290]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:884][290]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:909][290]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:912][290]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:915][290]LogSavePackage: Save=176.492065ms
+[2015.07.22-14.25.39:918][290]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:918][290]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/ASP_HeroTPP_AnimBlueprint3931DA0C4FA294ADDE197EA14558BF1B.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/AnimStarterPack/Character/ASP_HeroTPP_AnimBlueprint.uasset'
+[2015.07.22-14.25.39:923][290]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.39:943][291]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.25.40:143][291]LogMaterial: Missing cached shader map for material Ground_DirtBrownTan, compiling. 
+[2015.07.22-14.25.40:156][291]LogMaterial: Missing cached shader map for material brick_ancientDiagonal, compiling. 
+[2015.07.22-14.25.40:167][291]LogMaterial: Missing cached shader map for material Ground_GrassThickGreen, compiling. 
+[2015.07.22-14.25.40:182][291]LogMaterial: Missing cached shader map for material Ground_guiFloodedMud, compiling. 
+[2015.07.22-14.25.40:441][291]LogTexture:Display: Building textures: Ground_MuddyGrass_2k_n (BC5)
+[2015.07.22-14.25.41:405][291]LogTexture:Display: Building textures: Ground_MuddyGrass_2k_alb (AutoDXT)
+[2015.07.22-14.25.46:873][291]LogTexture:Display: Building textures: Ground_MuddyGrass_2k_mask (AutoDXT)
+[2015.07.22-14.25.47:731][291]LogTexture:Display: Building textures: Ground_MuddyGrass_2k_s (AutoDXT)
+[2015.07.22-14.25.49:892][291]LogMaterial: Missing cached shader map for material Ground_MuddyGrass_DRY, compiling. 
+[2015.07.22-14.25.50:080][291]LogTexture:Display: Building textures: Concrete_FlatSurface_2k_alb (AutoDXT)
+[2015.07.22-14.25.55:622][291]LogTexture:Display: Building textures: Concrete_FlatSurface_2k_n (BC5)
+[2015.07.22-14.25.56:309][291]LogTexture:Display: Building textures: Concrete_Square_2k_ao (AutoDXT)
+[2015.07.22-14.25.57:435][291]LogTexture:Display: Building textures: wood_JFfantasyWoodPlanksNailedClean_2k_mask (AutoDXT)
+[2015.07.22-14.25.57:835][291]LogMaterial: Missing cached shader map for material MasterMaterial, compiling. 
+[2015.07.22-14.25.57:848][291]LogMaterial: Missing cached shader map for material Ground_MuddyGrass_WET, compiling. 
+[2015.07.22-14.25.58:106][291]LogTexture:Display: Building textures: Metal_BrushedCopper_2k_s (AutoDXT)
+[2015.07.22-14.26.03:691][291]LogTexture:Display: Building textures: Metal_BrushedCopper_2k_n (BC5)
+[2015.07.22-14.26.04:324][291]LogTexture:Display: Building textures: Metal_BrushedCopper_2k_g (AutoDXT)
+[2015.07.22-14.26.07:656][291]LogMaterial: Missing cached shader map for material Metal_BrushedCopper, compiling. 
+[2015.07.22-14.26.07:782][291]LogTexture:Display: Building textures: Metal_BrushedSteel_2k_n (BC5)
+[2015.07.22-14.26.08:516][291]LogTexture:Display: Building textures: Metal_BrushedSteel_2k_g (AutoDXT)
+[2015.07.22-14.26.09:848][291]LogTexture:Display: Building textures: Metal_BrushedSteel_2k_s (AutoDXT)
+[2015.07.22-14.26.13:242][291]LogMaterial: Missing cached shader map for material Metal_BrushedSteel, compiling. 
+[2015.07.22-14.26.13:441][291]LogTexture:Display: Building textures: Metal_CyberCube_2k_g (AutoDXT)
+[2015.07.22-14.26.15:822][291]LogTexture:Display: Building textures: Metal_CyberCube_2k_ao (AutoDXT)
+[2015.07.22-14.26.17:230][291]LogTexture:Display: Building textures: Metal_CyberCube_2k_s (AutoDXT)
+[2015.07.22-14.26.17:981][291]LogTexture:Display: Building textures: Metal_CyberCube_2k_t (AutoDXT)
+[2015.07.22-14.26.18:633][291]LogTexture:Display: Building textures: Metal_CyberCube_2k_n (BC5)
+[2015.07.22-14.26.19:075][291]LogMaterial: Missing cached shader map for material Metal_CyberCube, compiling. 
+[2015.07.22-14.26.19:134][291]LogTexture:Display: Building textures: Metal_DiamondPlateSciFi_2k_mask (AutoDXT)
+[2015.07.22-14.26.19:898][291]LogTexture:Display: Building textures: Metal_DiamondPlateSciFi_2k_n (BC5)
+[2015.07.22-14.26.20:715][291]LogTexture:Display: Building textures: Metal_DiamondPlateSciFi_2k_alb (AutoDXT)
+[2015.07.22-14.26.24:703][291]LogTexture:Display: Building textures: Metal_DiamondPlateSciFi_2k_s (AutoDXT)
+[2015.07.22-14.26.27:251][291]LogTexture:Display: Building textures: Metal_DiamondPlateSciFi_2k_g (AutoDXT)
+[2015.07.22-14.26.28:691][291]LogMaterial: Missing cached shader map for material Metal_DiamondPlateSciFi, compiling. 
+[2015.07.22-14.26.28:793][291]LogTexture:Display: Building textures: Metal_Gold_2k_s (AutoDXT)
+[2015.07.22-14.26.30:025][291]LogTexture:Display: Building textures: Metal_Gold_2k_g (AutoDXT)
+[2015.07.22-14.26.30:748][291]LogMaterial: Missing cached shader map for material Metal_Gold, compiling. 
+[2015.07.22-14.26.30:963][291]LogTexture:Display: Building textures: Metal_LeadRough_2k_n (BC5)
+[2015.07.22-14.26.31:872][291]LogTexture:Display: Building textures: Metal_LeadRough_2k_g (AutoDXT)
+[2015.07.22-14.26.34:453][291]LogTexture:Display: Building textures: Metal_LeadRough_2k_alb (AutoDXT)
+[2015.07.22-14.26.38:498][291]LogTexture:Display: Building textures: Metal_LeadRough_2k_s (AutoDXT)
+[2015.07.22-14.26.41:380][291]LogMaterial: Missing cached shader map for material Metal_LeadRough, compiling. 
+[2015.07.22-14.26.41:511][291]LogTexture:Display: Building textures: Metal_ReinforcedGridWall_2k_ao (AutoDXT)
+[2015.07.22-14.26.43:659][291]LogTexture:Display: Building textures: 4ChannelGrunge (AutoDXT)
+[2015.07.22-14.26.48:242][291]LogTexture:Display: Building textures: Metal_ReinforcedGridWall_2k_mask (AutoDXT)
+[2015.07.22-14.26.48:758][291]LogTexture:Display: Building textures: Metal_ReinforcedGridWall_2k_n (BC5)
+[2015.07.22-14.26.49:341][291]LogTexture:Display: Building textures: Metal_ReinforcedGridWall_2k_s (AutoDXT)
+[2015.07.22-14.26.51:725][291]LogTexture:Display: Building textures: Metal_ReinforcedGridWall_2k_g (AutoDXT)
+[2015.07.22-14.26.52:417][291]LogMaterial: Missing cached shader map for material Metal_ReinforcedGridWall, compiling. 
+[2015.07.22-14.26.52:608][291]LogTexture:Display: Building textures: Metal_RustedSolid_2k_s (AutoDXT)
+[2015.07.22-14.26.58:010][291]LogTexture:Display: Building textures: Metal_RustedSolid_2k_n (BC5)
+[2015.07.22-14.26.58:657][291]LogTexture:Display: Building textures: Metal_RustedSolid_2k_g (AutoDXT)
+[2015.07.22-14.27.00:283][291]LogMaterial: Missing cached shader map for material Metal_RustedSolid, compiling. 
+[2015.07.22-14.27.00:342][291]LogTexture:Display: Building textures: Metal_sciFiCurveyWall_2k_mask (AutoDXT)
+[2015.07.22-14.27.01:179][291]LogTexture:Display: Building textures: Metal_sciFiCurveyWall_2k_g (AutoDXT)
+[2015.07.22-14.27.04:038][291]LogTexture:Display: Building textures: Metal_sciFiCurveyWall_2k_ao (AutoDXT)
+[2015.07.22-14.27.04:934][291]LogTexture:Display: Building textures: Metal_sciFiCurveyWall_2k_s (AutoDXT)
+[2015.07.22-14.27.06:957][291]LogTexture:Display: Building textures: Metal_sciFiCurveyWall_2k_n (BC5)
+[2015.07.22-14.27.07:402][291]LogMaterial: Missing cached shader map for material Metal_sciFiCurveyWall, compiling. 
+[2015.07.22-14.27.07:642][291]LogTexture:Display: Building textures: misc_WoodenCrate_2k_alb2 (AutoDXT)
+[2015.07.22-14.27.12:679][291]LogTexture:Display: Building textures: misc_WoodenCrate_2k_n (BC5)
+[2015.07.22-14.27.13:318][291]LogTexture:Display: Building textures: misc_WoodenCrate_2k_g (AutoDXT)
+[2015.07.22-14.27.14:694][291]LogTexture:Display: Building textures: misc_WoodenCrate_2k_mask (AutoDXT)
+[2015.07.22-14.27.15:171][291]LogTexture:Display: Building textures: misc_WoodenCrate_2k_h (AutoDXT)
+[2015.07.22-14.27.15:863][291]LogTexture:Display: Building textures: misc_WoodenCrate_2k_ao (AutoDXT)
+[2015.07.22-14.27.16:659][291]LogMaterial: Missing cached shader map for material misc_WoodenCrate, compiling. 
+[2015.07.22-14.27.16:839][291]LogTexture:Display: Building textures: Rock_HoleyWall_2k_ao (AutoDXT)
+[2015.07.22-14.27.19:253][291]LogTexture:Display: Building textures: Rock_HoleyWall_2k_alb2 (AutoDXT)
+[2015.07.22-14.27.23:040][291]LogTexture:Display: Building textures: Rock_HoleyWall_2k_n (BC5)
+[2015.07.22-14.27.23:630][291]LogTexture:Display: Building textures: Rock_HoleyWall_2k_g (AutoDXT)
+[2015.07.22-14.27.24:616][291]LogTexture:Display: Building textures: Rock_HoleyWall_2k_h (AutoDXT)
+[2015.07.22-14.27.25:409][291]LogMaterial: Missing cached shader map for material Rock_HoleyWall, compiling. 
+[2015.07.22-14.27.25:684][291]LogTexture:Display: Building textures: Rock_JaggedCaveWall_2k_n (BC5)
+[2015.07.22-14.27.26:605][291]LogTexture:Display: Building textures: Rock_JaggedCaveWall_2k_alb (AutoDXT)
+[2015.07.22-14.27.31:448][291]LogTexture:Display: Building textures: Rock_JaggedCaveWall_2k_g (AutoDXT)
+[2015.07.22-14.27.33:137][291]LogTexture:Display: Building textures: Rock_JaggedCaveWall_2k_h (AutoDXT)
+[2015.07.22-14.27.33:859][291]LogMaterial: Missing cached shader map for material Rock_JaggedCaveWall, compiling. 
+[2015.07.22-14.27.34:062][291]LogTexture:Display: Building textures: Tile_ColoredTiles_2k_g (AutoDXT)
+[2015.07.22-14.27.36:718][291]LogTexture:Display: Building textures: Tile_ColoredTiles_2k_alb1 (AutoDXT)
+[2015.07.22-14.27.38:395][291]LogTexture:Display: Building textures: Tile_ColoredTiles_2k_n (BC5)
+[2015.07.22-14.27.39:024][291]LogTexture:Display: Building textures: Tile_ColoredTiles_2k_mask (AutoDXT)
+[2015.07.22-14.27.39:598][291]LogMaterial: Missing cached shader map for material Tile_Coloredtiles, compiling. 
+[2015.07.22-14.27.39:824][291]LogTexture:Display: Building textures: Tile_WoodAndTileOffsetPattern_2k_alb (AutoDXT)
+[2015.07.22-14.27.44:664][291]LogTexture:Display: Building textures: Tile_WoodAndTileOffsetPattern_2k_mask (AutoDXT)
+[2015.07.22-14.27.45:389][291]LogTexture:Display: Building textures: Tile_WoodAndTileOffsetPattern_2k_s (AutoDXT)
+[2015.07.22-14.27.46:749][291]LogTexture:Display: Building textures: Tile_WoodAndTileOffsetPattern_2k_n (BC5)
+[2015.07.22-14.27.47:230][291]LogMaterial: Missing cached shader map for material Tile_WoodAndTileOffsetPattern, compiling. 
+[2015.07.22-14.27.47:436][291]LogTexture:Display: Building textures: Wood_GeofwoodenPlankClean_2k_n (BC5)
+[2015.07.22-14.27.48:315][291]LogTexture:Display: Building textures: Wood_GeofwoodenPlankClean_2k_ao (AutoDXT)
+[2015.07.22-14.27.51:025][291]LogTexture:Display: Building textures: Wood_GeofwoodenPlankClean_2k_d (AutoDXT)
+[2015.07.22-14.27.54:871][291]LogMaterial: Missing cached shader map for material Wood_GeofwoodenPlankClean, compiling. 
+[2015.07.22-14.27.55:090][291]LogTexture:Display: Building textures: Wood_InterlockingFloor_2k_n (BC5)
+[2015.07.22-14.27.55:931][291]LogTexture:Display: Building textures: Wood_InterlockingFloor_2k_ao (AutoDXT)
+[2015.07.22-14.27.57:601][291]LogTexture:Display: Building textures: Wood_InterlockingFloor_2k_alb1 (AutoDXT)
+[2015.07.22-14.28.01:548][291]LogTexture:Display: Building textures: Wood_InterlockingFloor_2k_g (AutoDXT)
+[2015.07.22-14.28.02:637][291]LogMaterial: Missing cached shader map for material Wood_InterlockingFloor, compiling. 
+[2015.07.22-14.28.02:764][291]LogTexture:Display: Building textures: Brick_chicagoStyle_2k_h (AutoDXT)
+[2015.07.22-14.28.05:282][291]LogTexture:Display: Building textures: Brick_chicagoStyle_2k_ao (AutoDXT)
+[2015.07.22-14.28.08:076][291]LogTexture:Display: Building textures: Brick_chicagoStyle_2k_alb (AutoDXT)
+[2015.07.22-14.28.12:677][291]LogTexture:Display: Building textures: Brick_chicagoStyle_2k_n (BC5)
+[2015.07.22-14.28.13:390][291]LogTexture:Display: Building textures: wood_JFfantasyWoodPlanksNailedClean_2k_alb (AutoDXT)
+[2015.07.22-14.28.16:020][291]LogTexture:Display: Building textures: wood_JFfantasyWoodPlanksNailedClean_2k_n (BC5)
+[2015.07.22-14.28.16:608][291]LogTexture:Display: Building textures: wood_JFfantasyWoodPlanksNailedClean_2k_h (AutoDXT)
+[2015.07.22-14.28.18:015][291]LogMaterial: Missing cached shader map for material MasterMaterial, compiling. 
+[2015.07.22-14.28.18:195][291]LogTexture:Display: Building textures: Brick_BathStone_2k_ao (AutoDXT)
+[2015.07.22-14.28.20:502][291]LogTexture:Display: Building textures: Brick_BathStone_2k_alb (AutoDXT)
+[2015.07.22-14.28.24:256][291]LogTexture:Display: Building textures: Brick_BathStone_2k_n (BC5)
+[2015.07.22-14.28.24:724][291]LogMaterial: Missing cached shader map for material Brick_BathStone, compiling. 
+[2015.07.22-14.28.24:918][291]LogTexture:Display: Building textures: Brick_GuiBigCastleWall_2k_alb (AutoDXT)
+[2015.07.22-14.28.29:995][291]LogTexture:Display: Building textures: Brick_GuiBigCastleWall_2k_n (BC5)
+[2015.07.22-14.28.30:590][291]LogTexture:Display: Building textures: Brick_GuiBigCastleWall_2k_s (AutoDXT)
+[2015.07.22-14.28.31:992][291]LogTexture:Display: Building textures: Brick_GuiBigCastleWall_2k_h (AutoDXT)
+[2015.07.22-14.28.32:856][291]LogMaterial: Missing cached shader map for material Brick_GuiBigCastleWall, compiling. 
+[2015.07.22-14.28.32:870][291]LogMaterial: Missing cached shader map for material Ground_Dirt, compiling. 
+[2015.07.22-14.28.33:113][291]LogTexture:Display: Building textures: brick_guiGen_2k_d (AutoDXT)
+[2015.07.22-14.28.38:625][291]LogMaterial: Missing cached shader map for material brick_guiGen, compiling. 
+[2015.07.22-14.28.40:620][291]LogAIModule: Creating AISystem for world Showcase
+[2015.07.22-14.28.40:732][291]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.28.40:764][291]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.40:777][291]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.40:785][291]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.40:796][291]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.40:807][291]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.40:816][291]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.40:822][291]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.40:837][291]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.40:842][291]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.40:851][291]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.40:858][291]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.40:865][291]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.40:874][291]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.40:906][291]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.40:910][291]LogSavePackage: Save=185.524536ms
+[2015.07.22-14.28.40:913][291]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.40:914][291]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/Showcase5A8587DB4F771E168409439BAE31EC3E.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/GTFreeMaterials/Showcase.umap'
+[2015.07.22-14.28.40:920][291]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.40:972][292]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.41:304][292]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.28.41:319][292]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.41:328][292]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.41:336][292]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.41:343][292]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.41:349][292]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.41:355][292]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.41:360][292]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.41:372][292]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.41:379][292]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.41:385][292]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.41:391][292]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.41:399][292]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.41:405][292]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.41:410][292]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.41:413][292]LogSavePackage: Save=113.350349ms
+[2015.07.22-14.28.41:416][292]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.41:416][292]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/Blueprint_CeilingLightB6CDF80D465F2F873AA8C98F679AA2B9.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset'
+[2015.07.22-14.28.41:422][292]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.41:441][293]LogHttp:Warning: Timeout processing Http request. 0000007155043C00
+[2015.07.22-14.28.42:042][293]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.28.42:064][293]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:069][293]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:072][293]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:076][293]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:079][293]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:082][293]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:085][293]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:094][293]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:101][293]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:105][293]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:109][293]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:113][293]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:116][293]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:120][293]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:121][293]LogSavePackage: Save=83.881622ms
+[2015.07.22-14.28.42:123][293]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:123][293]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/Blueprint_Effect_Explosion76E350BB4DC14FAA75938BA6819FE169.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset'
+[2015.07.22-14.28.42:127][293]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:567][294]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.28.42:582][294]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:586][294]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:593][294]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:596][294]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:602][294]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:607][294]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:611][294]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:618][294]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:622][294]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:625][294]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:628][294]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:634][294]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:640][294]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:644][294]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:646][294]LogSavePackage: Save=83.574989ms
+[2015.07.22-14.28.42:647][294]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:648][294]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/Blueprint_Effect_FireD693BD4E4BE611C1F5E2AD912847577D.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset'
+[2015.07.22-14.28.42:651][294]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:842][295]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.28.42:864][295]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:871][295]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:878][295]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:882][295]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:886][295]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:889][295]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:892][295]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:899][295]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:903][295]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:907][295]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:912][295]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:918][295]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:922][295]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:928][295]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:931][295]LogSavePackage: Save=92.825562ms
+[2015.07.22-14.28.42:932][295]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.42:933][295]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/Blueprint_Effect_Smoke8E5865404351F643FDFD6F97016842E9.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset'
+[2015.07.22-14.28.42:939][295]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.43:282][296]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.28.43:298][296]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.43:305][296]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.43:312][296]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.43:316][296]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.43:319][296]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.43:326][296]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.43:331][296]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.43:339][296]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.43:344][296]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.43:347][296]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.43:351][296]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.43:355][296]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.43:359][296]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.43:362][296]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.43:365][296]LogSavePackage: Save=87.029152ms
+[2015.07.22-14.28.43:369][296]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.43:369][296]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/Blueprint_Effect_Sparks6F4D2E2F4990C7D5FD0C03A69226F14B.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset'
+[2015.07.22-14.28.43:374][296]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.43:417][297]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.43:579][297]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.28.43:598][297]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.43:604][297]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.43:609][297]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.43:614][297]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.43:617][297]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.43:621][297]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.43:624][297]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.43:630][297]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.43:636][297]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.43:642][297]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.43:647][297]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.43:651][297]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.43:655][297]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.43:659][297]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.43:661][297]LogSavePackage: Save=85.675629ms
+[2015.07.22-14.28.43:663][297]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.43:663][297]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/Blueprint_Effect_SteamCA4F7D684F8E8084206FA5A21F2276A2.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset'
+[2015.07.22-14.28.43:668][297]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.43:915][298]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.28.43:930][298]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.43:955][298]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.43:962][298]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.43:968][298]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.43:972][298]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.43:977][298]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.43:981][298]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.43:989][298]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.43:993][298]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.43:996][298]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.44:002][298]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.44:007][298]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.44:013][298]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.44:016][298]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.44:018][298]LogSavePackage: Save=107.342247ms
+[2015.07.22-14.28.44:020][298]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.44:020][298]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/Blueprint_WallSconce132C14B9459AA57D4413448BD7AE6701.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset'
+[2015.07.22-14.28.44:024][298]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.44:958][299]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.28.44:986][299]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.45:063][299]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.45:107][299]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.45:111][299]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.45:115][299]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.45:118][299]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.45:158][299]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.45:211][299]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.45:214][299]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.45:221][299]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.45:224][299]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.45:234][299]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.45:287][299]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.45:292][299]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.45:293][299]LogSavePackage: Save=340.237091ms
+[2015.07.22-14.28.45:295][299]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.45:295][299]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/BP_LightStudio2178FC3646A2A57059F46EA05C807419.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/StarterContent/Blueprints/BP_LightStudio.uasset'
+[2015.07.22-14.28.45:298][299]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.45:342][300]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.45:800][300]LogAIModule: Creating AISystem for world Advanced_Lighting
+[2015.07.22-14.28.45:951][300]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.28.45:981][300]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.45:988][300]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.45:991][300]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.45:999][300]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.46:007][300]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.46:014][300]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.46:018][300]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.46:028][300]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.46:034][300]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.46:039][300]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.46:043][300]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.46:046][300]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.46:051][300]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.46:067][300]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.46:070][300]LogSavePackage: Save=123.513962ms
+[2015.07.22-14.28.46:073][300]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.46:073][300]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/Advanced_Lighting1835986545564DFB2738C3B636BBEF6E.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/StarterContent/Maps/Advanced_Lighting.umap'
+[2015.07.22-14.28.46:077][300]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.07.22-14.28.53:072][442]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.28.56:195][519]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.29.05:012][ 14]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.29.05:029][ 14]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Plateforme/Blueprint/Plateforme_BP" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Plateforme/Blueprint/Plateforme_BP.uasset" SILENT=true
+[2015.07.22-14.29.05:089][ 14]LogSavePackage: Save=54.188374ms
+[2015.07.22-14.29.05:089][ 14]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/Plateforme_BP8A8368CD4A85A0F5A91481AF9913861C.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Plateforme/Blueprint/Plateforme_BP.uasset'
+[2015.07.22-14.29.05:335][ 28]BlueprintLog: New page: Compile Plateforme_BP
+[2015.07.22-14.29.05:447][ 28]BlueprintEditorCompileResults: Info [0935,16] Compile of Plateforme_BP successful! [in 111 ms]
+[2015.07.22-14.29.14:389][525]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.29.30:370][380]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.29.30:386][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Plateforme/Blueprint/Plateforme_BP" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Plateforme/Blueprint/Plateforme_BP.uasset" SILENT=true
+[2015.07.22-14.29.30:409][380]LogSavePackage: Save=18.326653ms
+[2015.07.22-14.29.30:409][380]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/Plateforme_BPECD9FAB04D6DE4EBAA03E6AA6C382E25.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Plateforme/Blueprint/Plateforme_BP.uasset'
+[2015.07.22-14.29.30:921][409]BlueprintLog: New page: Compile Plateforme_BP
+[2015.07.22-14.29.31:054][409]BlueprintEditorCompileResults: Info [0960,76] Compile of Plateforme_BP successful! [in 132 ms]
+[2015.07.22-14.29.37:764][782]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.29.50:606][476]LogClass:Warning: Type mismatch in NewVar_0 of SKEL_Plateforme_BP_C - Previous (StructProperty) Current(ByteProperty) for package:  FObjectReader
+[2015.07.22-14.29.53:987][665]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.29.59:958][985]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.30.23:325][270]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.31.31:887][424]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.31.32:145][424]LogSavePackage: Save=117.422890ms
+[2015.07.22-14.31.32:145][424]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/Minimal_DefaultC53490434B5D660468EF948B912E1B7A.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.07.22-14.31.32:168][424]LogFileHelpers: Saving map 'Minimal_Default' took 0.262
+[2015.07.22-14.31.32:176][424]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Plateforme/Blueprint/Plateforme_BP" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Plateforme/Blueprint/Plateforme_BP.uasset" SILENT=true
+[2015.07.22-14.31.32:199][424]LogSavePackage: Save=18.547321ms
+[2015.07.22-14.31.32:200][424]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/Plateforme_BP476609BD470C931A876F2C95087F5CBB.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Plateforme/Blueprint/Plateforme_BP.uasset'
+[2015.07.22-14.31.37:961][835]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.31.40:270][  0]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.31.40:954][ 44]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.31.41:540][ 82]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.31.42:731][160]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.31.44:576][283]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.31.44:658][287]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.31.44:695][288]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.31.44:727][289]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.31.44:780][291]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.31.46:777][419]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.31.46:908][426]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.31.47:647][474]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.31.48:451][527]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.31.51:176][693]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.31.51:208][694]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.31.51:240][695]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.31.51:296][697]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.31.51:329][698]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.31.51:378][700]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.31.52:019][742]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.31.55:774][994]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.32.02:281][106]LogEnum:Warning: Enum Text NewUserDefinedEnum::NewEnumerator0 for Enum NewUserDefinedEnum failed to resolve to any value
+[2015.07.22-14.32.16:652][968]LogEnum:Warning: Enum Text NewUserDefinedEnum::NewEnumerator1 for Enum NewUserDefinedEnum failed to resolve to any value
+[2015.07.22-14.32.22:058][287]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.32.22:074][287]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Plateforme/NewUserDefinedEnum" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Plateforme/NewUserDefinedEnum.uasset" SILENT=true
+[2015.07.22-14.32.22:075][287]LogSavePackage: Save=0.922020ms
+[2015.07.22-14.32.22:075][287]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/NewUserDefinedEnumFEBDDF8C40CFB2174884BDBE41204B96.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Plateforme/NewUserDefinedEnum.uasset'
+[2015.07.22-14.32.26:423][553]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.32.28:068][666]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.32.28:547][698]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.32.29:311][748]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.32.29:325][748]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.32.29:362][748]LogMetaData: Removing '/Game/Plateforme/Blueprint/NewUserDefinedEnum.NewUserDefinedEnum' ref from Metadata '/Game/Plateforme/NewUserDefinedEnum.PackageMetaData'
+[2015.07.22-14.32.29:373][748]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.32.29:388][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Plateforme/Blueprint/NewUserDefinedEnum" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Plateforme/Blueprint/NewUserDefinedEnum.uasset" SILENT=true
+[2015.07.22-14.32.29:390][748]LogSavePackage: Save=0.777046ms
+[2015.07.22-14.32.29:390][748]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/NewUserDefinedEnumBB3D7941409BEE74F063C988A47C9754.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Plateforme/Blueprint/NewUserDefinedEnum.uasset'
+[2015.07.22-14.32.29:401][748]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.32.29:457][748]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.32.29:484][748]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000714FA42CA0
+[2015.07.22-14.32.31:104][860]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.32.31:748][897]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.32.42:645][735]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.32.42:671][735]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.32.42:675][735]LogMetaData: Removing '/Game/Plateforme/Blueprint/MeshNames.MeshNames' ref from Metadata '/Game/Plateforme/Blueprint/NewUserDefinedEnum.PackageMetaData'
+[2015.07.22-14.32.42:687][735]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.32.42:700][735]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Plateforme/Blueprint/MeshNames" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Plateforme/Blueprint/MeshNames.uasset" SILENT=true
+[2015.07.22-14.32.42:702][735]LogSavePackage: Save=0.807837ms
+[2015.07.22-14.32.42:702][735]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/MeshNamesE77E3D4A43A5D7081BC2E08A89318927.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Plateforme/Blueprint/MeshNames.uasset'
+[2015.07.22-14.32.42:711][735]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.32.42:770][735]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.32.44:018][823]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.32.44:056][823]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.32.48:293][ 47]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.32.54:095][354]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.33.05:017][952]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.33.10:040][235]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.33.10:048][235]LogEnum:Warning: Enum Text (Minimum=(X=0.000000,Y=0.000000),Maximum=(X=0.000000,Y=0.000000)) for Enum MeshNames failed to resolve to any value
+[2015.07.22-14.33.10:686][268]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.33.11:706][322]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.33.16:759][600]LogEnum:Warning: Enum Text (Minimum=(X=0.000000,Y=0.000000),Maximum=(X=0.000000,Y=0.000000)) for Enum MeshNames failed to resolve to any value
+[2015.07.22-14.33.19:490][749]LogEnum:Warning: Enum Text (Minimum=(X=0.000000,Y=0.000000),Maximum=(X=0.000000,Y=0.000000)) for Enum MeshNames failed to resolve to any value
+[2015.07.22-14.33.22:578][922]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.33.22:605][922]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Plateforme/Blueprint/Plateforme_BP" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Plateforme/Blueprint/Plateforme_BP.uasset" SILENT=true
+[2015.07.22-14.33.22:630][922]LogSavePackage: Save=19.834131ms
+[2015.07.22-14.33.22:630][922]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/Plateforme_BP01CC7D564BF2FB5FFFC376BE0E608A26.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Plateforme/Blueprint/Plateforme_BP.uasset'
+[2015.07.22-14.33.22:861][935]BlueprintLog: New page: Compile Plateforme_BP
+[2015.07.22-14.33.22:874][935]LogEnum:Warning: Enum Text (Minimum=(X=0.000000,Y=0.000000),Maximum=(X=0.000000,Y=0.000000)) for Enum MeshNames failed to resolve to any value
+[2015.07.22-14.33.22:885][935]LogEnum:Warning: Enum Text (Minimum=(X=0.000000,Y=0.000000),Maximum=(X=0.000000,Y=0.000000)) for Enum MeshNames failed to resolve to any value
+[2015.07.22-14.33.22:885][935]LogBlueprint:Warning: [compiler Plateforme_BP] Warning Can't parse default value '(Minimum=(X=0.000000,Y=0.000000),Maximum=(X=0.000000,Y=0.000000))' for  (none) . Property: MeshN.
+[2015.07.22-14.33.22:999][935]LogBlueprint:Warning: [compiler Plateforme_BP] Warning [1192,71] Compile of Plateforme_BP successful, but with 1 Warning(s) [in 137 ms]
+[2015.07.22-14.33.22:999][935]BlueprintEditorCompileResults:Warning: Warning Can't parse default value '(Minimum=(X=0.000000,Y=0.000000),Maximum=(X=0.000000,Y=0.000000))' for  (none) . Property: MeshN.
+[2015.07.22-14.33.22:999][935]BlueprintEditorCompileResults:Warning: Warning [1192,71] Compile of Plateforme_BP successful, but with 1 Warning(s) [in 137 ms]
+[2015.07.22-14.33.24:161][  0]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.33.37:307][718]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.33.39:320][826]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.33.40:229][874]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.33.41:448][939]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.33.45:250][146]LogD3D11RHI: InitD3DDevice
+[2015.07.22-14.33.45:480][146]LogSavePackage: Save=108.726990ms
+[2015.07.22-14.33.45:480][146]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/Minimal_DefaultCA91B4D84A740229761B0195CA9C989E.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.07.22-14.33.45:502][146]LogFileHelpers: Saving map 'Minimal_Default' took 0.241
+[2015.07.22-14.33.45:511][146]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Plateforme/Blueprint/Plateforme_BP" FILE="../../../../../UnrealEngineProject/ProjectTron/Content/Plateforme/Blueprint/Plateforme_BP.uasset" SILENT=true
+[2015.07.22-14.33.45:538][146]LogSavePackage: Save=20.902836ms
+[2015.07.22-14.33.45:538][146]LogSavePackage: Moving '../../../../../UnrealEngineProject/ProjectTron/Saved/Plateforme_BP46BC91134DE8F9B702DBBC935A18AB76.tmp' to '../../../../../UnrealEngineProject/ProjectTron/Content/Plateforme/Blueprint/Plateforme_BP.uasset'
+[2015.07.22-14.33.47:550][255]LogWindows:Error: Windows GetLastError: L’opération a réussi. (0)
+[2015.07.22-14.33.47:760][255]LogCrashTracker: 
+
+
+[2015.07.22-14.34.35:853][255]LogCrashTracker: 
+
+
+[2015.07.22-14.34.35:853][255]LogWindows: === Critical error: ===
+Fatal error: [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.8\Engine\Source\Runtime\Core\Private\GenericPlatform\GenericPlatformMemory.cpp] [Line: 53] 
+Ran out of memory allocating 18446744072025250714 bytes with alignment 0
+
+
+KERNELBASE.dll {0x00007ffefb048b9c} + 0 bytes
+UE4Editor-Core.dll!FOutputDeviceWindowsError::Serialize() {0x00007ffec8ee7c0f} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FOutputDevice::Logf__VA() {0x00007ffec8da10b8} + 159 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::AssertFailed() {0x00007ffec8d71e72} + 65 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FGenericPlatformMemory::OnOutOfMemory() {0x00007ffec8c1ef80} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FMallocTBB::Realloc() {0x00007ffec8c29932} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!TArray<wchar_t,FDefaultAllocator>::CopyToEmpty<wchar_t,FDefaultAllocator>() {0x00007ffed1ac25c3} + 29 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!TProperty<FString,UProperty>::CopyValuesInternal() {0x00007ffed1b22d14} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FBlueprintEditorUtils::RenameMemberVariable() {0x00007ffebe500176} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Kismet.dll!FBlueprintVarActionDetails::OnVarNameCommitted() {0x00007ffebd36375b} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Kismet.dll!TBaseSPMethodDelegateInstance<0,FBlueprintVarActionDetails,0,TTypeWrapper<void> __cdecl(FText const & __ptr64,enum ETextCommit::Type)>::Execute() {0x00007ffebd300187} + 38 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Kismet.dll!TBaseSPMethodDelegateInstance<0,FBlueprintVarActionDetails,0,void __cdecl(FText const & __ptr64,enum ETextCommit::Type)>::ExecuteIfSafe() {0x00007ffebd3030e7} + 14 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!SEditableText::OnEnter() {0x00007ffec88c8be9} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FTextEditHelper::OnKeyDown() {0x00007ffec880e510} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!SEditableText::OnKeyDown() {0x00007ffec88cb82c} + 74 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!<lambda_4f604f87f3ce3f5c3b6a1447676ad634>::operator()() {0x00007ffec86d40d2} + 38 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FBubblePolicy,FKeyEvent,<lambda_4f604f87f3ce3f5c3b6a1447676ad634> >() {0x00007ffec868bbad} + 21 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FEventRouter::RouteAlongFocusPath<FEventRouter::FBubblePolicy,<lambda_4f604f87f3ce3f5c3b6a1447676ad634>,FKeyEvent>() {0x00007ffec868d76a} + 52 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::ProcessKeyDownEvent() {0x00007ffec874741c} + 99 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::OnKeyDown() {0x00007ffec87348e6} + 14 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() {0x00007ffec8edd483} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::DeferMessage() {0x00007ffec8ec49d1} + 74 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() {0x00007ffec8ededc3} + 44 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::AppWndProc() {0x00007ffec8ebe5ba} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+USER32.dll {0x00007ffefbe1250d} + 0 bytes
+USER32.dll {0x00007ffefbe12367} + 0 bytes
+UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() {0x00007ffec8ee0186} + 48 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!FEngineLoop::Tick() {0x00007ff62e4b3c7a} + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMain() {0x00007ff62e4a49cc} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMainWrapper() {0x00007ff62e4a4a4a} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!WinMain() {0x00007ff62e4b65c9} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!__tmainCRTStartup() {0x00007ff62e4b75d9} + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL {0x00007ffefb6513d2} + 0 bytes
+ntdll.dll {0x00007ffefde25444} + 0 bytes
+ntdll.dll {0x00007ffefde25444} + 0 bytes
+
