@@ -1,0 +1,1078 @@
+﻿[2015.07.24-11.41.20:423][  0]Log file open, 07/24/15 13:41:20
+[2015.07.24-11.41.20:423][  0]LogInit:Display: Running engine for game: ProjectTron
+[2015.07.24-11.41.20:423][  0]LogInit:Display: RandInit(741515857) SRandInit(741515857).
+[2015.07.24-11.41.20:423][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.07.24-11.41.20:423][  0]LogStats: Stats thread started
+[2015.07.24-11.41.20:423][  0]LogInit: Version: 4.8.2-2614606+++depot+UE4-Releases+4.8
+[2015.07.24-11.41.20:423][  0]LogInit: API Version: 2579680
+[2015.07.24-11.41.20:423][  0]LogInit: Compiled (64-bit): Jul  8 2015 23:43:41
+[2015.07.24-11.41.20:423][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.07.24-11.41.20:423][  0]LogInit: Build Configuration: Development
+[2015.07.24-11.41.20:423][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.07.24-11.41.20:423][  0]LogInit: Command line:  
+[2015.07.24-11.41.20:423][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.07.24-11.41.20:423][  0]LogInit: Rocket: 1
+[2015.07.24-11.41.20:441][  0]LogInit: Using libcurl 7.41.0
+[2015.07.24-11.41.20:441][  0]LogInit:  - built for x86_64-pc-win32
+[2015.07.24-11.41.20:441][  0]LogInit:  - supports SSL with WinSSL
+[2015.07.24-11.41.20:441][  0]LogInit:  - other features:
+[2015.07.24-11.41.20:441][  0]LogInit:      CURL_VERSION_SSL
+[2015.07.24-11.41.20:441][  0]LogInit:      CURL_VERSION_IPV6
+[2015.07.24-11.41.20:441][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.07.24-11.41.20:441][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.07.24-11.41.20:441][  0]LogInit:      CURL_VERSION_IDN
+[2015.07.24-11.41.20:442][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.07.24-11.41.20:442][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.07.24-11.41.20:442][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.07.24-11.41.20:442][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.07.24-11.41.20:442][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.07.24-11.41.20:456][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.07.24-11.41.20:474][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.07.24-11.41.20:483][  0]LogInit: Object subsystem initialized
+[2015.07.24-11.41.20:484][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.07.24-11.41.20:484][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Quentin/Desktop/ProjectTron/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.24-11.41.20:484][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.07.24-11.41.20:484][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Quentin/Desktop/ProjectTron/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.24-11.41.20:484][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.07.24-11.41.20:484][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Quentin/Desktop/ProjectTron/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.24-11.41.20:485][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.24-11.41.20:485][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.07.24-11.41.20:507][  0]LogInit: Computer: ASUS
+[2015.07.24-11.41.20:507][  0]LogInit: User: Quentin
+[2015.07.24-11.41.20:507][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.07.24-11.41.20:507][  0]LogInit: High frequency timer resolution =2.533323 MHz
+[2015.07.24-11.41.20:507][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.07.24-11.41.20:507][  0]LogMemory: Platform Memory Stats for Windows
+[2015.07.24-11.41.20:507][  0]LogMemory: Process Physical Memory: 51.70 MB used, 51.70 MB peak
+[2015.07.24-11.41.20:507][  0]LogMemory: Process Virtual Memory: 24.38 MB used, 24.38 MB peak
+[2015.07.24-11.41.20:507][  0]LogMemory: Physical Memory: 3063.08 MB used, 8069.54 MB total
+[2015.07.24-11.41.20:507][  0]LogMemory: Virtual Memory: 296.91 MB used, 134217728.00 MB total
+[2015.07.24-11.41.20:554][  0]LogTextLocalizationManager: The requested culture ('fr_FR') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.07.24-11.41.20:837][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.07.24-11.41.21:352][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2015.07.24-11.41.21:352][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
+[2015.07.24-11.41.21:369][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 635M    (Feature Level 11_0)
+[2015.07.24-11.41.21:369][  0]LogD3D11RHI: Adapter has 1996MB of dedicated video memory, 0MB of dedicated system memory, and 2047MB of shared system memory, 0 output[s]
+[2015.07.24-11.41.21:370][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.07.24-11.41.21:370][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.07.24-11.41.21:370][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.07.24-11.41.21:377][  0]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.41.21:377][  0]LogD3D11RHI: !Direct3DDevice
+[2015.07.24-11.41.21:377][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.07.24-11.41.21:392][  0]LogD3D11RHI: Async texture creation enabled
+[2015.07.24-11.41.21:411][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.07.24-11.41.22:539][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.07.24-11.41.22:556][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.07.24-11.41.22:574][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.07.24-11.41.22:591][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.07.24-11.41.22:611][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.07.24-11.41.22:626][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.07.24-11.41.22:640][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.07.24-11.41.22:656][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.07.24-11.41.22:670][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.07.24-11.41.22:686][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.07.24-11.41.22:700][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.07.24-11.41.22:715][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.07.24-11.41.22:771][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.07.24-11.41.22:785][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.07.24-11.41.22:800][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.07.24-11.41.22:817][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.07.24-11.41.22:817][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.07.24-11.41.23:067][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.07.24-11.41.23:122][  0]LogDerivedDataCache: Loaded boot cache 0.06s 53MB C:/Users/Quentin/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.24-11.41.23:122][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Quentin/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.07.24-11.41.23:122][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Quentin/Desktop/ProjectTron/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.07.24-11.41.23:122][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.07.24-11.41.23:122][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Quentin/Desktop/ProjectTron/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.07.24-11.41.23:122][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.07.24-11.41.23:298][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.07.24-11.41.23:310][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Quentin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.07.24-11.41.23:602][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.24-11.41.23:696][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.24-11.41.23:697][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.24-11.41.23:728][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.07.24-11.41.23:728][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.07.24-11.41.24:099][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.07.24-11.41.25:224][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.07.24-11.41.25:671][  0]SourceControl: Info Source control is disabled
+[2015.07.24-11.41.25:681][  0]SourceControl: Info Source control is disabled
+[2015.07.24-11.41.25:693][  0]SourceControl: Info Source control is disabled
+[2015.07.24-11.41.25:704][  0]SourceControl: Info Source control is disabled
+[2015.07.24-11.41.25:992][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.07.24-11.41.25:992][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.07.24-11.41.26:076][  0]LogEngine: Initializing Engine...
+[2015.07.24-11.41.26:079][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.07.24-11.41.26:080][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 100
+[2015.07.24-11.41.26:268][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.07.24-11.41.26:272][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.24-11.41.26:285][  0]LogInit: FAudioDevice initialized.
+[2015.07.24-11.41.26:312][  0]LogDerivedDataCache: Saved boot cache 0.03s 53MB C:/Users/Quentin/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.24-11.41.26:334][  0]LogInit: Texture streaming: Disabled
+[2015.07.24-11.41.26:362][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.07.24-11.41.26:362][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.2-2614606+++depot+UE4-Releases+4.8
+[2015.07.24-11.41.26:362][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 2d3bc0f041f185fa28a8c7b684d10d16|5321c04d5e864f15b49acee236f509ea|73d0ac54-4603-4a09-8685-17c06caaac3e
+[2015.07.24-11.41.26:363][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.07.24-11.41.26:398][  0]LogInit: Transaction tracking system initialized
+[2015.07.24-11.41.26:595][  0]BlueprintLog: New page: Editor Load
+[2015.07.24-11.41.26:645][  0]LogAssetRegistry: FAssetRegistry took 0.0110 seconds to start up
+[2015.07.24-11.41.26:645][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.07.24-11.41.27:913][  0]LogLinker:Warning: Can't find file '/Game/2DSideScrollerBP/2DSideScrollerOverview'
+[2015.07.24-11.41.27:913][  0]LogLinker:Warning: Can't find file '/Game/2DSideScrollerBP/2DSideScrollerOverview'
+[2015.07.24-11.41.27:913][  0]LogLinker:Warning: Can't find file '/Game/2DSideScrollerBP/2DSideScrollerOverview'
+[2015.07.24-11.41.27:913][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/2DSideScrollerBP/2DSideScrollerOverview.2DSideScrollerOverview_C'
+[2015.07.24-11.41.28:000][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.07.24-11.41.28:001][  0]LogConsoleResponse:Display: 
+[2015.07.24-11.41.28:172][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.07.24-11.41.28:456][  0]SourceControl: Info Source control is disabled
+[2015.07.24-11.41.28:456][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Quentin/Desktop/ProjectTron/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.24-11.41.28:457][  0]LightingResults: New page: Lighting Build
+[2015.07.24-11.41.28:476][  0]MapCheck: New page: Map Check
+[2015.07.24-11.41.28:476][  0]LightingResults: New page: Lighting Build
+[2015.07.24-11.41.28:500][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000875F5789A0
+[2015.07.24-11.41.29:808][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.24-11.41.29:827][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.24-11.41.29:837][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.24-11.41.29:900][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 63.251ms to complete.
+[2015.07.24-11.41.29:900][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.444
+[2015.07.24-11.41.29:985][  0]LogCollectionManager: Loaded 0 collections in 0.003776 seconds
+[2015.07.24-11.41.29:996][  0]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 1792 classes and 301 folders.
+[2015.07.24-11.41.30:057][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.07.24-11.41.30:097][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.07.24-11.41.30:172][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2015.07.24-11.41.30:220][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.07.24-11.41.30:222][  0]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.41.30:226][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.07.24-11.41.30:249][  0]LogLoad: Full Startup: 11.90 seconds (BP compile: 0.77 seconds)
+[2015.07.24-11.41.30:660][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.07.24-11.41.30:724][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.07.24-11.41.30:894][  0]LogRenderer: Reallocating scene render targets to support 872x704 (Frame:2).
+[2015.07.24-11.41.31:337][  3]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.41.32:150][  9]LogAssetRegistry: Asset discovery search completed in 5.5173 seconds
+[2015.07.24-11.41.34:558][ 75]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.41.38:381][139]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.41.39:620][210]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.41.39:681][210]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.24-11.41.39:790][210]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.24-11.41.48:381][655]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.24-11.41.48:399][655]LogPlayLevel: [PIE] Compiling Minimal_Default before PIE...
+[2015.07.24-11.41.48:698][655]LogPlayLevel: PIE:  Blueprint regeneration took 317 ms (1 blueprints)
+[2015.07.24-11.41.48:701][655]PIE: New page: SIE session: Minimal_Default (Jul 24, 2015, 3:41:48 PM)
+[2015.07.24-11.41.48:701][655]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.07.24-11.41.48:709][655]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007245s)
+[2015.07.24-11.41.48:709][655]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.24-11.41.48:710][655]LogPlayLevel: PIE: World Init took: (0.001337s)
+[2015.07.24-11.41.48:710][655]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008861s)
+[2015.07.24-11.41.48:757][655]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.24-11.41.48:763][655]LogInit: FAudioDevice initialized.
+[2015.07.24-11.41.48:827][655]LogWorld: Game class is 'GameMode_BP_C'
+[2015.07.24-11.41.48:842][655]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.07.24-13.41.48
+[2015.07.24-11.41.48:842][655]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.41.48:842][655]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.41.48:843][655]LogWorld: Bringing up level for play took: 0.013560
+[2015.07.24-11.41.48:844][655]LogBlueprintUserMessages: Déjà dans l'état désiré
+[2015.07.24-11.41.48:846][655]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.252
+[2015.07.24-11.42.10:966][655]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: EventPath.Widgets.Num() > 0 [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.8\Engine\Source\Runtime\Slate\Private\Framework\Application\SlateApplication.cpp] [Line: 464]
+An unknown widget is attempting to set capture to SViewport [SEditorViewport.cpp(42)]
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() {0x00007ffffb76ac36} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureFailed() {0x00007ffffb604411} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureNotFalse_OptionallyLogFormattedEnsureMessageReturningFalse() {0x00007ffffb6046c3} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::MouseCaptorHelper::SetMouseCaptor() {0x00007ffffabafb86} + 200 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::ProcessReply() {0x00007ffffab9a8e6} + 47 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!FEngineLoop::ProcessLocalPlayerSlateOperations() {0x00007ff7329cfa34} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!FEngineLoop::Tick() {0x00007ff7329d4be7} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMain() {0x00007ff7329c49cc} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMainWrapper() {0x00007ff7329c4a4a} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!WinMain() {0x00007ff7329d65c9} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!__tmainCRTStartup() {0x00007ff7329d75d9} + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL {0x00007ff8195313d2} + 0 bytes
+ntdll.dll {0x00007ff81b945444} + 0 bytes
+ntdll.dll {0x00007ff81b945444} + 0 bytes
+
+[2015.07.24-11.42.18:119][655]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: bFoundWidget [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.8\Engine\Source\Runtime\Slate\Private\Framework\Application\SlateApplication.cpp] [Line: 2507]
+Attempting to LockCursor() to widget but could not find widget SViewport [SEditorViewport.cpp(42)]
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() {0x00007ffffb76ac36} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureFailed() {0x00007ffffb604411} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureNotFalse_OptionallyLogFormattedEnsureMessageReturningFalse() {0x00007ffffb6046c3} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::LockCursor() {0x00007ffffab7417a} + 183 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::ProcessReply() {0x00007ffffab9acfd} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!FEngineLoop::ProcessLocalPlayerSlateOperations() {0x00007ff7329cfa34} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!FEngineLoop::Tick() {0x00007ff7329d4be7} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMain() {0x00007ff7329c49cc} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMainWrapper() {0x00007ff7329c4a4a} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!WinMain() {0x00007ff7329d65c9} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!__tmainCRTStartup() {0x00007ff7329d75d9} + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL {0x00007ff8195313d2} + 0 bytes
+ntdll.dll {0x00007ff81b945444} + 0 bytes
+ntdll.dll {0x00007ff81b945444} + 0 bytes
+
+[2015.07.24-11.42.20:879][751]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000871BEDCD60
+[2015.07.24-11.42.21:500][787]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.24-11.42.21:511][787]LogPlayLevel: [PIE] Compiling Minimal_Default before PIE...
+[2015.07.24-11.42.21:632][787]LogPlayLevel: PIE:  Blueprint regeneration took 132 ms (1 blueprints)
+[2015.07.24-11.42.21:633][787]PIE: New page: SIE session: Minimal_Default (Jul 24, 2015, 3:42:21 PM)
+[2015.07.24-11.42.21:633][787]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.07.24-11.42.21:641][787]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007491s)
+[2015.07.24-11.42.21:641][787]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.24-11.42.21:642][787]LogPlayLevel: PIE: World Init took: (0.001379s)
+[2015.07.24-11.42.21:642][787]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.009122s)
+[2015.07.24-11.42.21:686][787]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.24-11.42.21:693][787]LogInit: FAudioDevice initialized.
+[2015.07.24-11.42.21:724][787]LogWorld: Game class is 'GameMode_BP_C'
+[2015.07.24-11.42.21:731][787]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.07.24-13.42.21
+[2015.07.24-11.42.21:731][787]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.42.21:732][787]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.42.21:732][787]LogWorld: Bringing up level for play took: 0.005786
+[2015.07.24-11.42.21:733][787]LogBlueprintUserMessages: Déjà dans l'état désiré
+[2015.07.24-11.42.21:734][787]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.141
+[2015.07.24-11.42.21:749][787]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: EventPath.Widgets.Num() > 0 [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.8\Engine\Source\Runtime\Slate\Private\Framework\Application\SlateApplication.cpp] [Line: 464]
+An unknown widget is attempting to set capture to SViewport [SEditorViewport.cpp(42)]
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() {0x00007ffffb76ac36} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureFailed() {0x00007ffffb604411} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureNotFalse_OptionallyLogFormattedEnsureMessageReturningFalse() {0x00007ffffb6046c3} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::MouseCaptorHelper::SetMouseCaptor() {0x00007ffffabafb86} + 200 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::ProcessReply() {0x00007ffffab9a8e6} + 47 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!FEngineLoop::ProcessLocalPlayerSlateOperations() {0x00007ff7329cfa34} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!FEngineLoop::Tick() {0x00007ff7329d4be7} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMain() {0x00007ff7329c49cc} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMainWrapper() {0x00007ff7329c4a4a} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!WinMain() {0x00007ff7329d65c9} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!__tmainCRTStartup() {0x00007ff7329d75d9} + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL {0x00007ff8195313d2} + 0 bytes
+ntdll.dll {0x00007ff81b945444} + 0 bytes
+ntdll.dll {0x00007ff81b945444} + 0 bytes
+
+[2015.07.24-11.42.21:754][787]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: bFoundWidget [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.8\Engine\Source\Runtime\Slate\Private\Framework\Application\SlateApplication.cpp] [Line: 2507]
+Attempting to LockCursor() to widget but could not find widget SViewport [SEditorViewport.cpp(42)]
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() {0x00007ffffb76ac36} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureFailed() {0x00007ffffb604411} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureNotFalse_OptionallyLogFormattedEnsureMessageReturningFalse() {0x00007ffffb6046c3} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::LockCursor() {0x00007ffffab7417a} + 183 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::ProcessReply() {0x00007ffffab9acfd} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!FEngineLoop::ProcessLocalPlayerSlateOperations() {0x00007ff7329cfa34} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!FEngineLoop::Tick() {0x00007ff7329d4be7} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMain() {0x00007ff7329c49cc} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMainWrapper() {0x00007ff7329c4a4a} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!WinMain() {0x00007ff7329d65c9} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!__tmainCRTStartup() {0x00007ff7329d75d9} + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL {0x00007ff8195313d2} + 0 bytes
+ntdll.dll {0x00007ff81b945444} + 0 bytes
+ntdll.dll {0x00007ff81b945444} + 0 bytes
+
+[2015.07.24-11.42.24:528][948]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008777622480
+[2015.07.24-11.43.17:589][425]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.43.17:693][425]LogAIModule: Creating AISystem for world MenuLevel
+[2015.07.24-11.43.17:769][425]Cmd: MAP LOAD FILE="../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Level/MenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.24-11.43.17:769][425]LightingResults: New page: Lighting Build
+[2015.07.24-11.43.17:789][425]LoadErrors: New page: Loading map: MenuLevel.umap
+[2015.07.24-11.43.17:821][425]MapCheck: New page: Map Check
+[2015.07.24-11.43.17:821][425]LightingResults: New page: Lighting Build
+[2015.07.24-11.43.17:857][425]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000875A4B62A0
+[2015.07.24-11.43.17:858][425]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000087779C11C0
+[2015.07.24-11.43.18:035][425]LogAIModule: Creating AISystem for world MenuLevel
+[2015.07.24-11.43.18:046][425]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.24-11.43.18:094][425]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.24-11.43.18:151][425]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 57.038ms to complete.
+[2015.07.24-11.43.18:152][425]LogFileHelpers: Loading map 'MenuLevel' took 0.385
+[2015.07.24-11.43.19:211][450]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.43.19:786][484]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.43.20:679][531]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.43.23:686][696]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.43.30:682][100]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.43.31:066][119]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.43.44:046][886]BlueprintLog: New page: Compile ProjectTronInstance
+[2015.07.24-11.43.44:177][886]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.24-11.43.44:250][886]BlueprintEditorCompileResults: Info [0145.90] Compile of ProjectTronInstance successful! [in 204 ms]
+[2015.07.24-11.43.45:242][944]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.24-11.43.45:252][944]LogPlayLevel: [PIE] Compiling MenuLevel before PIE...
+[2015.07.24-11.43.45:368][944]LogPlayLevel: PIE:  Blueprint regeneration took 125 ms (1 blueprints)
+[2015.07.24-11.43.45:368][944]PIE: New page: SIE session: MenuLevel (Jul 24, 2015, 3:43:45 PM)
+[2015.07.24-11.43.45:374][944]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_MenuLevel
+[2015.07.24-11.43.45:376][944]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002228s)
+[2015.07.24-11.43.45:377][944]LogAIModule: Creating AISystem for world MenuLevel
+[2015.07.24-11.43.45:378][944]LogPlayLevel: PIE: World Init took: (0.001158s)
+[2015.07.24-11.43.45:378][944]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/MenuLevel.MenuLevel to /Game/Level/UEDPIE_0_MenuLevel.MenuLevel (0.003587s)
+[2015.07.24-11.43.45:421][944]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.24-11.43.45:428][944]LogInit: FAudioDevice initialized.
+[2015.07.24-11.43.45:459][944]LogWorld: Game class is 'GameMode_BP_C'
+[2015.07.24-11.43.45:461][944]LogWorld: Bringing World /Game/Level/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 60) at 2015.07.24-13.43.45
+[2015.07.24-11.43.45:461][944]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.43.45:461][944]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.43.45:461][944]LogWorld: Bringing up level for play took: 0.001066
+[2015.07.24-11.43.45:462][944]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.24-11.43.45:463][944]LogBlueprintUserMessages: nope
+[2015.07.24-11.43.45:463][944]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_MenuLevel 0.87
+[2015.07.24-11.43.48:645][131]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000870E72C7C0
+[2015.07.24-11.43.50:151][220]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.24-11.43.50:168][220]LogPlayLevel: [PIE] Compiling MenuLevel before PIE...
+[2015.07.24-11.43.50:286][220]LogPlayLevel: PIE:  Blueprint regeneration took 135 ms (1 blueprints)
+[2015.07.24-11.43.50:287][220]PIE: New page: SIE session: MenuLevel (Jul 24, 2015, 3:43:50 PM)
+[2015.07.24-11.43.50:287][220]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_MenuLevel
+[2015.07.24-11.43.50:289][220]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002173s)
+[2015.07.24-11.43.50:290][220]LogAIModule: Creating AISystem for world MenuLevel
+[2015.07.24-11.43.50:291][220]LogPlayLevel: PIE: World Init took: (0.001065s)
+[2015.07.24-11.43.50:291][220]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/MenuLevel.MenuLevel to /Game/Level/UEDPIE_0_MenuLevel.MenuLevel (0.003438s)
+[2015.07.24-11.43.50:335][220]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.24-11.43.50:341][220]LogInit: FAudioDevice initialized.
+[2015.07.24-11.43.50:372][220]LogWorld: Game class is 'GameMode_BP_C'
+[2015.07.24-11.43.50:374][220]LogWorld: Bringing World /Game/Level/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 60) at 2015.07.24-13.43.50
+[2015.07.24-11.43.50:374][220]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.43.50:375][220]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.43.50:375][220]LogWorld: Bringing up level for play took: 0.001118
+[2015.07.24-11.43.50:376][220]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.24-11.43.50:376][220]LogBlueprintUserMessages: nope
+[2015.07.24-11.43.50:377][220]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_MenuLevel -0.217
+[2015.07.24-11.43.51:576][288]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008766263240
+[2015.07.24-11.44.14:415][ 88]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.44.15:143][130]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.24-11.44.15:158][130]LogPlayLevel: [PIE] Compiling MenuLevel before PIE...
+[2015.07.24-11.44.15:277][130]LogPlayLevel: PIE:  Blueprint regeneration took 134 ms (1 blueprints)
+[2015.07.24-11.44.15:277][130]PIE: New page: PIE session: MenuLevel (Jul 24, 2015, 3:44:15 PM)
+[2015.07.24-11.44.15:278][130]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_MenuLevel
+[2015.07.24-11.44.15:280][130]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002194s)
+[2015.07.24-11.44.15:281][130]LogAIModule: Creating AISystem for world MenuLevel
+[2015.07.24-11.44.15:282][130]LogPlayLevel: PIE: World Init took: (0.001235s)
+[2015.07.24-11.44.15:282][130]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/MenuLevel.MenuLevel to /Game/Level/UEDPIE_0_MenuLevel.MenuLevel (0.003635s)
+[2015.07.24-11.44.15:324][130]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.24-11.44.15:331][130]LogInit: FAudioDevice initialized.
+[2015.07.24-11.44.15:334][130]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.44.15:367][130]LogWorld: Game class is 'GameMode_BP_C'
+[2015.07.24-11.44.15:369][130]LogWorld: Bringing World /Game/Level/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 60) at 2015.07.24-13.44.15
+[2015.07.24-11.44.15:369][130]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.44.15:369][130]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.44.15:370][130]LogWorld: Bringing up level for play took: 0.001113
+[2015.07.24-11.44.15:370][130]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.24-11.44.15:392][130]LogBlueprintUserMessages: nope
+[2015.07.24-11.44.15:400][130]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_MenuLevel 0.807
+[2015.07.24-11.44.15:422][130]LogRenderer: Reallocating scene render targets to support 1296x760 (Frame:254).
+[2015.07.24-11.44.17:870][183]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008705C2D8A0
+[2015.07.24-11.44.23:956][548]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.44.27:220][739]BlueprintLog: New page: Compile ProjectTronInstance
+[2015.07.24-11.44.27:408][739]BlueprintEditorCompileResults: Info [0189.05] Compile of ProjectTronInstance successful! [in 188 ms]
+[2015.07.24-11.44.28:929][829]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.24-11.44.28:948][829]LogPlayLevel: [PIE] Compiling MenuLevel before PIE...
+[2015.07.24-11.44.29:066][829]LogPlayLevel: PIE:  Blueprint regeneration took 137 ms (1 blueprints)
+[2015.07.24-11.44.29:066][829]PIE: New page: PIE session: MenuLevel (Jul 24, 2015, 3:44:29 PM)
+[2015.07.24-11.44.29:072][829]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_MenuLevel
+[2015.07.24-11.44.29:075][829]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002180s)
+[2015.07.24-11.44.29:075][829]LogAIModule: Creating AISystem for world MenuLevel
+[2015.07.24-11.44.29:076][829]LogPlayLevel: PIE: World Init took: (0.001149s)
+[2015.07.24-11.44.29:076][829]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/MenuLevel.MenuLevel to /Game/Level/UEDPIE_0_MenuLevel.MenuLevel (0.003521s)
+[2015.07.24-11.44.29:119][829]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.24-11.44.29:125][829]LogInit: FAudioDevice initialized.
+[2015.07.24-11.44.29:128][829]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.44.29:159][829]LogWorld: Game class is 'GameMode_BP_C'
+[2015.07.24-11.44.29:161][829]LogWorld: Bringing World /Game/Level/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 60) at 2015.07.24-13.44.29
+[2015.07.24-11.44.29:161][829]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.44.29:161][829]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.44.29:161][829]LogWorld: Bringing up level for play took: 0.001118
+[2015.07.24-11.44.29:162][829]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.24-11.44.29:164][829]LogBlueprintUserMessages: nope
+[2015.07.24-11.44.29:175][829]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_MenuLevel 0.581
+[2015.07.24-11.44.30:292][853]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000087575582C0
+[2015.07.24-11.44.31:146][904]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.44.33:286][ 32]BlueprintLog: New page: Compile ProjectTronInstance
+[2015.07.24-11.44.33:470][ 32]BlueprintEditorCompileResults: Info [0195.12] Compile of ProjectTronInstance successful! [in 184 ms]
+[2015.07.24-11.44.34:275][ 79]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.24-11.44.34:286][ 79]LogPlayLevel: [PIE] Compiling MenuLevel before PIE...
+[2015.07.24-11.44.34:406][ 79]LogPlayLevel: PIE:  Blueprint regeneration took 130 ms (1 blueprints)
+[2015.07.24-11.44.34:406][ 79]PIE: New page: PIE session: MenuLevel (Jul 24, 2015, 3:44:34 PM)
+[2015.07.24-11.44.34:412][ 79]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_MenuLevel
+[2015.07.24-11.44.34:414][ 79]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002164s)
+[2015.07.24-11.44.34:415][ 79]LogAIModule: Creating AISystem for world MenuLevel
+[2015.07.24-11.44.34:415][ 79]LogPlayLevel: PIE: World Init took: (0.001070s)
+[2015.07.24-11.44.34:416][ 79]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/MenuLevel.MenuLevel to /Game/Level/UEDPIE_0_MenuLevel.MenuLevel (0.003444s)
+[2015.07.24-11.44.34:458][ 79]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.24-11.44.34:464][ 79]LogInit: FAudioDevice initialized.
+[2015.07.24-11.44.34:467][ 79]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.44.34:498][ 79]LogWorld: Game class is 'GameMode_BP_C'
+[2015.07.24-11.44.34:500][ 79]LogWorld: Bringing World /Game/Level/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 60) at 2015.07.24-13.44.34
+[2015.07.24-11.44.34:500][ 79]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.44.34:501][ 79]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.44.34:501][ 79]LogWorld: Bringing up level for play took: 0.001543
+[2015.07.24-11.44.34:502][ 79]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.24-11.44.34:593][ 79]LogPackageName: SearchForPackageOnDisk took   0.077s to resolve MenuLevel.umap
+[2015.07.24-11.44.34:648][ 79]LogScript:Warning: DestroySession - Invalid or uninitialized OnlineSubsystem
+[2015.07.24-11.44.34:649][ 79]LogScript:Warning: DestroySession - Cannot map local player to unique net ID
+[2015.07.24-11.44.34:715][ 79]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_MenuLevel 0.122
+[2015.07.24-11.44.34:788][ 79]LogPackageName: SearchForPackageOnDisk took   0.072s to resolve MenuLevel.umap
+[2015.07.24-11.44.34:788][ 79]LogNet: Browse: /Game/Level/MenuLevel
+[2015.07.24-11.44.34:799][ 79]LogLoad: LoadMap: /Game/Level/MenuLevel
+[2015.07.24-11.44.34:914][ 79]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000870A3D74C0
+[2015.07.24-11.44.34:915][ 79]Cmd: MEM
+[2015.07.24-11.44.35:056][ 79]LogMemory: Platform Memory Stats for Windows
+[2015.07.24-11.44.35:056][ 79]LogMemory: Process Physical Memory: 2569.66 MB used, 2597.09 MB peak
+[2015.07.24-11.44.35:056][ 79]LogMemory: Process Virtual Memory: 3198.71 MB used, 3349.79 MB peak
+[2015.07.24-11.44.35:056][ 79]LogMemory: Physical Memory: 6371.09 MB used, 8069.54 MB total
+[2015.07.24-11.44.35:056][ 79]LogMemory: Virtual Memory: 4262.99 MB used, 134217728.00 MB total
+[2015.07.24-11.44.35:056][ 79]LogMemory: 
+[2015.07.24-11.44.35:056][ 79]Allocator Stats for TBB: (not implemented)
+[2015.07.24-11.44.35:087][ 79]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_MenuLevel
+[2015.07.24-11.44.35:089][ 79]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002256s)
+[2015.07.24-11.44.35:090][ 79]LogAIModule: Creating AISystem for world MenuLevel
+[2015.07.24-11.44.35:090][ 79]LogPlayLevel: PIE: World Init took: (0.001141s)
+[2015.07.24-11.44.35:091][ 79]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/MenuLevel.MenuLevel to /Game/Level/UEDPIE_0_MenuLevel.MenuLevel (0.003619s)
+[2015.07.24-11.44.35:091][ 79]LogWorld: Game class is 'GameMode_BP_C'
+[2015.07.24-11.44.35:093][ 79]LogWorld: Bringing World /Game/Level/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 60) at 2015.07.24-13.44.35
+[2015.07.24-11.44.35:093][ 79]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.44.35:093][ 79]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.44.35:094][ 79]LogWorld: Bringing up level for play took: 0.000925
+[2015.07.24-11.44.35:094][ 79]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.24-11.44.35:096][ 79]LogBlueprintUserMessages: nope
+[2015.07.24-11.44.39:496][182]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008700A39C60
+[2015.07.24-11.44.41:266][288]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.44.43:666][432]BlueprintLog: New page: Compile ProjectTronInstance
+[2015.07.24-11.44.43:851][432]BlueprintEditorCompileResults: Info [0205.50] Compile of ProjectTronInstance successful! [in 185 ms]
+[2015.07.24-11.44.44:588][475]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.24-11.44.44:603][475]LogPlayLevel: [PIE] Compiling MenuLevel before PIE...
+[2015.07.24-11.44.44:723][475]LogPlayLevel: PIE:  Blueprint regeneration took 135 ms (1 blueprints)
+[2015.07.24-11.44.44:723][475]PIE: New page: PIE session: MenuLevel (Jul 24, 2015, 3:44:44 PM)
+[2015.07.24-11.44.44:729][475]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_MenuLevel
+[2015.07.24-11.44.44:731][475]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002175s)
+[2015.07.24-11.44.44:732][475]LogAIModule: Creating AISystem for world MenuLevel
+[2015.07.24-11.44.44:733][475]LogPlayLevel: PIE: World Init took: (0.001067s)
+[2015.07.24-11.44.44:733][475]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/MenuLevel.MenuLevel to /Game/Level/UEDPIE_0_MenuLevel.MenuLevel (0.003439s)
+[2015.07.24-11.44.44:776][475]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.24-11.44.44:783][475]LogInit: FAudioDevice initialized.
+[2015.07.24-11.44.44:786][475]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.44.44:817][475]LogWorld: Game class is 'GameMode_BP_C'
+[2015.07.24-11.44.44:819][475]LogWorld: Bringing World /Game/Level/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 60) at 2015.07.24-13.44.44
+[2015.07.24-11.44.44:819][475]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.44.44:820][475]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.44.44:820][475]LogWorld: Bringing up level for play took: 0.001362
+[2015.07.24-11.44.44:821][475]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.24-11.44.44:823][475]LogBlueprintUserMessages: nope
+[2015.07.24-11.44.44:833][475]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_MenuLevel 0.239
+[2015.07.24-11.44.46:582][514]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000871A5EE2A0
+[2015.07.24-11.44.48:901][653]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.44.51:472][804]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.24-11.44.51:487][804]LogPlayLevel: [PIE] Compiling ProjectTronInstance before PIE...
+[2015.07.24-11.44.51:637][804]LogPlayLevel: [PIE] Compiling MenuLevel before PIE...
+[2015.07.24-11.44.51:761][804]LogPlayLevel: PIE:  Blueprint regeneration took 288 ms (2 blueprints)
+[2015.07.24-11.44.51:761][804]PIE: New page: PIE session: MenuLevel (Jul 24, 2015, 3:44:51 PM)
+[2015.07.24-11.44.51:767][804]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_MenuLevel
+[2015.07.24-11.44.51:769][804]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002117s)
+[2015.07.24-11.44.51:770][804]LogAIModule: Creating AISystem for world MenuLevel
+[2015.07.24-11.44.51:770][804]LogPlayLevel: PIE: World Init took: (0.001108s)
+[2015.07.24-11.44.51:771][804]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/MenuLevel.MenuLevel to /Game/Level/UEDPIE_0_MenuLevel.MenuLevel (0.003433s)
+[2015.07.24-11.44.51:814][804]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.24-11.44.51:820][804]LogInit: FAudioDevice initialized.
+[2015.07.24-11.44.51:822][804]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.44.51:853][804]LogWorld: Game class is 'GameMode_BP_C'
+[2015.07.24-11.44.51:855][804]LogWorld: Bringing World /Game/Level/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 60) at 2015.07.24-13.44.51
+[2015.07.24-11.44.51:855][804]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.44.51:856][804]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.44.51:856][804]LogWorld: Bringing up level for play took: 0.001197
+[2015.07.24-11.44.51:857][804]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.24-11.44.51:859][804]LogBlueprintUserMessages: nope
+[2015.07.24-11.44.51:866][804]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_MenuLevel 1.273
+[2015.07.24-11.44.52:812][824]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000877752A840
+[2015.07.24-11.44.55:112][962]BlueprintLog: New page: Compile ProjectTronInstance
+[2015.07.24-11.44.55:294][962]BlueprintEditorCompileResults: Info [0216.94] Compile of ProjectTronInstance successful! [in 182 ms]
+[2015.07.24-11.44.57:182][ 74]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.24-11.44.57:193][ 74]LogPlayLevel: [PIE] Compiling MenuLevel before PIE...
+[2015.07.24-11.44.57:311][ 74]LogPlayLevel: PIE:  Blueprint regeneration took 129 ms (1 blueprints)
+[2015.07.24-11.44.57:311][ 74]PIE: New page: PIE session: MenuLevel (Jul 24, 2015, 3:44:57 PM)
+[2015.07.24-11.44.57:317][ 74]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_MenuLevel
+[2015.07.24-11.44.57:319][ 74]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002109s)
+[2015.07.24-11.44.57:320][ 74]LogAIModule: Creating AISystem for world MenuLevel
+[2015.07.24-11.44.57:320][ 74]LogPlayLevel: PIE: World Init took: (0.001078s)
+[2015.07.24-11.44.57:321][ 74]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/MenuLevel.MenuLevel to /Game/Level/UEDPIE_0_MenuLevel.MenuLevel (0.003393s)
+[2015.07.24-11.44.57:364][ 74]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.24-11.44.57:371][ 74]LogInit: FAudioDevice initialized.
+[2015.07.24-11.44.57:374][ 74]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.44.57:407][ 74]LogWorld: Game class is 'GameMode_BP_C'
+[2015.07.24-11.44.57:409][ 74]LogWorld: Bringing World /Game/Level/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 60) at 2015.07.24-13.44.57
+[2015.07.24-11.44.57:409][ 74]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.44.57:409][ 74]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.44.57:409][ 74]LogWorld: Bringing up level for play took: 0.001076
+[2015.07.24-11.44.57:410][ 74]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.24-11.44.57:412][ 74]LogBlueprintUserMessages: nope
+[2015.07.24-11.44.57:422][ 74]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_MenuLevel 0.829
+[2015.07.24-11.44.58:115][ 88]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008700A3B100
+[2015.07.24-11.44.58:718][124]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.45.01:953][317]BlueprintLog: New page: Compile ProjectTronInstance
+[2015.07.24-11.45.02:201][317]BlueprintEditorCompileResults: Info [0223.85] Compile of ProjectTronInstance successful! [in 247 ms]
+[2015.07.24-11.45.02:586][336]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.45.02:612][336]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectTronInstance" FILE="../../../../../../Users/Quentin/Desktop/ProjectTron/Content/ProjectTronInstance.uasset" SILENT=true
+[2015.07.24-11.45.02:753][336]LogSavePackage: Save=88.565887ms
+[2015.07.24-11.45.02:753][336]LogSavePackage: Moving '../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/ProjectTronInstanceA19A25264A887DC1C60DC0889DF0338D.tmp' to '../../../../../../Users/Quentin/Desktop/ProjectTron/Content/ProjectTronInstance.uasset'
+[2015.07.24-11.45.17:607][ 90]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.45.29:573][798]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.45.31:525][914]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.45.33:311][ 17]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.45.34:295][ 76]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.52.17:480][249]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.24-11.52.17:491][249]LogPlayLevel: [PIE] Compiling MenuLevel before PIE...
+[2015.07.24-11.52.17:611][249]LogPlayLevel: PIE:  Blueprint regeneration took 131 ms (1 blueprints)
+[2015.07.24-11.52.17:611][249]PIE: New page: PIE session: MenuLevel (Jul 24, 2015, 3:52:17 PM)
+[2015.07.24-11.52.20:446][249]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_MenuLevel
+[2015.07.24-11.52.20:448][249]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002518s)
+[2015.07.24-11.52.20:449][249]LogAIModule: Creating AISystem for world MenuLevel
+[2015.07.24-11.52.20:450][249]LogPlayLevel: PIE: World Init took: (0.001397s)
+[2015.07.24-11.52.20:450][249]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/MenuLevel.MenuLevel to /Game/Level/UEDPIE_0_MenuLevel.MenuLevel (0.004215s)
+[2015.07.24-11.52.20:702][249]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.24-11.52.20:709][249]LogInit: FAudioDevice initialized.
+[2015.07.24-11.52.20:712][249]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.52.20:743][249]LogWorld: Game class is 'GameMode_BP_C'
+[2015.07.24-11.52.20:745][249]LogWorld: Bringing World /Game/Level/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 60) at 2015.07.24-13.52.20
+[2015.07.24-11.52.20:745][249]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.52.20:745][249]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.52.20:746][249]LogWorld: Bringing up level for play took: 0.001176
+[2015.07.24-11.52.20:746][249]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.24-11.52.20:749][249]LogBlueprintUserMessages: nope
+[2015.07.24-11.52.20:794][249]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_MenuLevel 4.2
+[2015.07.24-11.52.30:314][408]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008766262980
+[2015.07.24-11.52.47:219][233]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.52.53:020][528]BlueprintLog: New page: Compile ProjectTronInstance
+[2015.07.24-11.52.53:603][528]BlueprintEditorCompileResults: Info [0695.25] Compile of ProjectTronInstance successful! [in 583 ms]
+[2015.07.24-11.52.55:243][626]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.52.57:079][710]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.24-11.52.57:089][710]LogPlayLevel: [PIE] Compiling MenuLevel before PIE...
+[2015.07.24-11.52.57:205][710]LogPlayLevel: PIE:  Blueprint regeneration took 126 ms (1 blueprints)
+[2015.07.24-11.52.57:205][710]PIE: New page: SIE session: MenuLevel (Jul 24, 2015, 3:52:57 PM)
+[2015.07.24-11.52.57:211][710]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_MenuLevel
+[2015.07.24-11.52.57:214][710]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002240s)
+[2015.07.24-11.52.57:214][710]LogAIModule: Creating AISystem for world MenuLevel
+[2015.07.24-11.52.57:215][710]LogPlayLevel: PIE: World Init took: (0.001236s)
+[2015.07.24-11.52.57:215][710]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/MenuLevel.MenuLevel to /Game/Level/UEDPIE_0_MenuLevel.MenuLevel (0.003681s)
+[2015.07.24-11.52.57:258][710]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.24-11.52.57:265][710]LogInit: FAudioDevice initialized.
+[2015.07.24-11.52.57:293][710]LogWorld: Game class is 'GameMode_BP_C'
+[2015.07.24-11.52.57:296][710]LogWorld: Bringing World /Game/Level/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 60) at 2015.07.24-13.52.57
+[2015.07.24-11.52.57:296][710]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.52.57:296][710]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.52.57:296][710]LogWorld: Bringing up level for play took: 0.001164
+[2015.07.24-11.52.57:297][710]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.24-11.52.57:298][710]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_MenuLevel 0.704
+[2015.07.24-11.52.58:850][796]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008703063BA0
+[2015.07.24-11.52.59:889][858]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.53.00:654][895]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.24-11.53.00:665][895]LogPlayLevel: [PIE] Compiling MenuLevel before PIE...
+[2015.07.24-11.53.00:778][895]LogPlayLevel: PIE:  Blueprint regeneration took 124 ms (1 blueprints)
+[2015.07.24-11.53.00:779][895]PIE: New page: PIE session: MenuLevel (Jul 24, 2015, 3:53:00 PM)
+[2015.07.24-11.53.00:779][895]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_MenuLevel
+[2015.07.24-11.53.00:781][895]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002137s)
+[2015.07.24-11.53.00:782][895]LogAIModule: Creating AISystem for world MenuLevel
+[2015.07.24-11.53.00:782][895]LogPlayLevel: PIE: World Init took: (0.001066s)
+[2015.07.24-11.53.00:783][895]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/MenuLevel.MenuLevel to /Game/Level/UEDPIE_0_MenuLevel.MenuLevel (0.003397s)
+[2015.07.24-11.53.00:825][895]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.24-11.53.00:832][895]LogInit: FAudioDevice initialized.
+[2015.07.24-11.53.00:834][895]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.53.00:868][895]LogWorld: Game class is 'GameMode_BP_C'
+[2015.07.24-11.53.00:870][895]LogWorld: Bringing World /Game/Level/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 60) at 2015.07.24-13.53.00
+[2015.07.24-11.53.00:870][895]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.53.00:870][895]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.53.00:870][895]LogWorld: Bringing up level for play took: 0.001066
+[2015.07.24-11.53.00:871][895]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.24-11.53.00:991][895]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_MenuLevel 0.398
+[2015.07.24-11.53.09:844][ 61]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000870E72EA20
+[2015.07.24-11.53.15:367][350]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.24-11.53.15:377][350]LogPlayLevel: [PIE] Compiling MenuLevel before PIE...
+[2015.07.24-11.53.15:492][350]LogPlayLevel: PIE:  Blueprint regeneration took 125 ms (1 blueprints)
+[2015.07.24-11.53.15:492][350]PIE: New page: PIE session: MenuLevel (Jul 24, 2015, 3:53:15 PM)
+[2015.07.24-11.53.15:493][350]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_MenuLevel
+[2015.07.24-11.53.15:495][350]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002151s)
+[2015.07.24-11.53.15:495][350]LogAIModule: Creating AISystem for world MenuLevel
+[2015.07.24-11.53.15:496][350]LogPlayLevel: PIE: World Init took: (0.001129s)
+[2015.07.24-11.53.15:496][350]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/MenuLevel.MenuLevel to /Game/Level/UEDPIE_0_MenuLevel.MenuLevel (0.003469s)
+[2015.07.24-11.53.15:539][350]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.24-11.53.15:545][350]LogInit: FAudioDevice initialized.
+[2015.07.24-11.53.15:548][350]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.53.15:582][350]LogWorld: Game class is 'GameMode_BP_C'
+[2015.07.24-11.53.15:693][350]LogWorld: Bringing World /Game/Level/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 60) at 2015.07.24-13.53.15
+[2015.07.24-11.53.15:693][350]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameSession_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.53.15:694][350]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.53.15:694][350]LogWorld: Bringing up level for play took: 0.110567
+[2015.07.24-11.53.15:694][350]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.24-11.53.15:709][350]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_MenuLevel 1.115
+[2015.07.24-11.53.21:116][459]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008703187A60
+[2015.07.24-11.53.46:628][972]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.53.48:469][ 24]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.24-11.53.48:480][ 24]LogPlayLevel: [PIE] Compiling MenuLevel before PIE...
+[2015.07.24-11.53.48:706][ 24]LogPlayLevel: PIE:  Blueprint regeneration took 237 ms (1 blueprints)
+[2015.07.24-11.53.48:706][ 24]PIE: New page: SIE session: MenuLevel (Jul 24, 2015, 3:53:48 PM)
+[2015.07.24-11.53.48:707][ 24]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_MenuLevel
+[2015.07.24-11.53.48:709][ 24]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002220s)
+[2015.07.24-11.53.48:710][ 24]LogAIModule: Creating AISystem for world MenuLevel
+[2015.07.24-11.53.48:711][ 24]LogPlayLevel: PIE: World Init took: (0.001086s)
+[2015.07.24-11.53.48:711][ 24]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/MenuLevel.MenuLevel to /Game/Level/UEDPIE_0_MenuLevel.MenuLevel (0.003635s)
+[2015.07.24-11.53.48:754][ 24]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.24-11.53.48:801][ 24]LogInit: FAudioDevice initialized.
+[2015.07.24-11.53.48:833][ 24]LogWorld: Game class is 'GameMode_BP_C'
+[2015.07.24-11.53.48:835][ 24]LogWorld: Bringing World /Game/Level/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 60) at 2015.07.24-13.53.48
+[2015.07.24-11.53.48:835][ 24]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameSession_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.53.48:835][ 24]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameNetworkManager_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.53.48:835][ 24]LogWorld: Bringing up level for play took: 0.001271
+[2015.07.24-11.53.48:836][ 24]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.24-11.53.48:837][ 24]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_MenuLevel 0.243
+[2015.07.24-11.53.52:637][245]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000871C5FCCC0
+[2015.07.24-11.53.53:412][281]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.24-11.53.53:422][281]LogPlayLevel: [PIE] Compiling MenuLevel before PIE...
+[2015.07.24-11.53.53:536][281]LogPlayLevel: PIE:  Blueprint regeneration took 124 ms (1 blueprints)
+[2015.07.24-11.53.53:536][281]PIE: New page: SIE session: MenuLevel (Jul 24, 2015, 3:53:53 PM)
+[2015.07.24-11.53.53:537][281]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_MenuLevel
+[2015.07.24-11.53.53:539][281]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002160s)
+[2015.07.24-11.53.53:539][281]LogAIModule: Creating AISystem for world MenuLevel
+[2015.07.24-11.53.53:540][281]LogPlayLevel: PIE: World Init took: (0.001053s)
+[2015.07.24-11.53.53:540][281]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/MenuLevel.MenuLevel to /Game/Level/UEDPIE_0_MenuLevel.MenuLevel (0.003394s)
+[2015.07.24-11.53.53:583][281]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.24-11.53.53:589][281]LogInit: FAudioDevice initialized.
+[2015.07.24-11.53.53:615][281]LogWorld: Game class is 'GameMode_BP_C'
+[2015.07.24-11.53.53:617][281]LogWorld: Bringing World /Game/Level/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 60) at 2015.07.24-13.53.53
+[2015.07.24-11.53.53:617][281]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameSession_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.53.53:617][281]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameNetworkManager_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.53.53:617][281]LogWorld: Bringing up level for play took: 0.001109
+[2015.07.24-11.53.53:618][281]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.24-11.53.53:653][281]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_MenuLevel 1.059
+[2015.07.24-11.53.54:574][332]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000875CAB47C0
+[2015.07.24-11.54.43:476][131]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.54.44:304][173]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.54.53:755][727]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.54.56:087][864]BlueprintLog: New page: Compile ProjectTronInstance
+[2015.07.24-11.54.56:312][864]BlueprintEditorCompileResults: Info [0817.96] Compile of ProjectTronInstance successful! [in 223 ms]
+[2015.07.24-11.54.57:457][929]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.54.57:494][929]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectTronInstance" FILE="../../../../../../Users/Quentin/Desktop/ProjectTron/Content/ProjectTronInstance.uasset" SILENT=true
+[2015.07.24-11.54.57:866][929]LogSavePackage: Save=143.141235ms
+[2015.07.24-11.54.57:866][929]LogSavePackage: Moving '../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/ProjectTronInstance6D6357DF45BCA0CE53427A8E1E4913CA.tmp' to '../../../../../../Users/Quentin/Desktop/ProjectTron/Content/ProjectTronInstance.uasset'
+[2015.07.24-11.55.01:071][116]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.24-11.55.01:087][116]LogPlayLevel: [PIE] Compiling MenuLevel before PIE...
+[2015.07.24-11.55.01:245][116]LogPlayLevel: PIE:  Blueprint regeneration took 173 ms (1 blueprints)
+[2015.07.24-11.55.01:245][116]PIE: New page: SIE session: MenuLevel (Jul 24, 2015, 3:55:01 PM)
+[2015.07.24-11.55.01:254][116]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_MenuLevel
+[2015.07.24-11.55.01:257][116]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003124s)
+[2015.07.24-11.55.01:258][116]LogAIModule: Creating AISystem for world MenuLevel
+[2015.07.24-11.55.01:259][116]LogPlayLevel: PIE: World Init took: (0.001643s)
+[2015.07.24-11.55.01:259][116]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/MenuLevel.MenuLevel to /Game/Level/UEDPIE_0_MenuLevel.MenuLevel (0.005042s)
+[2015.07.24-11.55.01:312][116]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.24-11.55.01:320][116]LogInit: FAudioDevice initialized.
+[2015.07.24-11.55.01:347][116]LogWorld: Game class is 'GameMode_BP_C'
+[2015.07.24-11.55.01:350][116]LogWorld: Bringing World /Game/Level/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 60) at 2015.07.24-13.55.01
+[2015.07.24-11.55.01:350][116]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameSession_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.55.01:351][116]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameNetworkManager_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.55.01:351][116]LogWorld: Bringing up level for play took: 0.001686
+[2015.07.24-11.55.01:352][116]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.24-11.55.01:371][116]LogBlueprintUserMessages: coucou
+[2015.07.24-11.55.01:373][116]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_MenuLevel 0.779
+[2015.07.24-11.55.02:790][196]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000871C5FCFE0
+[2015.07.24-11.55.03:896][262]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.55.04:784][312]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.24-11.55.04:798][312]LogPlayLevel: [PIE] Compiling MenuLevel before PIE...
+[2015.07.24-11.55.04:914][312]LogPlayLevel: PIE:  Blueprint regeneration took 130 ms (1 blueprints)
+[2015.07.24-11.55.04:914][312]PIE: New page: PIE session: MenuLevel (Jul 24, 2015, 3:55:04 PM)
+[2015.07.24-11.55.04:915][312]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_MenuLevel
+[2015.07.24-11.55.04:917][312]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002151s)
+[2015.07.24-11.55.04:918][312]LogAIModule: Creating AISystem for world MenuLevel
+[2015.07.24-11.55.04:918][312]LogPlayLevel: PIE: World Init took: (0.001108s)
+[2015.07.24-11.55.04:918][312]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/MenuLevel.MenuLevel to /Game/Level/UEDPIE_0_MenuLevel.MenuLevel (0.003447s)
+[2015.07.24-11.55.04:962][312]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.24-11.55.04:968][312]LogInit: FAudioDevice initialized.
+[2015.07.24-11.55.04:971][312]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.55.05:006][312]LogWorld: Game class is 'GameMode_BP_C'
+[2015.07.24-11.55.05:030][312]LogWorld: Bringing World /Game/Level/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 60) at 2015.07.24-13.55.05
+[2015.07.24-11.55.05:030][312]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameSession_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.55.05:031][312]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameNetworkManager_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.55.05:031][312]LogWorld: Bringing up level for play took: 0.023565
+[2015.07.24-11.55.05:031][312]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.24-11.55.05:034][312]LogBlueprintUserMessages: coucou
+[2015.07.24-11.55.05:049][312]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_MenuLevel 0.455
+[2015.07.24-11.55.06:979][351]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008703061C60
+[2015.07.24-11.55.13:144][712]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.55.15:227][834]BlueprintLog: New page: Compile ProjectTronInstance
+[2015.07.24-11.55.15:423][834]BlueprintEditorCompileResults: Info [0837.07] Compile of ProjectTronInstance successful! [in 195 ms]
+[2015.07.24-11.55.25:109][415]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.55.26:558][500]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.55.28:386][608]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.55.28:841][632]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.55.34:606][967]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.55.35:128][995]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.55.54:594][125]BlueprintLog: New page: Compile ProjectTronInstance
+[2015.07.24-11.55.54:791][125]BlueprintEditorCompileResults: Info [0876.44] Compile of ProjectTronInstance successful! [in 197 ms]
+[2015.07.24-11.55.56:864][248]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.24-11.55.56:878][248]LogPlayLevel: [PIE] Compiling MenuLevel before PIE...
+[2015.07.24-11.55.56:998][248]LogPlayLevel: PIE:  Blueprint regeneration took 133 ms (1 blueprints)
+[2015.07.24-11.55.56:998][248]PIE: New page: PIE session: MenuLevel (Jul 24, 2015, 3:55:56 PM)
+[2015.07.24-11.55.57:005][248]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_MenuLevel
+[2015.07.24-11.55.57:007][248]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002157s)
+[2015.07.24-11.55.57:007][248]LogAIModule: Creating AISystem for world MenuLevel
+[2015.07.24-11.55.57:008][248]LogPlayLevel: PIE: World Init took: (0.001256s)
+[2015.07.24-11.55.57:008][248]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/MenuLevel.MenuLevel to /Game/Level/UEDPIE_0_MenuLevel.MenuLevel (0.003634s)
+[2015.07.24-11.55.57:051][248]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.24-11.55.57:057][248]LogInit: FAudioDevice initialized.
+[2015.07.24-11.55.57:061][248]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.55.57:093][248]LogWorld: Game class is 'GameMode_BP_C'
+[2015.07.24-11.55.57:096][248]LogWorld: Bringing World /Game/Level/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 60) at 2015.07.24-13.55.57
+[2015.07.24-11.55.57:096][248]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameSession_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.55.57:096][248]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameNetworkManager_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.55.57:096][248]LogWorld: Bringing up level for play took: 0.001136
+[2015.07.24-11.55.57:097][248]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.24-11.55.57:148][248]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_MenuLevel 0.554
+[2015.07.24-11.55.59:056][286]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008777528680
+[2015.07.24-11.56.01:155][410]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.24-11.56.01:171][410]LogPlayLevel: [PIE] Compiling MenuLevel before PIE...
+[2015.07.24-11.56.01:339][410]LogPlayLevel: PIE:  Blueprint regeneration took 184 ms (1 blueprints)
+[2015.07.24-11.56.01:339][410]PIE: New page: PIE session: MenuLevel (Jul 24, 2015, 3:56:01 PM)
+[2015.07.24-11.56.01:339][410]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_MenuLevel
+[2015.07.24-11.56.01:343][410]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003063s)
+[2015.07.24-11.56.01:343][410]LogAIModule: Creating AISystem for world MenuLevel
+[2015.07.24-11.56.01:344][410]LogPlayLevel: PIE: World Init took: (0.001422s)
+[2015.07.24-11.56.01:344][410]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/MenuLevel.MenuLevel to /Game/Level/UEDPIE_0_MenuLevel.MenuLevel (0.004722s)
+[2015.07.24-11.56.01:394][410]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.24-11.56.01:401][410]LogInit: FAudioDevice initialized.
+[2015.07.24-11.56.01:403][410]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.56.01:435][410]LogWorld: Game class is 'GameMode_BP_C'
+[2015.07.24-11.56.01:456][410]LogWorld: Bringing World /Game/Level/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 60) at 2015.07.24-13.56.01
+[2015.07.24-11.56.01:456][410]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameSession_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.56.01:457][410]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameNetworkManager_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.56.01:457][410]LogWorld: Bringing up level for play took: 0.020202
+[2015.07.24-11.56.01:458][410]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.24-11.56.01:482][410]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_MenuLevel 0.888
+[2015.07.24-11.56.02:969][439]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000871ABA37E0
+[2015.07.24-11.56.04:175][511]LogEditorTransaction: Undo Change String Pin Value
+[2015.07.24-11.56.04:237][511]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.56.04:578][524]LogEditorTransaction: Undo Change String Pin Value
+[2015.07.24-11.56.04:923][541]LogEditorTransaction: Undo Move Node
+[2015.07.24-11.56.05:245][556]LogEditorTransaction: Undo Add Node
+[2015.07.24-11.56.05:563][573]LogEditorTransaction: Undo Move Node
+[2015.07.24-11.56.05:945][594]LogEditorTransaction: Undo Add Node
+[2015.07.24-11.56.06:411][620]LogEditorTransaction: Undo Break Pin Link
+[2015.07.24-11.56.06:880][643]LogEditorTransaction: Undo Break Pin Link
+[2015.07.24-11.56.11:265][904]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.56.11:638][923]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.56.21:897][529]BlueprintLog: New page: Compile ProjectTronInstance
+[2015.07.24-11.56.22:134][529]BlueprintEditorCompileResults: Info [0903.78] Compile of ProjectTronInstance successful! [in 236 ms]
+[2015.07.24-11.56.22:909][572]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.24-11.56.22:924][572]LogPlayLevel: [PIE] Compiling MenuLevel before PIE...
+[2015.07.24-11.56.23:043][572]LogPlayLevel: PIE:  Blueprint regeneration took 134 ms (1 blueprints)
+[2015.07.24-11.56.23:043][572]PIE: New page: PIE session: MenuLevel (Jul 24, 2015, 3:56:23 PM)
+[2015.07.24-11.56.23:050][572]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_MenuLevel
+[2015.07.24-11.56.23:052][572]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002097s)
+[2015.07.24-11.56.23:052][572]LogAIModule: Creating AISystem for world MenuLevel
+[2015.07.24-11.56.23:053][572]LogPlayLevel: PIE: World Init took: (0.001321s)
+[2015.07.24-11.56.23:053][572]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/MenuLevel.MenuLevel to /Game/Level/UEDPIE_0_MenuLevel.MenuLevel (0.003660s)
+[2015.07.24-11.56.23:096][572]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.24-11.56.23:103][572]LogInit: FAudioDevice initialized.
+[2015.07.24-11.56.23:105][572]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.56.23:134][572]LogWorld: Game class is 'GameMode_BP_C'
+[2015.07.24-11.56.23:136][572]LogWorld: Bringing World /Game/Level/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 60) at 2015.07.24-13.56.23
+[2015.07.24-11.56.23:136][572]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameSession_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.56.23:136][572]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameNetworkManager_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.56.23:136][572]LogWorld: Bringing up level for play took: 0.001046
+[2015.07.24-11.56.23:137][572]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.24-11.56.23:154][572]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_MenuLevel 0.561
+[2015.07.24-11.56.24:932][607]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000871C5FE480
+[2015.07.24-11.56.29:288][866]BlueprintLog: New page: Compile ProjectTronInstance
+[2015.07.24-11.56.29:473][866]BlueprintEditorCompileResults: Info [0911.12] Compile of ProjectTronInstance successful! [in 184 ms]
+[2015.07.24-11.56.51:824][207]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.56.53:464][303]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.56.53:906][326]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.57.03:657][900]BlueprintLog: New page: Compile ProjectTronInstance
+[2015.07.24-11.57.03:847][900]BlueprintEditorCompileResults: Info [0945.49] Compile of ProjectTronInstance successful! [in 189 ms]
+[2015.07.24-11.57.04:290][926]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.57.04:308][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectTronInstance" FILE="../../../../../../Users/Quentin/Desktop/ProjectTron/Content/ProjectTronInstance.uasset" SILENT=true
+[2015.07.24-11.57.04:448][926]LogSavePackage: Save=122.974846ms
+[2015.07.24-11.57.04:448][926]LogSavePackage: Moving '../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/ProjectTronInstance01CE5BD2497CF9999CF6A4841DC77A37.tmp' to '../../../../../../Users/Quentin/Desktop/ProjectTron/Content/ProjectTronInstance.uasset'
+[2015.07.24-11.57.05:416][983]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.24-11.57.05:427][983]LogPlayLevel: [PIE] Compiling MenuLevel before PIE...
+[2015.07.24-11.57.05:546][983]LogPlayLevel: PIE:  Blueprint regeneration took 130 ms (1 blueprints)
+[2015.07.24-11.57.05:546][983]PIE: New page: PIE session: MenuLevel (Jul 24, 2015, 3:57:05 PM)
+[2015.07.24-11.57.05:552][983]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_MenuLevel
+[2015.07.24-11.57.05:555][983]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002312s)
+[2015.07.24-11.57.05:555][983]LogAIModule: Creating AISystem for world MenuLevel
+[2015.07.24-11.57.05:556][983]LogPlayLevel: PIE: World Init took: (0.001139s)
+[2015.07.24-11.57.05:556][983]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/MenuLevel.MenuLevel to /Game/Level/UEDPIE_0_MenuLevel.MenuLevel (0.003644s)
+[2015.07.24-11.57.05:599][983]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.24-11.57.05:606][983]LogInit: FAudioDevice initialized.
+[2015.07.24-11.57.05:609][983]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.57.05:665][983]LogWorld: Game class is 'GameMode_BP_C'
+[2015.07.24-11.57.05:668][983]LogWorld: Bringing World /Game/Level/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 60) at 2015.07.24-13.57.05
+[2015.07.24-11.57.05:668][983]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameSession_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.57.05:668][983]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameNetworkManager_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.57.05:668][983]LogWorld: Bringing up level for play took: 0.001266
+[2015.07.24-11.57.05:669][983]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.24-11.57.05:686][983]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_MenuLevel 1.092
+[2015.07.24-11.57.06:619][  2]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000871C5FCAE0
+[2015.07.24-11.57.10:388][224]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.24-11.57.10:407][224]LogPlayLevel: [PIE] Compiling ProjectTronInstance before PIE...
+[2015.07.24-11.57.10:562][224]LogPlayLevel: [PIE] Compiling MenuLevel before PIE...
+[2015.07.24-11.57.10:688][224]LogPlayLevel: PIE:  Blueprint regeneration took 298 ms (2 blueprints)
+[2015.07.24-11.57.10:688][224]PIE: New page: PIE session: MenuLevel (Jul 24, 2015, 3:57:10 PM)
+[2015.07.24-11.57.10:694][224]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_MenuLevel
+[2015.07.24-11.57.10:696][224]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002128s)
+[2015.07.24-11.57.10:696][224]LogAIModule: Creating AISystem for world MenuLevel
+[2015.07.24-11.57.10:697][224]LogPlayLevel: PIE: World Init took: (0.001247s)
+[2015.07.24-11.57.10:697][224]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/MenuLevel.MenuLevel to /Game/Level/UEDPIE_0_MenuLevel.MenuLevel (0.003606s)
+[2015.07.24-11.57.10:740][224]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.24-11.57.10:746][224]LogInit: FAudioDevice initialized.
+[2015.07.24-11.57.10:749][224]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.57.10:781][224]LogWorld: Game class is 'GameMode_BP_C'
+[2015.07.24-11.57.10:783][224]LogWorld: Bringing World /Game/Level/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 60) at 2015.07.24-13.57.10
+[2015.07.24-11.57.10:783][224]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameSession_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.57.10:783][224]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameNetworkManager_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.57.10:783][224]LogWorld: Bringing up level for play took: 0.001121
+[2015.07.24-11.57.10:784][224]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.24-11.57.10:868][224]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_MenuLevel 0.274
+[2015.07.24-11.57.12:399][254]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000877566A480
+[2015.07.24-11.57.16:101][474]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.57.16:428][490]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.57.23:830][921]BlueprintLog: New page: Compile ProjectTronInstance
+[2015.07.24-11.57.24:017][921]BlueprintEditorCompileResults: Info [0965.66] Compile of ProjectTronInstance successful! [in 187 ms]
+[2015.07.24-11.57.25:739][ 23]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.24-11.57.25:757][ 23]LogPlayLevel: [PIE] Compiling MenuLevel before PIE...
+[2015.07.24-11.57.25:875][ 23]LogPlayLevel: PIE:  Blueprint regeneration took 135 ms (1 blueprints)
+[2015.07.24-11.57.25:875][ 23]PIE: New page: PIE session: MenuLevel (Jul 24, 2015, 3:57:25 PM)
+[2015.07.24-11.57.25:881][ 23]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_MenuLevel
+[2015.07.24-11.57.25:883][ 23]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002185s)
+[2015.07.24-11.57.25:884][ 23]LogAIModule: Creating AISystem for world MenuLevel
+[2015.07.24-11.57.25:884][ 23]LogPlayLevel: PIE: World Init took: (0.001128s)
+[2015.07.24-11.57.25:885][ 23]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/MenuLevel.MenuLevel to /Game/Level/UEDPIE_0_MenuLevel.MenuLevel (0.003521s)
+[2015.07.24-11.57.25:967][ 23]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.24-11.57.25:974][ 23]LogInit: FAudioDevice initialized.
+[2015.07.24-11.57.25:976][ 23]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.57.26:005][ 23]LogWorld: Game class is 'GameMode_BP_C'
+[2015.07.24-11.57.26:007][ 23]LogWorld: Bringing World /Game/Level/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 60) at 2015.07.24-13.57.26
+[2015.07.24-11.57.26:007][ 23]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameSession_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.57.26:008][ 23]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameNetworkManager_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-11.57.26:008][ 23]LogWorld: Bringing up level for play took: 0.001084
+[2015.07.24-11.57.26:008][ 23]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.24-11.57.26:025][ 23]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_MenuLevel -0.569
+[2015.07.24-11.57.27:173][ 46]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000871ABA3600
+[2015.07.24-11.57.28:948][152]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.57.33:577][429]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.57.35:365][535]BlueprintLog: New page: Compile ProjectTronInstance
+[2015.07.24-11.57.35:553][535]BlueprintEditorCompileResults: Info [0977.20] Compile of ProjectTronInstance successful! [in 187 ms]
+[2015.07.24-11.58.24:063][551]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.58.32:956][578]LogD3D11RHI: InitD3DDevice
+[2015.07.24-11.58.33:880][578]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/MenuLevel' took 0.047
+[2015.07.24-11.58.33:958][578]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ProjectTronInstance] ([1] browsable assets)...
+[2015.07.24-11.58.33:958][578]OBJ SavePackage: Finished generating thumbnails for package [/Game/ProjectTronInstance]
+[2015.07.24-11.58.33:958][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectTronInstance" FILE="../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/Autosaves/Game/ProjectTronInstance_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.07.24-11.58.34:071][578]LogSavePackage: Save=91.593925ms
+[2015.07.24-11.58.34:071][578]LogSavePackage: Moving '../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/ProjectTronInstance_Auto18D433BE942C00E9032F268BE76D2D5AA.tmp' to '../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/Autosaves/Game/ProjectTronInstance_Auto1.uasset'
+[2015.07.24-11.58.34:114][578]LogFileHelpers: Auto-saving content packages took 0.233
+[2015.07.24-11.59.34:907][263]LogD3D11RHI: InitD3DDevice
+[2015.07.24-12.02.25:291][140]LogD3D11RHI: InitD3DDevice
+[2015.07.24-12.02.25:312][140]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectTronInstance" FILE="../../../../../../Users/Quentin/Desktop/ProjectTron/Content/ProjectTronInstance.uasset" SILENT=true
+[2015.07.24-12.02.25:572][140]LogSavePackage: Save=232.412125ms
+[2015.07.24-12.02.25:573][140]LogSavePackage: Moving '../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/ProjectTronInstanceDF63BF5E47279F41F61E35841D0B7796.tmp' to '../../../../../../Users/Quentin/Desktop/ProjectTron/Content/ProjectTronInstance.uasset'
+[2015.07.24-12.02.27:935][238]LogD3D11RHI: InitD3DDevice
+[2015.07.24-12.02.27:963][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/MenuLevel" FILE="../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Level/MenuLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.24-12.02.28:194][238]LogSavePackage: Save=128.036575ms
+[2015.07.24-12.02.28:194][238]LogSavePackage: Moving '../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/MenuLevel91304D7846CAB8E55D8F7A9D0982C112.tmp' to '../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Level/MenuLevel.umap'
+[2015.07.24-12.02.30:278][277]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.07.24-12.02.32:625][278]Cmd: QUIT_EDITOR
+[2015.07.24-12.02.36:481][278]LogExit: Preparing to exit.
+[2015.07.24-12.02.43:955][278]LogExit: Editor shut down
+[2015.07.24-12.02.44:035][278]LogExit: Transaction tracking system shut down
+[2015.07.24-12.02.44:263][278]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008775581120
+[2015.07.24-12.02.48:195][278]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000087598C20C0
+[2015.07.24-12.02.48:195][278]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000087755823E0
+[2015.07.24-12.02.48:195][278]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000877F2B32E0
+[2015.07.24-12.02.48:195][278]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000871BB90AE0
+[2015.07.24-12.02.48:195][278]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000877EF6B740
+[2015.07.24-12.02.48:195][278]LogExit: Object subsystem successfully closed.
+[2015.07.24-12.02.49:343][278]LogD3D11RHI: Shutdown
+[2015.07.24-12.02.49:363][278]LogD3D11RHI: CleanupD3DDevice
+[2015.07.24-12.02.49:610][278]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.07.24-12.02.50:076][278]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2015.07.24-12.02.50:076][278]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2015.07.24-12.02.50:076][278]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2015.07.24-12.02.50:076][278]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2015.07.24-12.02.50:108][278]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2015.07.24-12.02.50:613][278]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2015.07.24-12.02.50:613][278]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2015.07.24-12.02.50:634][278]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2015.07.24-12.02.50:691][278]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2015.07.24-12.02.50:713][278]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2015.07.24-12.02.50:806][278]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2015.07.24-12.02.50:806][278]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2015.07.24-12.02.50:806][278]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2015.07.24-12.02.50:806][278]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2015.07.24-12.02.50:806][278]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2015.07.24-12.02.50:814][278]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2015.07.24-12.02.50:814][278]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2015.07.24-12.02.50:814][278]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2015.07.24-12.02.50:814][278]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2015.07.24-12.02.50:814][278]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2015.07.24-12.02.50:935][278]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2015.07.24-12.02.51:092][278]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2015.07.24-12.02.51:163][278]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2015.07.24-12.02.51:180][278]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2015.07.24-12.02.51:207][278]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2015.07.24-12.02.51:207][278]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2015.07.24-12.02.51:436][278]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2015.07.24-12.02.51:455][278]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2015.07.24-12.02.51:456][278]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2015.07.24-12.02.51:456][278]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2015.07.24-12.02.51:475][278]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2015.07.24-12.02.51:475][278]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2015.07.24-12.02.51:495][278]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2015.07.24-12.02.51:495][278]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2015.07.24-12.02.51:507][278]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2015.07.24-12.02.51:507][278]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2015.07.24-12.02.51:523][278]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2015.07.24-12.02.51:523][278]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2015.07.24-12.02.51:541][278]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2015.07.24-12.02.51:541][278]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2015.07.24-12.02.51:552][278]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2015.07.24-12.02.51:552][278]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2015.07.24-12.02.51:599][278]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2015.07.24-12.02.51:599][278]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2015.07.24-12.02.51:651][278]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2015.07.24-12.02.51:651][278]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2015.07.24-12.02.51:700][278]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2015.07.24-12.02.51:741][278]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2015.07.24-12.02.51:761][278]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2015.07.24-12.02.51:784][278]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2015.07.24-12.02.51:784][278]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2015.07.24-12.02.51:825][278]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2015.07.24-12.02.51:837][278]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2015.07.24-12.02.51:849][278]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2015.07.24-12.02.51:888][278]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2015.07.24-12.02.51:888][278]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2015.07.24-12.02.51:948][278]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2015.07.24-12.02.51:948][278]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2015.07.24-12.02.53:276][278]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2015.07.24-12.02.53:299][278]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2015.07.24-12.02.53:309][278]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2015.07.24-12.02.53:336][278]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2015.07.24-12.02.53:371][278]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2015.07.24-12.02.53:371][278]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2015.07.24-12.02.53:381][278]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2015.07.24-12.02.53:416][278]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2015.07.24-12.02.53:416][278]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2015.07.24-12.02.53:420][278]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2015.07.24-12.02.53:420][278]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2015.07.24-12.02.53:428][278]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2015.07.24-12.02.53:428][278]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2015.07.24-12.02.53:428][278]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2015.07.24-12.02.53:428][278]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2015.07.24-12.02.53:437][278]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2015.07.24-12.02.53:437][278]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2015.07.24-12.02.53:437][278]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2015.07.24-12.02.53:696][278]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2015.07.24-12.02.53:739][278]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2015.07.24-12.02.53:739][278]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2015.07.24-12.02.53:739][278]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2015.07.24-12.02.53:739][278]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2015.07.24-12.02.53:739][278]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2015.07.24-12.02.53:739][278]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2015.07.24-12.02.53:969][278]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2015.07.24-12.02.53:969][278]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2015.07.24-12.02.53:973][278]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2015.07.24-12.02.53:986][278]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2015.07.24-12.02.54:003][278]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2015.07.24-12.02.54:003][278]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2015.07.24-12.02.54:013][278]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2015.07.24-12.02.54:022][278]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2015.07.24-12.02.54:059][278]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2015.07.24-12.02.54:081][278]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2015.07.24-12.02.54:081][278]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2015.07.24-12.02.54:093][278]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2015.07.24-12.02.54:107][278]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2015.07.24-12.02.54:122][278]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2015.07.24-12.02.54:132][278]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2015.07.24-12.02.54:132][278]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2015.07.24-12.02.54:132][278]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2015.07.24-12.02.54:142][278]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2015.07.24-12.02.54:145][278]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2015.07.24-12.02.54:164][278]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2015.07.24-12.02.54:236][278]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2015.07.24-12.02.54:236][278]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2015.07.24-12.02.54:236][278]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2015.07.24-12.02.54:440][278]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.07.24-12.02.54:457][278]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.07.24-12.02.54:498][278]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.07.24-12.02.54:640][278]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.07.24-12.02.54:648][278]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.07.24-12.02.54:727][278]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.07.24-12.02.54:727][278]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.07.24-12.02.54:784][278]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.07.24-12.02.54:784][278]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.07.24-12.02.54:784][278]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.07.24-12.02.54:835][278]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.07.24-12.02.54:844][278]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.07.24-12.02.54:860][278]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.07.24-12.02.54:860][278]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.07.24-12.02.54:860][278]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.07.24-12.02.54:875][278]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.07.24-12.02.54:945][278]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.07.24-12.02.54:981][278]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.07.24-12.02.54:981][278]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.07.24-12.02.54:981][278]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.07.24-12.02.55:046][278]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.07.24-12.02.55:046][278]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.07.24-12.02.55:046][278]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.07.24-12.02.55:046][278]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.07.24-12.02.55:046][278]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.07.24-12.02.55:046][278]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.07.24-12.02.55:046][278]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.07.24-12.02.55:061][278]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.07.24-12.02.55:068][278]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.07.24-12.02.55:090][278]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.07.24-12.02.55:353][278]LogDerivedDataCache: Shutdown
+[2015.07.24-12.02.55:353][278]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.07.24-12.02.55:392][278]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.07.24-12.02.55:410][278]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.07.24-12.02.55:440][278]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.07.24-12.02.55:440][278]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.07.24-12.02.55:488][278]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.07.24-12.02.55:508][278]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.07.24-12.02.55:519][278]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.07.24-12.02.55:519][278]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.07.24-12.02.55:519][278]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.07.24-12.02.55:519][278]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.07.24-12.02.55:524][278]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.07.24-12.02.55:530][278]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.07.24-12.02.55:530][278]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.07.24-12.02.55:552][278]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.07.24-12.02.55:587][278]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.07.24-12.02.55:602][278]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.07.24-12.02.55:602][278]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.07.24-12.02.55:602][278]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.07.24-12.02.55:602][278]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.07.24-12.02.55:612][278]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.07.24-12.02.55:612][278]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.07.24-12.02.55:612][278]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.07.24-12.02.55:612][278]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.07.24-12.02.55:612][278]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.07.24-12.02.55:612][278]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.07.24-12.02.55:612][278]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.07.24-12.02.55:612][278]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.07.24-12.02.55:612][278]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.07.24-12.02.55:624][278]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.07.24-12.02.55:624][278]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.07.24-12.02.55:625][278]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.07.24-12.02.55:625][278]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.07.24-12.02.55:625][278]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.07.24-12.02.55:625][278]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.07.24-12.02.55:625][278]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.07.24-12.02.55:625][278]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.07.24-12.02.55:631][278]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.07.24-12.02.55:651][278]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.07.24-12.02.55:665][278]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.07.24-12.02.55:665][278]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.07.24-12.02.55:861][278]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.07.24-12.02.55:885][278]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.07.24-12.02.55:885][278]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.07.24-12.02.55:885][278]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.07.24-12.02.55:885][278]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.07.24-12.02.55:885][278]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.07.24-12.02.55:909][278]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.07.24-12.02.55:930][278]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.07.24-12.02.55:939][278]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.07.24-12.02.56:004][278]LogExit: Exiting.
+[2015.07.24-12.02.56:079][278]Log file closed, 07/24/15 14:02:56
