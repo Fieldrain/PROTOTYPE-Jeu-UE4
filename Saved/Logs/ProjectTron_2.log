@@ -1,939 +1,313 @@
-﻿[2015.07.27-13.17.08:374][  0]Log file open, 07/27/15 15:17:08
-[2015.07.27-13.17.08:374][  0]LogInit:Display: Running engine for game: ProjectTron
-[2015.07.27-13.17.08:374][  0]LogInit:Display: RandInit(837695759) SRandInit(837695760).
-[2015.07.27-13.17.08:374][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
-[2015.07.27-13.17.08:374][  0]LogStats: Stats thread started
-[2015.07.27-13.17.08:374][  0]LogInit: Version: 4.8.2-2614606+++depot+UE4-Releases+4.8
-[2015.07.27-13.17.08:374][  0]LogInit: API Version: 2579680
-[2015.07.27-13.17.08:374][  0]LogInit: Compiled (64-bit): Jul  8 2015 23:43:41
-[2015.07.27-13.17.08:374][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
-[2015.07.27-13.17.08:374][  0]LogInit: Build Configuration: Development
-[2015.07.27-13.17.08:374][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
-[2015.07.27-13.17.08:374][  0]LogInit: Command line:  
-[2015.07.27-13.17.08:374][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
-[2015.07.27-13.17.08:374][  0]LogInit: Rocket: 1
-[2015.07.27-13.17.08:394][  0]LogInit: Using libcurl 7.41.0
-[2015.07.27-13.17.08:394][  0]LogInit:  - built for x86_64-pc-win32
-[2015.07.27-13.17.08:394][  0]LogInit:  - supports SSL with WinSSL
-[2015.07.27-13.17.08:394][  0]LogInit:  - other features:
-[2015.07.27-13.17.08:394][  0]LogInit:      CURL_VERSION_SSL
-[2015.07.27-13.17.08:394][  0]LogInit:      CURL_VERSION_IPV6
-[2015.07.27-13.17.08:394][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2015.07.27-13.17.08:394][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2015.07.27-13.17.08:394][  0]LogInit:      CURL_VERSION_IDN
-[2015.07.27-13.17.08:394][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2015.07.27-13.17.08:394][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2015.07.27-13.17.08:394][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2015.07.27-13.17.08:394][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2015.07.27-13.17.08:394][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2015.07.27-13.17.08:409][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2015.07.27-13.17.08:431][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.07.27-13.17.08:442][  0]LogInit: Object subsystem initialized
-[2015.07.27-13.17.08:443][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
-[2015.07.27-13.17.08:443][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Quentin/Desktop/ProjectTron/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.07.27-13.17.08:443][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
-[2015.07.27-13.17.08:443][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Quentin/Desktop/ProjectTron/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.07.27-13.17.08:443][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
-[2015.07.27-13.17.08:443][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Quentin/Desktop/ProjectTron/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.07.27-13.17.08:444][  0]LogInit: Selected Device Profile: [Windows]
-[2015.07.27-13.17.08:444][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.07.27-13.17.08:455][  0]LogInit: Computer: ASUS
-[2015.07.27-13.17.08:455][  0]LogInit: User: Quentin
-[2015.07.27-13.17.08:455][  0]LogInit: CPU Page size=4096, Cores=2
-[2015.07.27-13.17.08:455][  0]LogInit: High frequency timer resolution =2.533319 MHz
-[2015.07.27-13.17.08:455][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2015.07.27-13.17.08:455][  0]LogMemory: Platform Memory Stats for Windows
-[2015.07.27-13.17.08:455][  0]LogMemory: Process Physical Memory: 52.90 MB used, 52.90 MB peak
-[2015.07.27-13.17.08:455][  0]LogMemory: Process Virtual Memory: 25.38 MB used, 25.38 MB peak
-[2015.07.27-13.17.08:455][  0]LogMemory: Physical Memory: 6476.12 MB used, 8069.54 MB total
-[2015.07.27-13.17.08:455][  0]LogMemory: Virtual Memory: 297.91 MB used, 134217728.00 MB total
-[2015.07.27-13.17.08:640][  0]LogTextLocalizationManager: The requested culture ('fr_FR') has no localization data; falling back to 'en' for localization and internationalization data.
-[2015.07.27-13.17.08:944][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+﻿[2015.07.27-16.01.17:444][  0]Log file open, 07/27/15 18:01:17
+[2015.07.27-16.01.17:444][  0]LogInit:Display: Running engine for game: ProjectTron
+[2015.07.27-16.01.17:444][  0]LogInit:Display: RandInit(19873862) SRandInit(19873863).
+[2015.07.27-16.01.17:444][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.07.27-16.01.17:444][  0]LogStats: Stats thread started
+[2015.07.27-16.01.17:444][  0]LogInit: Version: 4.8.2-2614606+++depot+UE4-Releases+4.8
+[2015.07.27-16.01.17:444][  0]LogInit: API Version: 2579680
+[2015.07.27-16.01.17:445][  0]LogInit: Compiled (64-bit): Jul  8 2015 23:43:41
+[2015.07.27-16.01.17:445][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.07.27-16.01.17:445][  0]LogInit: Build Configuration: Development
+[2015.07.27-16.01.17:445][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.07.27-16.01.17:445][  0]LogInit: Command line:  /Temp/Autosaves/Game/Level/UEDPCMenuLevel -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -featureleveles2 -faketouches 
+[2015.07.27-16.01.17:445][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.07.27-16.01.17:445][  0]LogInit: Rocket: 1
+[2015.07.27-16.01.17:464][  0]LogInit: Using libcurl 7.41.0
+[2015.07.27-16.01.17:464][  0]LogInit:  - built for x86_64-pc-win32
+[2015.07.27-16.01.17:464][  0]LogInit:  - supports SSL with WinSSL
+[2015.07.27-16.01.17:464][  0]LogInit:  - other features:
+[2015.07.27-16.01.17:464][  0]LogInit:      CURL_VERSION_SSL
+[2015.07.27-16.01.17:464][  0]LogInit:      CURL_VERSION_IPV6
+[2015.07.27-16.01.17:464][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.07.27-16.01.17:464][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.07.27-16.01.17:464][  0]LogInit:      CURL_VERSION_IDN
+[2015.07.27-16.01.17:464][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.07.27-16.01.17:464][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.07.27-16.01.17:464][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.07.27-16.01.17:464][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.07.27-16.01.17:464][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.07.27-16.01.17:477][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.07.27-16.01.17:492][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.07.27-16.01.17:501][  0]LogInit: Object subsystem initialized
+[2015.07.27-16.01.17:502][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.07.27-16.01.17:502][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Quentin/Desktop/ProjectTron/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.27-16.01.17:502][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.07.27-16.01.17:502][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Quentin/Desktop/ProjectTron/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.27-16.01.17:502][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.07.27-16.01.17:502][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Quentin/Desktop/ProjectTron/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.27-16.01.17:502][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.27-16.01.17:502][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.07.27-16.01.17:505][  0]LogInit: Computer: ASUS
+[2015.07.27-16.01.17:505][  0]LogInit: User: Quentin
+[2015.07.27-16.01.17:505][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.07.27-16.01.17:505][  0]LogInit: High frequency timer resolution =2.533319 MHz
+[2015.07.27-16.01.17:506][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.07.27-16.01.17:506][  0]LogMemory: Platform Memory Stats for Windows
+[2015.07.27-16.01.17:506][  0]LogMemory: Process Physical Memory: 52.51 MB used, 52.51 MB peak
+[2015.07.27-16.01.17:506][  0]LogMemory: Process Virtual Memory: 27.41 MB used, 27.41 MB peak
+[2015.07.27-16.01.17:506][  0]LogMemory: Physical Memory: 3320.36 MB used, 8069.54 MB total
+[2015.07.27-16.01.17:506][  0]LogMemory: Virtual Memory: 299.91 MB used, 134217728.00 MB total
+[2015.07.27-16.01.17:548][  0]LogTextLocalizationManager: The requested culture ('fr_FR') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.07.27-16.01.17:820][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
 Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
 Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
-[2015.07.27-13.17.09:494][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
-[2015.07.27-13.17.09:494][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
-[2015.07.27-13.17.09:509][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 635M    (Feature Level 11_0)
-[2015.07.27-13.17.09:509][  0]LogD3D11RHI: Adapter has 1996MB of dedicated video memory, 0MB of dedicated system memory, and 2047MB of shared system memory, 0 output[s]
-[2015.07.27-13.17.09:510][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
-[2015.07.27-13.17.09:510][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
-[2015.07.27-13.17.09:511][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.07.27-13.17.09:516][  0]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.17.09:516][  0]LogD3D11RHI: !Direct3DDevice
-[2015.07.27-13.17.09:516][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2015.07.27-13.17.09:524][  0]LogD3D11RHI: Async texture creation enabled
-[2015.07.27-13.17.09:542][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2015.07.27-13.17.12:395][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
-[2015.07.27-13.17.12:414][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2015.07.27-13.17.12:431][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2015.07.27-13.17.12:449][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2015.07.27-13.17.12:469][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2015.07.27-13.17.12:483][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2015.07.27-13.17.12:499][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2015.07.27-13.17.12:517][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2015.07.27-13.17.12:538][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2015.07.27-13.17.12:555][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2015.07.27-13.17.12:580][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2015.07.27-13.17.12:605][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2015.07.27-13.17.12:672][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2015.07.27-13.17.12:690][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2015.07.27-13.17.12:718][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2015.07.27-13.17.12:742][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2015.07.27-13.17.12:742][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.07.27-13.17.13:126][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.07.27-13.17.15:528][  0]LogDerivedDataCache: Loaded boot cache 2.40s 53MB C:/Users/Quentin/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
-[2015.07.27-13.17.15:529][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Quentin/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
-[2015.07.27-13.17.15:529][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Quentin/Desktop/ProjectTron/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.07.27-13.17.15:529][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.07.27-13.17.15:529][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Quentin/Desktop/ProjectTron/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2015.07.27-13.17.15:529][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2015.07.27-13.17.15:865][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2015.07.27-13.17.15:878][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Quentin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.07.27-13.17.23:818][  0]LogInit: Selected Device Profile: [Windows]
-[2015.07.27-13.17.23:938][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
-[2015.07.27-13.17.23:938][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
-[2015.07.27-13.17.24:032][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.07.27-13.17.24:032][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.07.27-13.17.24:620][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.07.27-13.17.50:930][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.07.27-13.17.52:224][  0]SourceControl: Info Source control is disabled
-[2015.07.27-13.17.53:215][  0]SourceControl: Info Source control is disabled
-[2015.07.27-13.17.53:316][  0]SourceControl: Info Source control is disabled
-[2015.07.27-13.17.53:560][  0]SourceControl: Info Source control is disabled
-[2015.07.27-13.17.55:261][  0]LogObj: 26273 objects as part of root set at end of initial load.
-[2015.07.27-13.17.55:261][  0]LogUObjectAllocator: 5409256 out of 0 bytes used by permanent object pool.
-[2015.07.27-13.17.55:464][  0]LogEngine: Initializing Engine...
-[2015.07.27-13.17.55:491][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
-[2015.07.27-13.17.55:525][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 100
-[2015.07.27-13.17.55:859][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.07.27-13.17.55:881][  0]LogInit: XAudio2 using 'Haut-parleurs (3- Plantronics GameCom 780)' : 8 channels at 44.1 kHz using 16 bits per sample (channel mask 0x63f)
-[2015.07.27-13.17.55:895][  0]LogInit: FAudioDevice initialized.
-[2015.07.27-13.17.55:940][  0]LogDerivedDataCache: Saved boot cache 0.05s 53MB C:/Users/Quentin/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
-[2015.07.27-13.17.55:946][  0]LogInit: Texture streaming: Disabled
-[2015.07.27-13.17.56:056][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.07.27-13.17.56:056][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.2-2614606+++depot+UE4-Releases+4.8
-[2015.07.27-13.17.56:056][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 2d3bc0f041f185fa28a8c7b684d10d16|5321c04d5e864f15b49acee236f509ea|73d0ac54-4603-4a09-8685-17c06caaac3e
-[2015.07.27-13.17.56:056][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2015.07.27-13.17.56:176][  0]LogInit: Transaction tracking system initialized
-[2015.07.27-13.17.57:092][  0]BlueprintLog: New page: Editor Load
-[2015.07.27-13.17.57:187][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
-[2015.07.27-13.17.57:190][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
-[2015.07.27-13.18.01:466][  0]LogLinker:Warning: Can't find file '/Game/2DSideScrollerBP/2DSideScrollerOverview'
-[2015.07.27-13.18.01:467][  0]LogLinker:Warning: Can't find file '/Game/2DSideScrollerBP/2DSideScrollerOverview'
-[2015.07.27-13.18.01:467][  0]LogLinker:Warning: Can't find file '/Game/2DSideScrollerBP/2DSideScrollerOverview'
-[2015.07.27-13.18.01:467][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/2DSideScrollerBP/2DSideScrollerOverview.2DSideScrollerOverview_C'
-[2015.07.27-13.18.01:764][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
-[2015.07.27-13.18.01:765][  0]LogConsoleResponse:Display: 
-[2015.07.27-13.18.02:328][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2015.07.27-13.18.03:314][  0]SourceControl: Info Source control is disabled
-[2015.07.27-13.18.03:315][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Quentin/Desktop/ProjectTron/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.07.27-13.18.03:372][  0]LightingResults: New page: Lighting Build
-[2015.07.27-13.18.03:409][  0]MapCheck: New page: Map Check
-[2015.07.27-13.18.03:409][  0]LightingResults: New page: Lighting Build
-[2015.07.27-13.18.03:445][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB6A638B80
-[2015.07.27-13.18.07:310][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2015.07.27-13.18.07:526][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.07.27-13.18.07:545][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.07.27-13.18.07:627][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 82.356ms to complete.
-[2015.07.27-13.18.07:627][  0]LogFileHelpers: Loading map 'Minimal_Default' took 4.313
-[2015.07.27-13.18.07:786][  0]LogCollectionManager: Loaded 0 collections in 0.002575 seconds
-[2015.07.27-13.18.07:798][  0]LogContentBrowser: Native class hierarchy populated in 0.0125 seconds. Added 1792 classes and 301 folders.
-[2015.07.27-13.18.07:969][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2015.07.27-13.18.08:475][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2015.07.27-13.18.08:685][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
-[2015.07.27-13.18.08:794][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.07.27-13.18.08:795][  0]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.18.08:801][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.07.27-13.18.08:825][  0]LogLoad: Full Startup: 62.75 seconds (BP compile: 1.99 seconds)
-[2015.07.27-13.18.08:842][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.07.27-13.18.08:861][  0]LogNavOctree:Warning: Can't add node [NavModifier] - parent [Mesh] not found in octree!
-[2015.07.27-13.18.08:861][  0]LogNavOctree:Warning: Can't add node [NavModifier] - parent [Mesh] not found in octree!
-[2015.07.27-13.18.08:861][  0]LogNavOctree:Warning: Can't add node [NavModifier] - parent [Mesh] not found in octree!
-[2015.07.27-13.18.08:861][  0]LogNavOctree:Warning: Can't add node [NavModifier] - parent [Mesh] not found in octree!
-[2015.07.27-13.18.08:861][  0]LogNavOctree:Warning: Can't add node [NavModifier] - parent [Mesh] not found in octree!
-[2015.07.27-13.18.08:861][  0]LogNavOctree:Warning: Can't add node [NavModifier] - parent [Mesh] not found in octree!
-[2015.07.27-13.18.08:861][  0]LogNavOctree:Warning: Can't add node [NavModifier] - parent [Mesh] not found in octree!
-[2015.07.27-13.18.08:935][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.07.27-13.18.09:031][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2015.07.27-13.18.09:310][  2]LogRenderer: Reallocating scene render targets to support 584x688 (Frame:2).
-[2015.07.27-13.18.10:072][  3]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.18.10:756][ 15]LogAssetRegistry: Asset discovery search completed in 13.5798 seconds
-[2015.07.27-13.18.12:959][ 64]LogRenderer: Reallocating scene render targets to support 872x704 (Frame:68).
-[2015.07.27-13.18.20:752][168]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2015.07.27-13.18.23:979][207]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2015.07.27-13.18.32:697][373]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.18.32:818][373]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.07.27-13.18.33:141][373]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.07.27-13.20.32:730][493]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.21.01:189][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_FunctionEntry_149 or K2Node_FunctionEntry /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_79.K2Node_FunctionEntry_149
-[2015.07.27-13.21.01:189][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_FunctionEntry_149 or K2Node_FunctionEntry /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_84.K2Node_FunctionEntry_149
-[2015.07.27-13.21.01:189][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_FunctionEntry_149 or K2Node_FunctionEntry /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_89.K2Node_FunctionEntry_149
-[2015.07.27-13.21.01:189][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_FunctionEntry_149 or K2Node_FunctionEntry /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_104.K2Node_FunctionEntry_149
-[2015.07.27-13.21.01:189][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_FunctionEntry_149 or K2Node_FunctionEntry /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_124.K2Node_FunctionEntry_149
-[2015.07.27-13.21.01:189][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_FunctionEntry_149 or K2Node_FunctionEntry /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_139.K2Node_FunctionEntry_149
-[2015.07.27-13.21.01:189][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_FunctionEntry_149 or K2Node_FunctionEntry /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default.ReceiveBeginPlay.K2Node_FunctionEntry_149
-[2015.07.27-13.21.01:189][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_FunctionEntry_149 or K2Node_FunctionEntry /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_167.K2Node_FunctionEntry_149
-[2015.07.27-13.21.01:189][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_MacroInstance_160 or K2Node_MacroInstance /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_79.K2Node_MacroInstance_160
-[2015.07.27-13.21.01:189][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_MacroInstance_160 or K2Node_MacroInstance /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_84.K2Node_MacroInstance_160
-[2015.07.27-13.21.01:189][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_MacroInstance_160 or K2Node_MacroInstance /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_89.K2Node_MacroInstance_160
-[2015.07.27-13.21.01:189][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_MacroInstance_160 or K2Node_MacroInstance /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_104.K2Node_MacroInstance_160
-[2015.07.27-13.21.01:189][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_MacroInstance_160 or K2Node_MacroInstance /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_124.K2Node_MacroInstance_160
-[2015.07.27-13.21.01:189][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_MacroInstance_160 or K2Node_MacroInstance /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_139.K2Node_MacroInstance_160
-[2015.07.27-13.21.01:189][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_MacroInstance_160 or K2Node_MacroInstance /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_167.K2Node_MacroInstance_160
-[2015.07.27-13.21.01:190][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_MacroInstance_160 or K2Node_MacroInstance /Game/ProjectTronInstance.ProjectTronInstance:EventGraph.K2Node_MacroInstance_160
-[2015.07.27-13.21.01:203][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_VariableGet_207 or K2Node_VariableGet /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_79.K2Node_VariableGet_207
-[2015.07.27-13.21.01:203][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_VariableGet_207 or K2Node_VariableGet /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_84.K2Node_VariableGet_207
-[2015.07.27-13.21.01:203][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_VariableGet_207 or K2Node_VariableGet /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_89.K2Node_VariableGet_207
-[2015.07.27-13.21.01:203][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_VariableGet_207 or K2Node_VariableGet /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_104.K2Node_VariableGet_207
-[2015.07.27-13.21.01:203][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_VariableGet_207 or K2Node_VariableGet /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_124.K2Node_VariableGet_207
-[2015.07.27-13.21.01:203][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_VariableGet_207 or K2Node_VariableGet /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_139.K2Node_VariableGet_207
-[2015.07.27-13.21.01:203][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_VariableGet_207 or K2Node_VariableGet /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_167.K2Node_VariableGet_207
-[2015.07.27-13.21.01:203][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_VariableGet_207 or K2Node_VariableGet /Game/ProjectTronInstance.ProjectTronInstance:EventGraph.K2Node_VariableGet_207
-[2015.07.27-13.21.01:203][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2790 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_79.K2Node_CallFunction_2790
-[2015.07.27-13.21.01:203][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2790 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_84.K2Node_CallFunction_2790
-[2015.07.27-13.21.01:203][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2790 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_89.K2Node_CallFunction_2790
-[2015.07.27-13.21.01:203][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2790 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_104.K2Node_CallFunction_2790
-[2015.07.27-13.21.01:203][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2790 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_124.K2Node_CallFunction_2790
-[2015.07.27-13.21.01:203][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2790 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_139.K2Node_CallFunction_2790
-[2015.07.27-13.21.01:203][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2790 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_167.K2Node_CallFunction_2790
-[2015.07.27-13.21.01:203][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2790 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EventGraph.K2Node_CallFunction_2790
-[2015.07.27-13.21.01:203][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CreateWidget /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CreateWidget_40 or K2Node_CreateWidget /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_79.K2Node_CreateWidget_40
-[2015.07.27-13.21.01:203][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CreateWidget /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CreateWidget_40 or K2Node_CreateWidget /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_84.K2Node_CreateWidget_40
-[2015.07.27-13.21.01:203][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CreateWidget /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CreateWidget_40 or K2Node_CreateWidget /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_89.K2Node_CreateWidget_40
-[2015.07.27-13.21.01:203][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CreateWidget /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CreateWidget_40 or K2Node_CreateWidget /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_104.K2Node_CreateWidget_40
-[2015.07.27-13.21.01:203][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CreateWidget /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CreateWidget_40 or K2Node_CreateWidget /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_124.K2Node_CreateWidget_40
-[2015.07.27-13.21.01:203][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CreateWidget /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CreateWidget_40 or K2Node_CreateWidget /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_139.K2Node_CreateWidget_40
-[2015.07.27-13.21.01:203][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CreateWidget /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CreateWidget_40 or K2Node_CreateWidget /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_167.K2Node_CreateWidget_40
-[2015.07.27-13.21.01:203][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CreateWidget /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CreateWidget_40 or K2Node_CreateWidget /Game/ProjectTronInstance.ProjectTronInstance:EventGraph.K2Node_CreateWidget_40
-[2015.07.27-13.21.01:204][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_VariableSet_126 or K2Node_VariableSet /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_79.K2Node_VariableSet_126
-[2015.07.27-13.21.01:204][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_VariableSet_126 or K2Node_VariableSet /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_84.K2Node_VariableSet_126
-[2015.07.27-13.21.01:204][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_VariableSet_126 or K2Node_VariableSet /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_89.K2Node_VariableSet_126
-[2015.07.27-13.21.01:204][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_VariableSet_126 or K2Node_VariableSet /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_104.K2Node_VariableSet_126
-[2015.07.27-13.21.01:204][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_VariableSet_126 or K2Node_VariableSet /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_124.K2Node_VariableSet_126
-[2015.07.27-13.21.01:204][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_VariableSet_126 or K2Node_VariableSet /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_139.K2Node_VariableSet_126
-[2015.07.27-13.21.01:204][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_VariableSet_126 or K2Node_VariableSet /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_167.K2Node_VariableSet_126
-[2015.07.27-13.21.01:204][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_VariableSet_126 or K2Node_VariableSet /Game/ProjectTronInstance.ProjectTronInstance:EventGraph.K2Node_VariableSet_126
-[2015.07.27-13.21.01:204][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_VariableSet_126 or K2Node_VariableSet /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_79.K2Node_VariableSet_126
-[2015.07.27-13.21.01:204][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_VariableSet_126 or K2Node_VariableSet /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_84.K2Node_VariableSet_126
-[2015.07.27-13.21.01:204][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_VariableSet_126 or K2Node_VariableSet /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_89.K2Node_VariableSet_126
-[2015.07.27-13.21.01:204][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_VariableSet_126 or K2Node_VariableSet /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_104.K2Node_VariableSet_126
-[2015.07.27-13.21.01:204][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_VariableSet_126 or K2Node_VariableSet /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_124.K2Node_VariableSet_126
-[2015.07.27-13.21.01:204][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_VariableSet_126 or K2Node_VariableSet /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_139.K2Node_VariableSet_126
-[2015.07.27-13.21.01:204][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_VariableSet_126 or K2Node_VariableSet /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_167.K2Node_VariableSet_126
-[2015.07.27-13.21.01:204][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_VariableSet_126 or K2Node_VariableSet /Game/ProjectTronInstance.ProjectTronInstance:EventGraph.K2Node_VariableSet_126
-[2015.07.27-13.21.01:205][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2789 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_79.K2Node_CallFunction_2789
-[2015.07.27-13.21.01:205][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2789 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_84.K2Node_CallFunction_2789
-[2015.07.27-13.21.01:205][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2789 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_89.K2Node_CallFunction_2789
-[2015.07.27-13.21.01:205][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2789 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_104.K2Node_CallFunction_2789
-[2015.07.27-13.21.01:205][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2789 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_124.K2Node_CallFunction_2789
-[2015.07.27-13.21.01:205][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2789 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_139.K2Node_CallFunction_2789
-[2015.07.27-13.21.01:205][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2789 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_167.K2Node_CallFunction_2789
-[2015.07.27-13.21.01:205][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2789 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EventGraph.K2Node_CallFunction_2789
-[2015.07.27-13.21.01:206][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2791 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_79.K2Node_CallFunction_2791
-[2015.07.27-13.21.01:206][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2791 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_84.K2Node_CallFunction_2791
-[2015.07.27-13.21.01:206][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2791 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_89.K2Node_CallFunction_2791
-[2015.07.27-13.21.01:206][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2791 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_104.K2Node_CallFunction_2791
-[2015.07.27-13.21.01:206][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2791 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_124.K2Node_CallFunction_2791
-[2015.07.27-13.21.01:206][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2791 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_139.K2Node_CallFunction_2791
-[2015.07.27-13.21.01:206][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2791 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_167.K2Node_CallFunction_2791
-[2015.07.27-13.21.01:206][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2791 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EventGraph.K2Node_CallFunction_2791
-[2015.07.27-13.21.01:206][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2790 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_79.K2Node_CallFunction_2790
-[2015.07.27-13.21.01:206][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2790 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_84.K2Node_CallFunction_2790
-[2015.07.27-13.21.01:206][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2790 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_89.K2Node_CallFunction_2790
-[2015.07.27-13.21.01:206][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2790 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_104.K2Node_CallFunction_2790
-[2015.07.27-13.21.01:206][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2790 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_124.K2Node_CallFunction_2790
-[2015.07.27-13.21.01:206][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2790 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_139.K2Node_CallFunction_2790
-[2015.07.27-13.21.01:206][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2790 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_167.K2Node_CallFunction_2790
-[2015.07.27-13.21.01:206][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2790 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EventGraph.K2Node_CallFunction_2790
-[2015.07.27-13.21.01:207][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2790 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_79.K2Node_CallFunction_2790
-[2015.07.27-13.21.01:207][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2790 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_84.K2Node_CallFunction_2790
-[2015.07.27-13.21.01:207][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2790 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_89.K2Node_CallFunction_2790
-[2015.07.27-13.21.01:207][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2790 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_104.K2Node_CallFunction_2790
-[2015.07.27-13.21.01:207][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2790 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_124.K2Node_CallFunction_2790
-[2015.07.27-13.21.01:207][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2790 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_139.K2Node_CallFunction_2790
-[2015.07.27-13.21.01:207][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2790 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_167.K2Node_CallFunction_2790
-[2015.07.27-13.21.01:207][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2790 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EventGraph.K2Node_CallFunction_2790
-[2015.07.27-13.21.01:207][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2791 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_79.K2Node_CallFunction_2791
-[2015.07.27-13.21.01:207][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2791 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_84.K2Node_CallFunction_2791
-[2015.07.27-13.21.01:207][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2791 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_89.K2Node_CallFunction_2791
-[2015.07.27-13.21.01:207][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2791 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_104.K2Node_CallFunction_2791
-[2015.07.27-13.21.01:207][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2791 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_124.K2Node_CallFunction_2791
-[2015.07.27-13.21.01:207][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2791 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_139.K2Node_CallFunction_2791
-[2015.07.27-13.21.01:207][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2791 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_167.K2Node_CallFunction_2791
-[2015.07.27-13.21.01:207][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2791 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EventGraph.K2Node_CallFunction_2791
-[2015.07.27-13.21.01:208][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2791 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_79.K2Node_CallFunction_2791
-[2015.07.27-13.21.01:208][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2791 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_84.K2Node_CallFunction_2791
-[2015.07.27-13.21.01:208][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2791 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_89.K2Node_CallFunction_2791
-[2015.07.27-13.21.01:208][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2791 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_104.K2Node_CallFunction_2791
-[2015.07.27-13.21.01:208][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2791 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_124.K2Node_CallFunction_2791
-[2015.07.27-13.21.01:208][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2791 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_139.K2Node_CallFunction_2791
-[2015.07.27-13.21.01:208][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2791 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EdGraph_167.K2Node_CallFunction_2791
-[2015.07.27-13.21.01:208][122]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:Show Loading Screen.K2Node_CallFunction_2791 or K2Node_CallFunction /Game/ProjectTronInstance.ProjectTronInstance:EventGraph.K2Node_CallFunction_2791
-[2015.07.27-13.21.14:494][907]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.21.23:584][425]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.21.37:451][220]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.22.03:133][760]BlueprintLog: New page: Compile ProjectTronInstance
-[2015.07.27-13.22.03:782][760]BlueprintEditorCompileResults: Info [0297.71] Compile of ProjectTronInstance successful! [in 649 ms]
-[2015.07.27-13.22.05:123][837]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.22.05:156][837]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectTronInstance" FILE="../../../../../../Users/Quentin/Desktop/ProjectTron/Content/ProjectTronInstance.uasset" SILENT=true
-[2015.07.27-13.22.05:285][837]LogSavePackage: Save=93.991318ms
-[2015.07.27-13.22.05:285][837]LogSavePackage: Moving '../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/ProjectTronInstanceE98D9347490DB4E410FAA9A08714D27D.tmp' to '../../../../../../Users/Quentin/Desktop/ProjectTron/Content/ProjectTronInstance.uasset'
-[2015.07.27-13.22.19:820][700]BlueprintLog: New page: Pre-PIE auto-recompile
-[2015.07.27-13.22.19:834][700]LogPlayLevel: [PIE] Compiling Minimal_Default before PIE...
-[2015.07.27-13.22.19:956][700]LogPlayLevel: PIE:  Blueprint regeneration took 136 ms (1 blueprints)
-[2015.07.27-13.22.19:959][700]PIE: New page: SIE session: Minimal_Default (Jul 27, 2015, 5:22:19 PM)
-[2015.07.27-13.22.19:974][700]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
-[2015.07.27-13.22.19:982][700]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008151s)
-[2015.07.27-13.22.19:983][700]LogAIModule: Creating AISystem for world Minimal_Default
-[2015.07.27-13.22.19:984][700]LogPlayLevel: PIE: World Init took: (0.001622s)
-[2015.07.27-13.22.19:984][700]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.010093s)
-[2015.07.27-13.22.20:029][700]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Floor"
-[2015.07.27-13.22.20:032][700]LogInit: XAudio2 using 'Haut-parleurs (3- Plantronics GameCom 780)' : 8 channels at 44.1 kHz using 16 bits per sample (channel mask 0x63f)
-[2015.07.27-13.22.20:038][700]LogInit: FAudioDevice initialized.
-[2015.07.27-13.22.21:516][700]LogWorld: Game class is 'GameMode_BP_C'
-[2015.07.27-13.22.21:531][700]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.07.27-15.22.21
-[2015.07.27-13.22.21:531][700]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.07.27-13.22.21:531][700]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.07.27-13.22.21:532][700]LogWorld: Bringing up level for play took: 0.013958
-[2015.07.27-13.22.21:535][700]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 2.352
-[2015.07.27-13.22.21:851][700]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Floor"
-[2015.07.27-13.22.21:851][700]LogNavOctree:Warning: Can't add node [NavModifier] - parent [Mesh] not found in octree!
-[2015.07.27-13.22.21:851][700]LogNavOctree:Warning: Can't add node [NavModifier] - parent [Mesh] not found in octree!
-[2015.07.27-13.22.21:851][700]LogNavOctree:Warning: Can't add node [NavModifier] - parent [Mesh] not found in octree!
-[2015.07.27-13.22.21:851][700]LogNavOctree:Warning: Can't add node [NavModifier] - parent [Mesh] not found in octree!
-[2015.07.27-13.22.21:851][700]LogNavOctree:Warning: Can't add node [NavModifier] - parent [Mesh] not found in octree!
-[2015.07.27-13.22.21:851][700]LogNavOctree:Warning: Can't add node [NavModifier] - parent [Mesh] not found in octree!
-[2015.07.27-13.22.21:851][700]LogNavOctree:Warning: Can't add node [NavModifier] - parent [Mesh] not found in octree!
-[2015.07.27-13.22.35:376][700]LogOutputDevice: === Handled error: ===
-
-Ensure condition failed: EventPath.Widgets.Num() > 0 [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.8\Engine\Source\Runtime\Slate\Private\Framework\Application\SlateApplication.cpp] [Line: 464]
-An unknown widget is attempting to set capture to SViewport [SEditorViewport.cpp(42)]
-Stack: 
-UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() {0x00007ffd6fa1ac36} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
-UE4Editor-Core.dll!FDebug::EnsureFailed() {0x00007ffd6f8b4411} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
-UE4Editor-Core.dll!FDebug::EnsureNotFalse_OptionallyLogFormattedEnsureMessageReturningFalse() {0x00007ffd6f8b46c3} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
-UE4Editor-Slate.dll!FSlateApplication::MouseCaptorHelper::SetMouseCaptor() {0x00007ffd5a00fb86} + 200 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
-UE4Editor-Slate.dll!FSlateApplication::ProcessReply() {0x00007ffd59ffa8e6} + 47 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
-UE4Editor.exe!FEngineLoop::ProcessLocalPlayerSlateOperations() {0x00007ff751c7fa34} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
-UE4Editor.exe!FEngineLoop::Tick() {0x00007ff751c84be7} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
-UE4Editor.exe!GuardedMain() {0x00007ff751c749cc} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
-UE4Editor.exe!GuardedMainWrapper() {0x00007ff751c74a4a} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
-UE4Editor.exe!WinMain() {0x00007ff751c865c9} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
-UE4Editor.exe!__tmainCRTStartup() {0x00007ff751c875d9} + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
-KERNEL32.DLL {0x00007ffd91dc13d2} + 0 bytes
-ntdll.dll {0x00007ffd929d5444} + 0 bytes
-ntdll.dll {0x00007ffd929d5444} + 0 bytes
-
-[2015.07.27-13.22.45:077][700]LogOutputDevice: === Handled error: ===
-
-Ensure condition failed: bFoundWidget [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.8\Engine\Source\Runtime\Slate\Private\Framework\Application\SlateApplication.cpp] [Line: 2507]
-Attempting to LockCursor() to widget but could not find widget SViewport [SEditorViewport.cpp(42)]
-Stack: 
-UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() {0x00007ffd6fa1ac36} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
-UE4Editor-Core.dll!FDebug::EnsureFailed() {0x00007ffd6f8b4411} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
-UE4Editor-Core.dll!FDebug::EnsureNotFalse_OptionallyLogFormattedEnsureMessageReturningFalse() {0x00007ffd6f8b46c3} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
-UE4Editor-Slate.dll!FSlateApplication::LockCursor() {0x00007ffd59fd417a} + 183 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
-UE4Editor-Slate.dll!FSlateApplication::ProcessReply() {0x00007ffd59ffacfd} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
-UE4Editor.exe!FEngineLoop::ProcessLocalPlayerSlateOperations() {0x00007ff751c7fa34} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
-UE4Editor.exe!FEngineLoop::Tick() {0x00007ff751c84be7} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
-UE4Editor.exe!GuardedMain() {0x00007ff751c749cc} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
-UE4Editor.exe!GuardedMainWrapper() {0x00007ff751c74a4a} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
-UE4Editor.exe!WinMain() {0x00007ff751c865c9} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
-UE4Editor.exe!__tmainCRTStartup() {0x00007ff751c875d9} + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
-KERNEL32.DLL {0x00007ffd91dc13d2} + 0 bytes
-ntdll.dll {0x00007ffd929d5444} + 0 bytes
-ntdll.dll {0x00007ffd929d5444} + 0 bytes
-
-[2015.07.27-13.22.46:869][701]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.23.45:832][775]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB34B2DF80
-[2015.07.27-13.29.19:686][395]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.29.28:637][422]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.29.28:890][422]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.072
-[2015.07.27-13.29.28:909][422]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Widget/Multiplayer_Menu] ([1] browsable assets)...
-[2015.07.27-13.29.28:909][422]OBJ SavePackage: Finished generating thumbnails for package [/Game/Widget/Multiplayer_Menu]
-[2015.07.27-13.29.29:125][422]LogSavePackage: Save=134.037598ms
-[2015.07.27-13.29.29:125][422]LogSavePackage: Moving '../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/Multiplayer_Menu_Auto1CA42A64A41BECD44B552468DC3C30C01.tmp' to '../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/Autosaves/Game/Widget/Multiplayer_Menu_Auto1.uasset'
-[2015.07.27-13.29.29:152][422]LogFileHelpers: Auto-saving content packages took 0.261
-[2015.07.27-13.30.03:728][610]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.30.24:241][807]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.30.27:050][972]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.30.30:941][109]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.30.31:196][121]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.31.53:631][123]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.32.13:658][810]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.32.35:839][127]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.32.36:154][142]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.32.40:994][426]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.32.43:128][549]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.32.47:869][808]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.32.56:627][ 10]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.32.56:920][ 24]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.33.08:567][705]BlueprintLog: New page: Compile ProjectTronInstance
-[2015.07.27-13.33.08:931][705]BlueprintEditorCompileResults: Info [0962.86] Compile of ProjectTronInstance successful! [in 363 ms]
-[2015.07.27-13.33.09:824][756]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.33.09:847][756]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectTronInstance" FILE="../../../../../../Users/Quentin/Desktop/ProjectTron/Content/ProjectTronInstance.uasset" SILENT=true
-[2015.07.27-13.33.10:027][756]LogSavePackage: Save=113.997093ms
-[2015.07.27-13.33.10:027][756]LogSavePackage: Moving '../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/ProjectTronInstanceA4F0A21A430782170CB8DA82678C4718.tmp' to '../../../../../../Users/Quentin/Desktop/ProjectTron/Content/ProjectTronInstance.uasset'
-[2015.07.27-13.33.13:247][948]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.33.13:263][948]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/Multiplayer_Menu" FILE="../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Widget/Multiplayer_Menu.uasset" SILENT=true
-[2015.07.27-13.33.13:410][948]LogSavePackage: Save=115.663284ms
-[2015.07.27-13.33.13:410][948]LogSavePackage: Moving '../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/Multiplayer_Menu6B812B6649912B2F235EBBA1191C13D8.tmp' to '../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Widget/Multiplayer_Menu.uasset'
-[2015.07.27-13.33.27:183][356]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.33.54:356][926]BlueprintLog: New page: Compile ServerRow
-[2015.07.27-13.33.54:669][926]BlueprintEditorCompileResults: Info [1008.60] Compile of ServerRow successful! [in 313 ms]
-[2015.07.27-13.33.54:819][934]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.33.54:833][934]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/ServerRow" FILE="../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Widget/ServerRow.uasset" SILENT=true
-[2015.07.27-13.33.54:935][934]LogSavePackage: Save=24.593822ms
-[2015.07.27-13.33.54:935][934]LogSavePackage: Moving '../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/ServerRowE54A0B39488E77CBBE66C7ABBFDBD877.tmp' to '../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Widget/ServerRow.uasset'
-[2015.07.27-13.33.58:110][118]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.33.58:786][155]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.34.07:062][595]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.34.12:716][913]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.34.16:768][156]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.34.17:676][207]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.34.23:680][562]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.34.28:315][835]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.34.29:471][901]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.34.32:983][111]BlueprintLog: New page: Compile ServerRow
-[2015.07.27-13.34.33:225][111]BlueprintEditorCompileResults: Info [1047.15] Compile of ServerRow successful! [in 241 ms]
-[2015.07.27-13.34.33:470][125]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.34.33:489][125]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/ServerRow" FILE="../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Widget/ServerRow.uasset" SILENT=true
-[2015.07.27-13.34.33:548][125]LogSavePackage: Save=29.176744ms
-[2015.07.27-13.34.33:548][125]LogSavePackage: Moving '../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/ServerRowB194D76741109DCF1F7989A2103E08E4.tmp' to '../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Widget/ServerRow.uasset'
-[2015.07.27-13.34.52:629][263]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.35.02:686][861]BlueprintLog: New page: Compile ProjectTronInstance
-[2015.07.27-13.35.03:182][861]BlueprintEditorCompileResults: Info [1077.11] Compile of ProjectTronInstance successful! [in 495 ms]
-[2015.07.27-13.35.03:203][861]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.35.03:226][861]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectTronInstance" FILE="../../../../../../Users/Quentin/Desktop/ProjectTron/Content/ProjectTronInstance.uasset" SILENT=true
-[2015.07.27-13.35.03:359][861]LogSavePackage: Save=102.513344ms
-[2015.07.27-13.35.03:359][861]LogSavePackage: Moving '../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/ProjectTronInstance1D4C6ED3480FF8BBC73307AA1CC84A5A.tmp' to '../../../../../../Users/Quentin/Desktop/ProjectTron/Content/ProjectTronInstance.uasset'
-[2015.07.27-13.35.04:079][901]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.35.04:090][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectTronInstance" FILE="../../../../../../Users/Quentin/Desktop/ProjectTron/Content/ProjectTronInstance.uasset" SILENT=true
-[2015.07.27-13.35.04:249][901]LogSavePackage: Save=127.576904ms
-[2015.07.27-13.35.04:249][901]LogSavePackage: Moving '../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/ProjectTronInstance9A897F174F45E2C7BE06219740DA1CBE.tmp' to '../../../../../../Users/Quentin/Desktop/ProjectTron/Content/ProjectTronInstance.uasset'
-[2015.07.27-13.37.44:796][681]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.37.45:046][681]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.37.49:064][681]LogActor:Warning: GameNetworkManager /Engine/Transient.World_10:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.07.27-13.37.53:407][732]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.38.20:938][297]BlueprintLog: New page: Compile Multiplayer_Menu
-[2015.07.27-13.38.21:457][297]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB32750400
-[2015.07.27-13.38.21:519][297]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB256280E0
-[2015.07.27-13.38.21:519][297]BlueprintEditorCompileResults: Info [1275.45] Compile of Multiplayer_Menu successful! [in 581 ms]
-[2015.07.27-13.38.24:314][462]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.38.40:900][439]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.39.01:529][313]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.39.18:389][223]BlueprintLog: New page: Compile Multiplayer_Menu
-[2015.07.27-13.39.18:789][223]BlueprintEditorCompileResults: Info [1332.72] Compile of Multiplayer_Menu successful! [in 400 ms]
-[2015.07.27-13.39.19:103][239]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.39.19:122][239]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/Multiplayer_Menu" FILE="../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Widget/Multiplayer_Menu.uasset" SILENT=true
-[2015.07.27-13.39.19:336][239]LogSavePackage: Save=98.063843ms
-[2015.07.27-13.39.19:336][239]LogSavePackage: Moving '../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/Multiplayer_MenuC65D68E8424940521B0C1AAE4BE76D5B.tmp' to '../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Widget/Multiplayer_Menu.uasset'
-[2015.07.27-13.40.00:156][680]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.40.19:041][790]BlueprintLog: New page: Compile Multiplayer_Menu
-[2015.07.27-13.40.19:366][790]BlueprintEditorCompileResults: Info [1393.29] Compile of Multiplayer_Menu successful! [in 324 ms]
-[2015.07.27-13.40.23:188][ 19]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.40.26:676][226]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.40.47:914][623]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.40.57:247][651]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.40.57:511][651]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.055
-[2015.07.27-13.40.57:517][651]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ProjectTronInstance] ([1] browsable assets)...
-[2015.07.27-13.40.57:518][651]OBJ SavePackage: Finished generating thumbnails for package [/Game/ProjectTronInstance]
-[2015.07.27-13.40.57:518][651]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectTronInstance" FILE="../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/Autosaves/Game/ProjectTronInstance_Auto2.uasset" SILENT=false AUTOSAVING=true
-[2015.07.27-13.40.57:696][651]LogSavePackage: Save=142.288834ms
-[2015.07.27-13.40.57:696][651]LogSavePackage: Moving '../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/ProjectTronInstance_Auto234BCB6DD42361D0ECA65D591EDAEB0ED.tmp' to '../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/Autosaves/Game/ProjectTronInstance_Auto2.uasset'
-[2015.07.27-13.40.57:704][651]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Widget/Multiplayer_Menu] ([1] browsable assets)...
-[2015.07.27-13.40.57:704][651]OBJ SavePackage: Finished generating thumbnails for package [/Game/Widget/Multiplayer_Menu]
-[2015.07.27-13.40.57:865][651]LogSavePackage: Save=107.318893ms
-[2015.07.27-13.40.57:865][651]LogSavePackage: Moving '../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/Multiplayer_Menu_Auto2DE7A26954D62222D49A507BC198FB914.tmp' to '../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/Autosaves/Game/Widget/Multiplayer_Menu_Auto2.uasset'
-[2015.07.27-13.40.57:899][651]LogFileHelpers: Auto-saving content packages took 0.387
-[2015.07.27-13.43.20:162][394]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.43.29:741][960]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.43.33:913][210]BlueprintLog: New page: Compile Multiplayer_Menu
-[2015.07.27-13.43.34:024][210]LogBlueprint:Error: [compiler Multiplayer_Menu] Error Binding: Property ' ToolTipTextDelegate ' on Widget ' ButtonRefresh ': Member:Get_ButtonRefresh Unable to bind Bool Property, unsupported type.
-[2015.07.27-13.43.34:287][210]LogBlueprint:Warning: [compiler Multiplayer_Menu] Warning [1588.22] Compile of Multiplayer_Menu failed. 1 Fatal Issue(s) 0 Warning(s) [in 374 ms]
-[2015.07.27-13.43.34:288][210]BlueprintEditorCompileResults:Error: Error Binding: Property ' ToolTipTextDelegate ' on Widget ' ButtonRefresh ': Member:Get_ButtonRefresh Unable to bind Bool Property, unsupported type.
-[2015.07.27-13.43.34:295][210]BlueprintEditorCompileResults:Warning: Warning [1588.22] Compile of Multiplayer_Menu failed. 1 Fatal Issue(s) 0 Warning(s) [in 374 ms]
-[2015.07.27-13.43.34:427][217]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.43.34:451][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/Multiplayer_Menu" FILE="../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Widget/Multiplayer_Menu.uasset" SILENT=true
-[2015.07.27-13.43.34:594][217]LogSavePackage: Save=112.392082ms
-[2015.07.27-13.43.34:594][217]LogSavePackage: Moving '../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/Multiplayer_Menu986719BB4269E6BC7DC7089FC782F0DA.tmp' to '../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Widget/Multiplayer_Menu.uasset'
-[2015.07.27-13.43.37:560][395]BlueprintLog: New page: Compile Multiplayer_Menu
-[2015.07.27-13.43.37:623][395]LogBlueprint:Error: [compiler Multiplayer_Menu] Error Binding: Property ' ToolTipTextDelegate ' on Widget ' ButtonRefresh ': Member:Get_ButtonRefresh Unable to bind Bool Property, unsupported type.
-[2015.07.27-13.43.37:893][395]LogBlueprint:Warning: [compiler Multiplayer_Menu] Warning [1591.82] Compile of Multiplayer_Menu failed. 1 Fatal Issue(s) 0 Warning(s) [in 333 ms]
-[2015.07.27-13.43.37:893][395]BlueprintEditorCompileResults:Error: Error Binding: Property ' ToolTipTextDelegate ' on Widget ' ButtonRefresh ': Member:Get_ButtonRefresh Unable to bind Bool Property, unsupported type.
-[2015.07.27-13.43.37:893][395]BlueprintEditorCompileResults:Warning: Warning [1591.82] Compile of Multiplayer_Menu failed. 1 Fatal Issue(s) 0 Warning(s) [in 333 ms]
-[2015.07.27-13.43.55:946][470]BlueprintLog: New page: Compile Multiplayer_Menu
-[2015.07.27-13.43.56:010][470]LogBlueprint:Error: [compiler Multiplayer_Menu] Error Binding: Property ' ToolTipTextDelegate ' on Widget ' ButtonRefresh ': Member:Get_ButtonRefresh Unable to bind Bool Property, unsupported type.
-[2015.07.27-13.43.56:291][470]LogBlueprint:Warning: [compiler Multiplayer_Menu] Warning [1610.22] Compile of Multiplayer_Menu failed. 1 Fatal Issue(s) 0 Warning(s) [in 344 ms]
-[2015.07.27-13.43.56:291][470]BlueprintEditorCompileResults:Error: Error Binding: Property ' ToolTipTextDelegate ' on Widget ' ButtonRefresh ': Member:Get_ButtonRefresh Unable to bind Bool Property, unsupported type.
-[2015.07.27-13.43.56:291][470]BlueprintEditorCompileResults:Warning: Warning [1610.22] Compile of Multiplayer_Menu failed. 1 Fatal Issue(s) 0 Warning(s) [in 344 ms]
-[2015.07.27-13.44.28:240][848]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.44.30:023][951]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.44.32:631][102]BlueprintLog: New page: Compile Multiplayer_Menu
-[2015.07.27-13.44.32:982][102]BlueprintEditorCompileResults: Info [1646.91] Compile of Multiplayer_Menu successful! [in 351 ms]
-[2015.07.27-13.44.33:822][151]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.44.33:841][151]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/Multiplayer_Menu" FILE="../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Widget/Multiplayer_Menu.uasset" SILENT=true
-[2015.07.27-13.44.33:965][151]LogSavePackage: Save=88.569977ms
-[2015.07.27-13.44.33:965][151]LogSavePackage: Moving '../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/Multiplayer_Menu3923301F48B04AD3558FC2B978FD7132.tmp' to '../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Widget/Multiplayer_Menu.uasset'
-[2015.07.27-13.45.10:308][ 37]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.45.10:329][ 37]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectTronInstance" FILE="../../../../../../Users/Quentin/Desktop/ProjectTron/Content/ProjectTronInstance.uasset" SILENT=true
-[2015.07.27-13.45.10:507][ 37]LogSavePackage: Save=144.045029ms
-[2015.07.27-13.45.10:507][ 37]LogSavePackage: Moving '../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/ProjectTronInstanceF25E02424CE378ACD1BC9DB964489E84.tmp' to '../../../../../../Users/Quentin/Desktop/ProjectTron/Content/ProjectTronInstance.uasset'
-[2015.07.27-13.45.17:096][290]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.46.32:566][673]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.46.34:619][794]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.46.56:666][ 98]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.47.07:688][734]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.47.08:988][811]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.47.10:910][926]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.47.14:530][142]BlueprintLog: New page: Compile ServerRow
-[2015.07.27-13.47.14:786][142]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB04B37A60
-[2015.07.27-13.47.14:821][142]BlueprintEditorCompileResults: Info [1808.75] Compile of ServerRow successful! [in 291 ms]
-[2015.07.27-13.47.15:283][168]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.47.15:309][168]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/ServerRow" FILE="../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Widget/ServerRow.uasset" SILENT=true
-[2015.07.27-13.47.15:381][168]LogSavePackage: Save=37.108631ms
-[2015.07.27-13.47.15:381][168]LogSavePackage: Moving '../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/ServerRow50A10627487352D33238B3ADB14D9638.tmp' to '../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Widget/ServerRow.uasset'
-[2015.07.27-13.47.23:054][624]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.47.32:331][173]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.47.46:061][979]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.47.53:505][406]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.47.55:711][538]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.47.57:366][636]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.48.22:053][939]BlueprintLog: New page: Compile ServerRow
-[2015.07.27-13.48.22:344][939]BlueprintEditorCompileResults: Info [1876.27] Compile of ServerRow successful! [in 289 ms]
-[2015.07.27-13.48.22:713][959]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.48.22:733][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/ServerRow" FILE="../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Widget/ServerRow.uasset" SILENT=true
-[2015.07.27-13.48.22:915][959]LogSavePackage: Save=151.652435ms
-[2015.07.27-13.48.22:915][959]LogSavePackage: Moving '../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/ServerRow62412D6040581173A3E0FDA664B8D044.tmp' to '../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Widget/ServerRow.uasset'
-[2015.07.27-13.52.06:810][ 37]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.52.15:825][556]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.52.16:067][556]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.059
-[2015.07.27-13.52.16:074][556]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Widget/ServerRow] ([1] browsable assets)...
-[2015.07.27-13.52.16:074][556]OBJ SavePackage: Finished generating thumbnails for package [/Game/Widget/ServerRow]
-[2015.07.27-13.52.16:074][556]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/ServerRow" FILE="../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/Autosaves/Game/Widget/ServerRow_Auto3.uasset" SILENT=false AUTOSAVING=true
-[2015.07.27-13.52.16:164][556]LogSavePackage: Save=42.244186ms
-[2015.07.27-13.52.16:164][556]LogSavePackage: Moving '../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/ServerRow_Auto3E72B6F7B4A8BDB5486E0B183E4218646.tmp' to '../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/Autosaves/Game/Widget/ServerRow_Auto3.uasset'
-[2015.07.27-13.52.16:165][556]LogFileHelpers: Auto-saving content packages took 0.097
-[2015.07.27-13.52.30:091][387]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.52.50:957][627]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.52.52:526][720]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.52.54:468][836]BlueprintLog: New page: Compile ServerRow
-[2015.07.27-13.52.54:809][836]BlueprintEditorCompileResults: Info [2148.74] Compile of ServerRow successful! [in 340 ms]
-[2015.07.27-13.52.55:078][850]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.52.55:097][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/ServerRow" FILE="../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Widget/ServerRow.uasset" SILENT=true
-[2015.07.27-13.52.55:176][850]LogSavePackage: Save=47.279873ms
-[2015.07.27-13.52.55:176][850]LogSavePackage: Moving '../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/ServerRow9BD637A44514B9E44C44B8BE9647F230.tmp' to '../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Widget/ServerRow.uasset'
-[2015.07.27-13.53.01:723][243]BlueprintLog: New page: Compile ServerRow
-[2015.07.27-13.53.01:953][243]BlueprintEditorCompileResults: Info [2155.88] Compile of ServerRow successful! [in 230 ms]
-[2015.07.27-13.53.02:378][266]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.53.02:398][266]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/ServerRow" FILE="../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Widget/ServerRow.uasset" SILENT=true
-[2015.07.27-13.53.02:545][266]LogSavePackage: Save=106.787575ms
-[2015.07.27-13.53.02:545][266]LogSavePackage: Moving '../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/ServerRow25C0D1F149B0BF6CE89892A3F13673C4.tmp' to '../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Widget/ServerRow.uasset'
-[2015.07.27-13.53.24:610][580]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.53.34:969][179]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.53.36:026][239]BlueprintLog: New page: Pre-PIE auto-recompile
-[2015.07.27-13.53.36:036][239]LogPlayLevel: [PIE] Compiling Minimal_Default before PIE...
-[2015.07.27-13.53.36:214][239]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB3418CFE0
-[2015.07.27-13.53.36:214][239]LogPlayLevel: PIE:  Blueprint regeneration took 188 ms (1 blueprints)
-[2015.07.27-13.53.36:233][239]PIE: New page: PIE session: Minimal_Default (Jul 27, 2015, 5:53:36 PM)
-[2015.07.27-13.53.36:254][239]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
-[2015.07.27-13.53.36:459][239]LogPlayLevel: PIE: StaticDuplicateObject took: (0.205545s)
-[2015.07.27-13.53.36:460][239]LogAIModule: Creating AISystem for world Minimal_Default
-[2015.07.27-13.53.36:461][239]LogPlayLevel: PIE: World Init took: (0.001339s)
-[2015.07.27-13.53.36:461][239]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.207122s)
-[2015.07.27-13.53.36:604][239]LogInit: XAudio2 using 'Haut-parleurs (3- Plantronics GameCom 780)' : 8 channels at 44.1 kHz using 16 bits per sample (channel mask 0x63f)
-[2015.07.27-13.53.36:637][239]LogInit: FAudioDevice initialized.
-[2015.07.27-13.53.36:711][239]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.53.36:821][239]LogWorld: Game class is 'GameMode_BP_C'
-[2015.07.27-13.53.36:906][239]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.07.27-15.53.36
-[2015.07.27-13.53.36:906][239]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.07.27-13.53.36:907][239]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.07.27-13.53.36:907][239]LogWorld: Bringing up level for play took: 0.080364
-[2015.07.27-13.53.37:294][239]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 2.112
-[2015.07.27-13.53.37:306][239]LogNavOctree:Warning: Can't add node [NavModifier] - parent [Mesh] not found in octree!
-[2015.07.27-13.53.37:306][239]LogNavOctree:Warning: Can't add node [NavModifier] - parent [Mesh] not found in octree!
-[2015.07.27-13.53.37:306][239]LogNavOctree:Warning: Can't add node [NavModifier] - parent [Mesh] not found in octree!
-[2015.07.27-13.53.37:306][239]LogNavOctree:Warning: Can't add node [NavModifier] - parent [Mesh] not found in octree!
-[2015.07.27-13.53.37:306][239]LogNavOctree:Warning: Can't add node [NavModifier] - parent [Mesh] not found in octree!
-[2015.07.27-13.53.37:306][239]LogNavOctree:Warning: Can't add node [NavModifier] - parent [Mesh] not found in octree!
-[2015.07.27-13.53.37:306][239]LogNavOctree:Warning: Can't add node [NavModifier] - parent [Mesh] not found in octree!
-[2015.07.27-13.53.37:766][239]LogRenderer: Reallocating scene render targets to support 1296x760 (Frame:766).
-[2015.07.27-13.53.42:898][321]LogPackageName: SearchForPackageOnDisk took   0.142s to resolve MenuLevel.umap
-[2015.07.27-13.53.43:054][321]LogPackageName: SearchForPackageOnDisk took   0.133s to resolve MenuLevel.umap
-[2015.07.27-13.53.43:054][321]LogNet: Browse: /Game/Level/MenuLevel
-[2015.07.27-13.53.43:073][321]LogLoad: LoadMap: /Game/Level/MenuLevel
-[2015.07.27-13.53.43:294][321]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB3418E660
-[2015.07.27-13.53.43:295][321]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB2562B420
-[2015.07.27-13.53.43:491][321]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DC0230DEE0
-[2015.07.27-13.53.43:491][321]Cmd: MEM
-[2015.07.27-13.53.43:826][321]LogMemory: Platform Memory Stats for Windows
-[2015.07.27-13.53.43:826][321]LogMemory: Process Physical Memory: 1575.47 MB used, 2686.42 MB peak
-[2015.07.27-13.53.43:826][321]LogMemory: Process Virtual Memory: 3677.09 MB used, 3764.65 MB peak
-[2015.07.27-13.53.43:826][321]LogMemory: Physical Memory: 4937.68 MB used, 8069.54 MB total
-[2015.07.27-13.53.43:826][321]LogMemory: Virtual Memory: 4743.55 MB used, 134217728.00 MB total
-[2015.07.27-13.53.43:826][321]LogMemory: 
-[2015.07.27-13.53.43:826][321]Allocator Stats for TBB: (not implemented)
-[2015.07.27-13.53.47:942][321]LogAIModule: Creating AISystem for world MenuLevel
-[2015.07.27-13.53.48:122][321]LogWorld: Game class is 'GameMode_BP_C'
-[2015.07.27-13.53.48:125][321]LogWorld: Bringing World /Game/Level/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 60) at 2015.07.27-15.53.48
-[2015.07.27-13.53.48:125][321]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.07.27-13.53.48:126][321]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.07.27-13.53.48:126][321]LogWorld: Bringing up level for play took: 0.001427
-[2015.07.27-13.53.48:126][321]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2015.07.27-13.53.48:203][321]LogPackageName: SearchForPackageOnDisk took   0.074s to resolve MenuLevel.umap
-[2015.07.27-13.53.48:293][321]LogScript:Warning: DestroySession - Invalid or uninitialized OnlineSubsystem
-[2015.07.27-13.53.48:293][321]LogScript:Warning: DestroySession - Cannot map local player to unique net ID
-[2015.07.27-13.53.48:423][322]LogPackageName: SearchForPackageOnDisk took   0.077s to resolve MenuLevel.umap
-[2015.07.27-13.53.48:424][322]LogNet: Browse: /Game/Level/MenuLevel
-[2015.07.27-13.53.48:432][322]LogLoad: LoadMap: /Game/Level/MenuLevel
-[2015.07.27-13.53.48:518][322]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB32552160
-[2015.07.27-13.53.48:518][322]Cmd: MEM
-[2015.07.27-13.53.48:564][322]LogMemory: Platform Memory Stats for Windows
-[2015.07.27-13.53.48:564][322]LogMemory: Process Physical Memory: 1707.19 MB used, 2686.42 MB peak
-[2015.07.27-13.53.48:564][322]LogMemory: Process Virtual Memory: 3707.39 MB used, 3817.64 MB peak
-[2015.07.27-13.53.48:564][322]LogMemory: Physical Memory: 5080.01 MB used, 8069.54 MB total
-[2015.07.27-13.53.48:564][322]LogMemory: Virtual Memory: 4775.92 MB used, 134217728.00 MB total
-[2015.07.27-13.53.48:564][322]LogMemory: 
-[2015.07.27-13.53.48:564][322]Allocator Stats for TBB: (not implemented)
-[2015.07.27-13.53.48:691][322]LogAIModule: Creating AISystem for world MenuLevel
-[2015.07.27-13.53.48:765][322]LogWorld: Game class is 'GameMode_BP_C'
-[2015.07.27-13.53.48:768][322]LogWorld: Bringing World /Game/Level/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 60) at 2015.07.27-15.53.48
-[2015.07.27-13.53.48:768][322]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.07.27-13.53.48:768][322]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.07.27-13.53.48:768][322]LogWorld: Bringing up level for play took: 0.001284
-[2015.07.27-13.53.48:769][322]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2015.07.27-13.53.56:285][486]LogPackageName: SearchForPackageOnDisk took   0.201s to resolve Multiplayer_Level.umap
-[2015.07.27-13.53.56:493][486]LogPackageName: SearchForPackageOnDisk took   0.207s to resolve Multiplayer_Level.umap
-[2015.07.27-13.53.56:493][486]LogNet: Browse: /Game/Level/Multiplayer_Level
-[2015.07.27-13.53.56:493][486]LogLoad: LoadMap: /Game/Level/Multiplayer_Level
-[2015.07.27-13.53.56:661][486]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB04B36520
-[2015.07.27-13.53.56:661][486]Cmd: MEM
-[2015.07.27-13.53.56:766][486]LogMemory: Platform Memory Stats for Windows
-[2015.07.27-13.53.56:766][486]LogMemory: Process Physical Memory: 1704.43 MB used, 2686.42 MB peak
-[2015.07.27-13.53.56:766][486]LogMemory: Process Virtual Memory: 3640.93 MB used, 3817.64 MB peak
-[2015.07.27-13.53.56:766][486]LogMemory: Physical Memory: 5080.02 MB used, 8069.54 MB total
-[2015.07.27-13.53.56:766][486]LogMemory: Virtual Memory: 4709.55 MB used, 134217728.00 MB total
-[2015.07.27-13.53.56:766][486]LogMemory: 
-[2015.07.27-13.53.56:766][486]Allocator Stats for TBB: (not implemented)
-[2015.07.27-13.53.57:094][486]LogAIModule: Creating AISystem for world Multiplayer_Level
-[2015.07.27-13.53.57:174][486]LogWorld: Game class is 'GameMode_BP_C'
-[2015.07.27-13.53.57:176][486]LogWorld: Bringing World /Game/Level/UEDPIE_0_Multiplayer_Level.Multiplayer_Level up for play (max tick rate 60) at 2015.07.27-15.53.57
-[2015.07.27-13.53.57:176][486]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_Multiplayer_Level.Multiplayer_Level:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.07.27-13.53.57:177][486]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_Multiplayer_Level.Multiplayer_Level:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.07.27-13.53.57:177][486]LogWorld: Bringing up level for play took: 0.001245
-[2015.07.27-13.53.57:178][486]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2015.07.27-13.53.57:181][486]LogScript:Warning: FindSessions - Invalid or uninitialized OnlineSubsystem
-[2015.07.27-13.53.57:181][486]LogScript:Warning: FindSessions - Cannot map local player to unique net ID
-[2015.07.27-13.54.04:188][637]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB325505E0
-[2015.07.27-13.54.08:277][881]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.54.08:705][903]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.54.20:799][616]BlueprintLog: New page: Compile Multiplayer_Menu
-[2015.07.27-13.54.21:089][616]BlueprintEditorCompileResults: Info [2235.02] Compile of Multiplayer_Menu successful! [in 289 ms]
-[2015.07.27-13.54.21:475][638]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.54.21:489][638]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/Multiplayer_Menu" FILE="../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Widget/Multiplayer_Menu.uasset" SILENT=true
-[2015.07.27-13.54.21:632][638]LogSavePackage: Save=107.828506ms
-[2015.07.27-13.54.21:632][638]LogSavePackage: Moving '../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/Multiplayer_MenuBB827D704B950A81B5A1B9836015E34E.tmp' to '../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Widget/Multiplayer_Menu.uasset'
-[2015.07.27-13.54.23:240][733]BlueprintLog: New page: Pre-PIE auto-recompile
-[2015.07.27-13.54.23:252][733]LogPlayLevel: [PIE] Compiling Minimal_Default before PIE...
-[2015.07.27-13.54.23:379][733]LogPlayLevel: PIE:  Blueprint regeneration took 139 ms (1 blueprints)
-[2015.07.27-13.54.23:380][733]PIE: New page: PIE session: Minimal_Default (Jul 27, 2015, 5:54:23 PM)
-[2015.07.27-13.54.23:408][733]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
-[2015.07.27-13.54.23:416][733]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007549s)
-[2015.07.27-13.54.23:416][733]LogAIModule: Creating AISystem for world Minimal_Default
-[2015.07.27-13.54.23:418][733]LogPlayLevel: PIE: World Init took: (0.002123s)
-[2015.07.27-13.54.23:418][733]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.009902s)
-[2015.07.27-13.54.23:466][733]LogInit: XAudio2 using 'Haut-parleurs (3- Plantronics GameCom 780)' : 8 channels at 44.1 kHz using 16 bits per sample (channel mask 0x63f)
-[2015.07.27-13.54.23:472][733]LogInit: FAudioDevice initialized.
-[2015.07.27-13.54.23:475][733]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.54.23:508][733]LogWorld: Game class is 'GameMode_BP_C'
-[2015.07.27-13.54.23:516][733]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.07.27-15.54.23
-[2015.07.27-13.54.23:516][733]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.07.27-13.54.23:516][733]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.07.27-13.54.23:517][733]LogWorld: Bringing up level for play took: 0.007731
-[2015.07.27-13.54.23:534][733]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.351
-[2015.07.27-13.54.23:534][733]LogNavOctree:Warning: Can't add node [NavModifier] - parent [Mesh] not found in octree!
-[2015.07.27-13.54.23:534][733]LogNavOctree:Warning: Can't add node [NavModifier] - parent [Mesh] not found in octree!
-[2015.07.27-13.54.23:534][733]LogNavOctree:Warning: Can't add node [NavModifier] - parent [Mesh] not found in octree!
-[2015.07.27-13.54.23:534][733]LogNavOctree:Warning: Can't add node [NavModifier] - parent [Mesh] not found in octree!
-[2015.07.27-13.54.23:534][733]LogNavOctree:Warning: Can't add node [NavModifier] - parent [Mesh] not found in octree!
-[2015.07.27-13.54.23:534][733]LogNavOctree:Warning: Can't add node [NavModifier] - parent [Mesh] not found in octree!
-[2015.07.27-13.54.23:534][733]LogNavOctree:Warning: Can't add node [NavModifier] - parent [Mesh] not found in octree!
-[2015.07.27-13.54.27:307][795]LogPackageName: SearchForPackageOnDisk took   0.217s to resolve MenuLevel.umap
-[2015.07.27-13.54.27:521][795]LogPackageName: SearchForPackageOnDisk took   0.212s to resolve MenuLevel.umap
-[2015.07.27-13.54.27:521][795]LogNet: Browse: /Game/Level/MenuLevel
-[2015.07.27-13.54.27:522][795]LogLoad: LoadMap: /Game/Level/MenuLevel
-[2015.07.27-13.54.27:647][795]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB7426CD60
-[2015.07.27-13.54.27:647][795]Cmd: MEM
-[2015.07.27-13.54.27:756][795]LogMemory: Platform Memory Stats for Windows
-[2015.07.27-13.54.27:756][795]LogMemory: Process Physical Memory: 1705.75 MB used, 2686.42 MB peak
-[2015.07.27-13.54.27:756][795]LogMemory: Process Virtual Memory: 3637.15 MB used, 3817.64 MB peak
-[2015.07.27-13.54.27:756][795]LogMemory: Physical Memory: 5082.04 MB used, 8069.54 MB total
-[2015.07.27-13.54.27:756][795]LogMemory: Virtual Memory: 4713.25 MB used, 134217728.00 MB total
-[2015.07.27-13.54.27:756][795]LogMemory: 
-[2015.07.27-13.54.27:756][795]Allocator Stats for TBB: (not implemented)
-[2015.07.27-13.54.27:974][795]LogAIModule: Creating AISystem for world MenuLevel
-[2015.07.27-13.54.28:130][795]LogWorld: Game class is 'GameMode_BP_C'
-[2015.07.27-13.54.28:132][795]LogWorld: Bringing World /Game/Level/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 60) at 2015.07.27-15.54.28
-[2015.07.27-13.54.28:132][795]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.07.27-13.54.28:133][795]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.07.27-13.54.28:133][795]LogWorld: Bringing up level for play took: 0.001252
-[2015.07.27-13.54.28:134][795]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2015.07.27-13.54.28:209][795]LogPackageName: SearchForPackageOnDisk took   0.073s to resolve MenuLevel.umap
-[2015.07.27-13.54.28:209][795]LogScript:Warning: DestroySession - Invalid or uninitialized OnlineSubsystem
-[2015.07.27-13.54.28:209][795]LogScript:Warning: DestroySession - Cannot map local player to unique net ID
-[2015.07.27-13.54.28:298][796]LogPackageName: SearchForPackageOnDisk took   0.074s to resolve MenuLevel.umap
-[2015.07.27-13.54.28:298][796]LogNet: Browse: /Game/Level/MenuLevel
-[2015.07.27-13.54.28:314][796]LogLoad: LoadMap: /Game/Level/MenuLevel
-[2015.07.27-13.54.28:384][796]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB74355A80
-[2015.07.27-13.54.28:384][796]Cmd: MEM
-[2015.07.27-13.54.28:430][796]LogMemory: Platform Memory Stats for Windows
-[2015.07.27-13.54.28:430][796]LogMemory: Process Physical Memory: 1706.36 MB used, 2686.42 MB peak
-[2015.07.27-13.54.28:430][796]LogMemory: Process Virtual Memory: 3693.18 MB used, 3817.64 MB peak
-[2015.07.27-13.54.28:430][796]LogMemory: Physical Memory: 5082.04 MB used, 8069.54 MB total
-[2015.07.27-13.54.28:430][796]LogMemory: Virtual Memory: 4770.36 MB used, 134217728.00 MB total
-[2015.07.27-13.54.28:430][796]LogMemory: 
-[2015.07.27-13.54.28:430][796]Allocator Stats for TBB: (not implemented)
-[2015.07.27-13.54.28:537][796]LogAIModule: Creating AISystem for world MenuLevel
-[2015.07.27-13.54.28:612][796]LogWorld: Game class is 'GameMode_BP_C'
-[2015.07.27-13.54.28:614][796]LogWorld: Bringing World /Game/Level/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 60) at 2015.07.27-15.54.28
-[2015.07.27-13.54.28:614][796]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.07.27-13.54.28:615][796]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.07.27-13.54.28:615][796]LogWorld: Bringing up level for play took: 0.001345
-[2015.07.27-13.54.28:616][796]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2015.07.27-13.54.29:309][811]LogPackageName: SearchForPackageOnDisk took   0.077s to resolve Multiplayer_Level.umap
-[2015.07.27-13.54.29:385][811]LogPackageName: SearchForPackageOnDisk took   0.075s to resolve Multiplayer_Level.umap
-[2015.07.27-13.54.29:385][811]LogNet: Browse: /Game/Level/Multiplayer_Level
-[2015.07.27-13.54.29:438][811]LogLoad: LoadMap: /Game/Level/Multiplayer_Level
-[2015.07.27-13.54.29:506][811]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB7426F740
-[2015.07.27-13.54.29:506][811]Cmd: MEM
-[2015.07.27-13.54.29:551][811]LogMemory: Platform Memory Stats for Windows
-[2015.07.27-13.54.29:551][811]LogMemory: Process Physical Memory: 1706.24 MB used, 2686.42 MB peak
-[2015.07.27-13.54.29:551][811]LogMemory: Process Virtual Memory: 3633.23 MB used, 3817.64 MB peak
-[2015.07.27-13.54.29:551][811]LogMemory: Physical Memory: 5083.02 MB used, 8069.54 MB total
-[2015.07.27-13.54.29:551][811]LogMemory: Virtual Memory: 4710.00 MB used, 134217728.00 MB total
-[2015.07.27-13.54.29:551][811]LogMemory: 
-[2015.07.27-13.54.29:551][811]Allocator Stats for TBB: (not implemented)
-[2015.07.27-13.54.29:658][811]LogAIModule: Creating AISystem for world Multiplayer_Level
-[2015.07.27-13.54.29:733][811]LogWorld: Game class is 'GameMode_BP_C'
-[2015.07.27-13.54.29:736][811]LogWorld: Bringing World /Game/Level/UEDPIE_0_Multiplayer_Level.Multiplayer_Level up for play (max tick rate 60) at 2015.07.27-15.54.29
-[2015.07.27-13.54.29:736][811]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_Multiplayer_Level.Multiplayer_Level:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.07.27-13.54.29:736][811]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_Multiplayer_Level.Multiplayer_Level:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.07.27-13.54.29:736][811]LogWorld: Bringing up level for play took: 0.001248
-[2015.07.27-13.54.29:737][811]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2015.07.27-13.54.29:740][811]LogScript:Warning: FindSessions - Invalid or uninitialized OnlineSubsystem
-[2015.07.27-13.54.29:740][811]LogScript:Warning: FindSessions - Cannot map local player to unique net ID
-[2015.07.27-13.54.43:168][109]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB6F29D6C0
-[2015.07.27-13.54.48:295][416]BlueprintLog: New page: Compile Multiplayer_Menu
-[2015.07.27-13.54.48:584][416]BlueprintEditorCompileResults: Info [2262.51] Compile of Multiplayer_Menu successful! [in 287 ms]
-[2015.07.27-13.54.48:951][437]LogD3D11RHI: InitD3DDevice
-[2015.07.27-13.54.48:976][437]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/Multiplayer_Menu" FILE="../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Widget/Multiplayer_Menu.uasset" SILENT=true
-[2015.07.27-13.54.49:093][437]LogSavePackage: Save=85.211533ms
-[2015.07.27-13.54.49:093][437]LogSavePackage: Moving '../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/Multiplayer_Menu14FC7AA54FACED16D2AFE49BF4E5A3EB.tmp' to '../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Widget/Multiplayer_Menu.uasset'
-[2015.07.27-13.54.51:757][551]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB0594C0E0
-[2015.07.27-13.54.51:757][551]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB0594E480
-[2015.07.27-13.54.52:686][552]Cmd: QUIT_EDITOR
-[2015.07.27-13.54.53:232][552]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.07.27-13.54.53:389][552]LogExit: Preparing to exit.
-[2015.07.27-13.54.55:537][552]LogExit: Editor shut down
-[2015.07.27-13.54.55:627][552]LogExit: Transaction tracking system shut down
-[2015.07.27-13.54.55:651][552]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB3263A020
-[2015.07.27-13.54.56:875][552]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB76919760
-[2015.07.27-13.54.56:875][552]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB7BE9F920
-[2015.07.27-13.54.56:875][552]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB7C239300
-[2015.07.27-13.54.56:875][552]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB00AAB1A0
-[2015.07.27-13.54.56:875][552]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB00AA9620
-[2015.07.27-13.54.56:875][552]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB00AA8680
-[2015.07.27-13.54.56:875][552]LogExit: Object subsystem successfully closed.
-[2015.07.27-13.54.57:661][552]LogD3D11RHI: Shutdown
-[2015.07.27-13.54.57:661][552]LogD3D11RHI: CleanupD3DDevice
-[2015.07.27-13.54.57:983][552]LogD3D11RHI: ~FD3D11DynamicRHI
-[2015.07.27-13.54.58:167][552]LogModuleManager: Shutting down and abandoning module SequencerWidgets (189)
-[2015.07.27-13.54.58:167][552]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
-[2015.07.27-13.54.58:167][552]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
-[2015.07.27-13.54.58:167][552]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
-[2015.07.27-13.54.58:167][552]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
-[2015.07.27-13.54.58:193][552]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
-[2015.07.27-13.54.58:405][552]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
-[2015.07.27-13.54.58:405][552]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
-[2015.07.27-13.54.58:424][552]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
-[2015.07.27-13.54.58:439][552]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
-[2015.07.27-13.54.58:452][552]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
-[2015.07.27-13.54.58:500][552]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
-[2015.07.27-13.54.58:501][552]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
-[2015.07.27-13.54.58:501][552]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
-[2015.07.27-13.54.58:501][552]LogModuleManager: Shutting down and abandoning module BspMode (175)
-[2015.07.27-13.54.58:501][552]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
-[2015.07.27-13.54.58:510][552]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
-[2015.07.27-13.54.58:510][552]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
-[2015.07.27-13.54.58:510][552]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
-[2015.07.27-13.54.58:510][552]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
-[2015.07.27-13.54.58:510][552]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
-[2015.07.27-13.54.58:565][552]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
-[2015.07.27-13.54.58:586][552]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
-[2015.07.27-13.54.58:614][552]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
-[2015.07.27-13.54.58:626][552]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
-[2015.07.27-13.54.58:639][552]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
-[2015.07.27-13.54.58:639][552]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
-[2015.07.27-13.54.59:018][552]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
-[2015.07.27-13.54.59:018][552]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
-[2015.07.27-13.54.59:018][552]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
-[2015.07.27-13.54.59:018][552]LogModuleManager: Shutting down and abandoning module MergeActors (159)
-[2015.07.27-13.54.59:036][552]LogModuleManager: Shutting down and abandoning module SizeMap (158)
-[2015.07.27-13.54.59:036][552]LogModuleManager: Shutting down and abandoning module TreeMap (157)
-[2015.07.27-13.54.59:075][552]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
-[2015.07.27-13.54.59:075][552]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
-[2015.07.27-13.54.59:107][552]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
-[2015.07.27-13.54.59:107][552]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
-[2015.07.27-13.54.59:124][552]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
-[2015.07.27-13.54.59:137][552]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
-[2015.07.27-13.54.59:150][552]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
-[2015.07.27-13.54.59:150][552]LogModuleManager: Shutting down and abandoning module XmlParser (149)
-[2015.07.27-13.54.59:171][552]LogModuleManager: Shutting down and abandoning module Blutility (148)
-[2015.07.27-13.54.59:171][552]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
-[2015.07.27-13.54.59:171][552]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
-[2015.07.27-13.54.59:171][552]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
-[2015.07.27-13.54.59:197][552]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
-[2015.07.27-13.54.59:197][552]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
-[2015.07.27-13.54.59:213][552]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
-[2015.07.27-13.54.59:263][552]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
-[2015.07.27-13.54.59:274][552]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
-[2015.07.27-13.54.59:288][552]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
-[2015.07.27-13.54.59:288][552]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
-[2015.07.27-13.54.59:336][552]LogModuleManager: Shutting down and abandoning module AutomationController (137)
-[2015.07.27-13.54.59:350][552]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
-[2015.07.27-13.54.59:368][552]LogModuleManager: Shutting down and abandoning module Layers (135)
-[2015.07.27-13.54.59:391][552]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
-[2015.07.27-13.54.59:391][552]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
-[2015.07.27-13.54.59:391][552]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
-[2015.07.27-13.54.59:406][552]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
-[2015.07.27-13.54.59:821][552]LogModuleManager: Shutting down and abandoning module Persona (130)
-[2015.07.27-13.54.59:860][552]LogModuleManager: Shutting down and abandoning module Kismet (129)
-[2015.07.27-13.54.59:860][552]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
-[2015.07.27-13.54.59:860][552]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
-[2015.07.27-13.54.59:879][552]LogModuleManager: Shutting down and abandoning module Toolbox (126)
-[2015.07.27-13.54.59:879][552]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
-[2015.07.27-13.54.59:888][552]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
-[2015.07.27-13.54.59:903][552]LogModuleManager: Shutting down and abandoning module OutputLog (123)
-[2015.07.27-13.54.59:903][552]LogModuleManager: Shutting down and abandoning module GammaUI (122)
-[2015.07.27-13.54.59:912][552]LogModuleManager: Shutting down and abandoning module Documentation (121)
-[2015.07.27-13.54.59:912][552]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
-[2015.07.27-13.54.59:912][552]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
-[2015.07.27-13.54.59:912][552]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
-[2015.07.27-13.54.59:912][552]LogModuleManager: Shutting down and abandoning module Analytics (117)
-[2015.07.27-13.54.59:912][552]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
-[2015.07.27-13.54.59:928][552]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
-[2015.07.27-13.54.59:928][552]LogModuleManager: Shutting down and abandoning module AIModule (114)
-[2015.07.27-13.54.59:928][552]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
-[2015.07.27-13.55.00:065][552]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
-[2015.07.27-13.55.00:140][552]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
-[2015.07.27-13.55.00:140][552]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
-[2015.07.27-13.55.00:140][552]LogModuleManager: Shutting down and abandoning module SteamVR (109)
-[2015.07.27-13.55.00:140][552]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
-[2015.07.27-13.55.00:140][552]LogModuleManager: Shutting down and abandoning module OculusRift (107)
-[2015.07.27-13.55.00:140][552]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
-[2015.07.27-13.55.00:298][552]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
-[2015.07.27-13.55.00:298][552]LogModuleManager: Shutting down and abandoning module CableComponent (104)
-[2015.07.27-13.55.00:583][552]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
-[2015.07.27-13.55.00:818][552]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
-[2015.07.27-13.55.00:830][552]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
-[2015.07.27-13.55.00:830][552]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
-[2015.07.27-13.55.00:861][552]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
-[2015.07.27-13.55.00:885][552]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
-[2015.07.27-13.55.00:908][552]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
-[2015.07.27-13.55.00:918][552]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
-[2015.07.27-13.55.00:918][552]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
-[2015.07.27-13.55.00:956][552]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
-[2015.07.27-13.55.00:976][552]LogModuleManager: Shutting down and abandoning module SourceControl (93)
-[2015.07.27-13.55.00:982][552]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
-[2015.07.27-13.55.00:998][552]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
-[2015.07.27-13.55.00:998][552]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
-[2015.07.27-13.55.00:998][552]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
-[2015.07.27-13.55.01:003][552]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
-[2015.07.27-13.55.01:018][552]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
-[2015.07.27-13.55.01:060][552]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
-[2015.07.27-13.55.01:149][552]LogModuleManager: Shutting down and abandoning module HotReload (85)
-[2015.07.27-13.55.01:149][552]LogModuleManager: Shutting down and abandoning module MainFrame (84)
-[2015.07.27-13.55.01:149][552]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
-[2015.07.27-13.55.01:244][552]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
-[2015.07.27-13.55.01:271][552]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
-[2015.07.27-13.55.01:322][552]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
-[2015.07.27-13.55.01:443][552]LogModuleManager: Shutting down and abandoning module Paper2D (79)
-[2015.07.27-13.55.01:461][552]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
-[2015.07.27-13.55.01:583][552]LogModuleManager: Shutting down and abandoning module Media (77)
-[2015.07.27-13.55.01:583][552]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
-[2015.07.27-13.55.01:734][552]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
-[2015.07.27-13.55.01:734][552]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
-[2015.07.27-13.55.01:734][552]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
-[2015.07.27-13.55.01:764][552]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
-[2015.07.27-13.55.01:764][552]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
-[2015.07.27-13.55.01:784][552]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
-[2015.07.27-13.55.01:784][552]LogModuleManager: Shutting down and abandoning module MessageLog (69)
-[2015.07.27-13.55.01:784][552]LogModuleManager: Shutting down and abandoning module Sequencer (68)
-[2015.07.27-13.55.01:784][552]LogModuleManager: Shutting down and abandoning module AssetTools (67)
-[2015.07.27-13.55.01:805][552]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
-[2015.07.27-13.55.01:805][552]LogModuleManager: Shutting down and abandoning module UMG (65)
-[2015.07.27-13.55.01:805][552]LogModuleManager: Shutting down and abandoning module Slate (64)
-[2015.07.27-13.55.01:805][552]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
-[2015.07.27-13.55.01:879][552]LogModuleManager: Shutting down and abandoning module SessionServices (62)
-[2015.07.27-13.55.01:879][552]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
-[2015.07.27-13.55.01:879][552]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
-[2015.07.27-13.55.01:879][552]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
-[2015.07.27-13.55.01:879][552]LogModuleManager: Shutting down and abandoning module Networking (57)
-[2015.07.27-13.55.01:879][552]LogModuleManager: Shutting down and abandoning module Core (56)
-[2015.07.27-13.55.01:879][552]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
-[2015.07.27-13.55.01:896][552]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
-[2015.07.27-13.55.01:900][552]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
-[2015.07.27-13.55.01:916][552]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
-[2015.07.27-13.55.01:993][552]LogDerivedDataCache: Shutdown
-[2015.07.27-13.55.01:993][552]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
-[2015.07.27-13.55.02:011][552]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
-[2015.07.27-13.55.02:029][552]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
-[2015.07.27-13.55.02:042][552]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
-[2015.07.27-13.55.02:042][552]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
-[2015.07.27-13.55.02:055][552]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
-[2015.07.27-13.55.02:069][552]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
-[2015.07.27-13.55.02:081][552]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
-[2015.07.27-13.55.02:081][552]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
-[2015.07.27-13.55.02:081][552]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
-[2015.07.27-13.55.02:081][552]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
-[2015.07.27-13.55.02:082][552]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
-[2015.07.27-13.55.02:094][552]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
-[2015.07.27-13.55.02:094][552]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
-[2015.07.27-13.55.02:094][552]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
-[2015.07.27-13.55.02:101][552]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
-[2015.07.27-13.55.02:109][552]LogModuleManager: Shutting down and abandoning module Messaging (35)
-[2015.07.27-13.55.02:109][552]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
-[2015.07.27-13.55.02:109][552]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
-[2015.07.27-13.55.02:109][552]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
-[2015.07.27-13.55.02:109][552]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
-[2015.07.27-13.55.02:109][552]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
-[2015.07.27-13.55.02:109][552]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
-[2015.07.27-13.55.02:109][552]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
-[2015.07.27-13.55.02:109][552]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
-[2015.07.27-13.55.02:109][552]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
-[2015.07.27-13.55.02:109][552]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
-[2015.07.27-13.55.02:109][552]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
-[2015.07.27-13.55.02:109][552]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
-[2015.07.27-13.55.02:109][552]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
-[2015.07.27-13.55.02:109][552]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
-[2015.07.27-13.55.02:109][552]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
-[2015.07.27-13.55.02:125][552]LogModuleManager: Shutting down and abandoning module InputCore (19)
-[2015.07.27-13.55.02:125][552]LogModuleManager: Shutting down and abandoning module Settings (18)
-[2015.07.27-13.55.02:125][552]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
-[2015.07.27-13.55.02:125][552]LogModuleManager: Shutting down and abandoning module HTTP (15)
-[2015.07.27-13.55.02:140][552]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
-[2015.07.27-13.55.02:140][552]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
-[2015.07.27-13.55.02:140][552]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
-[2015.07.27-13.55.02:140][552]LogModuleManager: Shutting down and abandoning module Landscape (11)
-[2015.07.27-13.55.02:140][552]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
-[2015.07.27-13.55.02:189][552]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
-[2015.07.27-13.55.02:209][552]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
-[2015.07.27-13.55.02:209][552]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2015.07.27-13.55.02:209][552]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2015.07.27-13.55.02:209][552]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2015.07.27-13.55.02:209][552]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2015.07.27-13.55.02:221][552]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2015.07.27-13.55.02:221][552]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2015.07.27-13.55.02:239][552]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2015.07.27-13.55.02:289][552]LogExit: Exiting.
-[2015.07.27-13.55.02:348][552]Log file closed, 07/27/15 15:55:02
+[2015.07.27-16.01.18:234][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2015.07.27-16.01.18:235][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
+[2015.07.27-16.01.18:249][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 635M    (Feature Level 11_0)
+[2015.07.27-16.01.18:249][  0]LogD3D11RHI: Adapter has 1996MB of dedicated video memory, 0MB of dedicated system memory, and 2047MB of shared system memory, 0 output[s]
+[2015.07.27-16.01.18:250][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.07.27-16.01.18:250][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.07.27-16.01.18:250][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.07.27-16.01.18:255][  0]LogD3D11RHI: InitD3DDevice
+[2015.07.27-16.01.18:256][  0]LogD3D11RHI: !Direct3DDevice
+[2015.07.27-16.01.18:256][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.07.27-16.01.18:265][  0]LogD3D11RHI: Async texture creation enabled
+[2015.07.27-16.01.18:282][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.07.27-16.01.19:191][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.07.27-16.01.19:209][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.07.27-16.01.19:226][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.07.27-16.01.19:242][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.07.27-16.01.19:262][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.07.27-16.01.19:277][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.07.27-16.01.19:290][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.07.27-16.01.19:304][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.07.27-16.01.19:318][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.07.27-16.01.19:332][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.07.27-16.01.19:347][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.07.27-16.01.19:361][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.07.27-16.01.19:415][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.07.27-16.01.19:429][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.07.27-16.01.19:444][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.07.27-16.01.19:462][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.07.27-16.01.19:462][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.07.27-16.01.19:700][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.07.27-16.01.19:759][  0]LogDerivedDataCache: Loaded boot cache 0.06s 53MB C:/Users/Quentin/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.27-16.01.19:759][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Quentin/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.07.27-16.01.19:759][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Quentin/Desktop/ProjectTron/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.07.27-16.01.19:759][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.07.27-16.01.19:759][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Quentin/Desktop/ProjectTron/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.07.27-16.01.19:759][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.07.27-16.01.19:936][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.07.27-16.01.19:948][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Quentin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.07.27-16.01.20:511][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.27-16.01.20:534][  0]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2015.07.27-16.02.23:329][  0]LogMaterial: Missing cached shader map for material DefaultDeferredDecalMaterial, compiling. 
+[2015.07.27-16.02.23:974][  0]LogMaterial: Missing cached shader map for material DefaultLightFunctionMaterial, compiling. 
+[2015.07.27-16.02.24:196][  0]LogMaterial: Missing cached shader map for material DefaultPostProcessMaterial, compiling. 
+[2015.07.27-16.02.24:843][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2015.07.27-16.02.24:865][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2015.07.27-16.02.24:869][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2015.07.27-16.02.24:873][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2015.07.27-16.02.24:902][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.27-16.02.24:903][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.27-16.02.24:955][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.07.27-16.02.24:955][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.07.27-16.02.25:060][  0]LogMaterial: Missing cached shader map for material SkySphereMaterial, compiling. 
+[2015.07.27-16.02.25:074][  0]LogMaterial: Missing cached shader map for material FloorPlaneMaterial, compiling. 
+[2015.07.27-16.02.25:246][  0]LogMaterial: Missing cached shader map for material LandscapeGizmo_Mat, compiling. 
+[2015.07.27-16.02.25:266][  0]LogMaterial: Missing cached shader map for material LandscapeGizmoHeight_Mat, compiling. 
+[2015.07.27-16.02.25:330][  0]LogMaterial: Missing cached shader map for material SplineEditorMeshMat, compiling. 
+[2015.07.27-16.02.25:346][  0]LogMaterial: Missing cached shader map for material MatineeCam_mat, compiling. 
+[2015.07.27-16.02.25:396][  0]LogMaterial: Missing cached shader map for material HelpActorMaterial, compiling. 
+[2015.07.27-16.02.25:481][  0]LogMaterial: Missing cached shader map for material DefaultTextMaterialOpaque, compiling. 
+[2015.07.27-16.02.25:586][  0]LogMaterial: Missing cached shader map for material DefaultMaterial, compiling. 
+[2015.07.27-16.02.25:731][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.07.27-16.02.26:550][  0]LogD3D11RHI: InitD3DDevice
+[2015.07.27-16.02.26:850][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Movies/Default_Startup.mp4
+[2015.07.27-16.02.26:995][  0]LogMaterial: Missing cached shader map for material DefaultSpriteMaterial, compiling. 
+[2015.07.27-16.02.27:032][  0]LogMaterial: Missing cached shader map for material DefaultSpriteMaterial, compiling. 
+[2015.07.27-16.02.27:139][  0]SourceControl: Info Source control is disabled
+[2015.07.27-16.02.27:139][  0]SourceControl: Info Source control is disabled
+[2015.07.27-16.02.27:158][  0]SourceControl: Info Source control is disabled
+[2015.07.27-16.02.27:366][  0]LogMaterial: Missing cached shader map for material LM_HandColor, compiling. 
+[2015.07.27-16.02.27:509][  0]LogObj: 25781 objects as part of root set at end of initial load.
+[2015.07.27-16.02.27:509][  0]LogUObjectAllocator: 5195968 out of 0 bytes used by permanent object pool.
+[2015.07.27-16.02.27:594][  0]LogMaterial: Missing cached shader map for material HighResScreenshot, compiling. 
+[2015.07.27-16.02.27:610][  0]LogMaterial: Missing cached shader map for material HighResScreenshotMask, compiling. 
+[2015.07.27-16.02.27:622][  0]LogMaterial: Missing cached shader map for material HighResScreenshotCaptureRegion, compiling. 
+[2015.07.27-16.02.27:671][  0]LogAutomationTest:Warning: ERR: Transient text cannot be serialized "Testing Transient serialization detection".
+[2015.07.27-16.02.27:672][  0]LogEngine: Initializing Engine...
+[2015.07.27-16.02.27:676][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.07.27-16.02.27:678][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 100
+[2015.07.27-16.02.27:694][  0]LogMaterial: Missing cached shader map for material WireframeMaterial, compiling. Is special engine material.
+[2015.07.27-16.02.27:719][  0]LogMaterial: Missing cached shader map for material LevelColorationLitMaterial, compiling. Is special engine material.
+[2015.07.27-16.02.27:883][  0]LogMaterial: Missing cached shader map for material LevelColorationUnlitMaterial, compiling. Is special engine material.
+[2015.07.27-16.02.27:934][  0]LogMaterial: Missing cached shader map for material MAT_LevelColorationLitLightmapUV, compiling. Is special engine material.
+[2015.07.27-16.02.27:935][  0]LogMaterial:Warning: Failed to compile Material /Engine/EngineDebugMaterials/MAT_LevelColorationLitLightmapUV.MAT_LevelColorationLitLightmapUV for platform PCD3D_ES2, Default Material will be used in game.
+[2015.07.27-16.02.27:935][  0]LogMaterial:Warning: 	(Node LightmapUVs) Node not supported in feature level ES2
+[2015.07.27-16.02.27:974][  0]LogMaterial: Missing cached shader map for material ShadedLevelColorationLitMaterial, compiling. Is special engine material.
+[2015.07.27-16.02.28:147][  0]LogMaterial: Missing cached shader map for material ShadedLevelColorationUnlitMateri, compiling. Is special engine material.
+[2015.07.27-16.02.28:171][  0]LogMaterial: Missing cached shader map for material VertexColorMaterial, compiling. 
+[2015.07.27-16.02.28:221][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_ColorOnly, compiling. 
+[2015.07.27-16.02.28:243][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_AlphaAsColor, compiling. 
+[2015.07.27-16.02.28:251][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_RedOnly, compiling. 
+[2015.07.27-16.02.28:258][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_GreenOnly, compiling. 
+[2015.07.27-16.02.28:278][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_BlueOnly, compiling. 
+[2015.07.27-16.02.28:285][  0]LogMaterial: Missing cached shader map for material RemoveSurfaceMaterial, compiling. 
+[2015.07.27-16.02.28:302][  0]LogMaterial: Missing cached shader map for material DebugMeshMaterial, compiling. 
+[2015.07.27-16.02.28:311][  0]LogMaterial: Missing cached shader map for material M_InvalidLightmapSettings, compiling. 
+[2015.07.27-16.02.28:328][  0]LogMaterial: Missing cached shader map for material GizmoMaterial, compiling. 
+[2015.07.27-16.02.28:345][  0]LogInit: XAudio2 using 'Haut-parleurs (3- Plantronics GameCom 780)' : 8 channels at 44.1 kHz using 16 bits per sample (channel mask 0x63f)
+[2015.07.27-16.02.28:363][  0]LogInit: FAudioDevice initialized.
+[2015.07.27-16.02.28:369][  0]LogInit: Texture streaming: Disabled
+[2015.07.27-16.02.28:371][  0]LogMaterial: Missing cached shader map for material BaseColor, compiling. 
+[2015.07.27-16.02.28:376][  0]LogMaterial: Missing cached shader map for material CustomDepth, compiling. 
+[2015.07.27-16.02.28:382][  0]LogMaterial: Missing cached shader map for material DecalMask, compiling. 
+[2015.07.27-16.02.28:387][  0]LogMaterial: Missing cached shader map for material FinalImage, compiling. 
+[2015.07.27-16.02.28:392][  0]LogMaterial: Missing cached shader map for material LightingModel, compiling. 
+[2015.07.27-16.02.28:397][  0]LogMaterial: Missing cached shader map for material MaterialAO, compiling. 
+[2015.07.27-16.02.28:402][  0]LogMaterial: Missing cached shader map for material Metallic, compiling. 
+[2015.07.27-16.02.28:407][  0]LogMaterial: Missing cached shader map for material Opacity, compiling. 
+[2015.07.27-16.02.28:413][  0]LogMaterial: Missing cached shader map for material Roughness, compiling. 
+[2015.07.27-16.02.28:418][  0]LogMaterial: Missing cached shader map for material SceneColor, compiling. 
+[2015.07.27-16.02.28:437][  0]LogMaterial: Missing cached shader map for material SceneDepth, compiling. 
+[2015.07.27-16.02.28:442][  0]LogMaterial: Missing cached shader map for material SeparateTranslucencyRGB, compiling. 
+[2015.07.27-16.02.28:476][  0]LogMaterial: Missing cached shader map for material SeparateTranslucencyA, compiling. 
+[2015.07.27-16.02.28:518][  0]LogMaterial: Missing cached shader map for material Specular, compiling. 
+[2015.07.27-16.02.28:524][  0]LogMaterial: Missing cached shader map for material SubsurfaceColor, compiling. 
+[2015.07.27-16.02.28:534][  0]LogMaterial: Missing cached shader map for material WorldNormal, compiling. 
+[2015.07.27-16.02.28:553][  0]LogMaterial: Missing cached shader map for material AmbientOcclusion, compiling. 
+[2015.07.27-16.02.28:562][  0]LogMaterial: Missing cached shader map for material CustomDepthWorldUnits, compiling. 
+[2015.07.27-16.02.28:581][  0]LogMaterial: Missing cached shader map for material SceneDepthWorldUnits, compiling. 
+[2015.07.27-16.02.29:750][  0]LogNet: Browse: /Temp/Autosaves/Game/Level/UEDPCMenuLevel?Name=Player
+[2015.07.27-16.02.29:750][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Level/UEDPCMenuLevel?Name=Player
+[2015.07.27-16.02.29:811][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007211EFE5C0
+[2015.07.27-16.02.29:939][  0]LogMemory: Platform Memory Stats for Windows
+[2015.07.27-16.02.29:939][  0]LogMemory: Process Physical Memory: 458.07 MB used, 458.07 MB peak
+[2015.07.27-16.02.29:939][  0]LogMemory: Process Virtual Memory: 437.66 MB used, 438.40 MB peak
+[2015.07.27-16.02.29:939][  0]LogMemory: Physical Memory: 3804.05 MB used, 8069.54 MB total
+[2015.07.27-16.02.29:939][  0]LogMemory: Virtual Memory: 965.08 MB used, 134217728.00 MB total
+[2015.07.27-16.02.29:939][  0]LogMemory: 
+[2015.07.27-16.02.29:939][  0]Allocator Stats for TBB: (not implemented)
+[2015.07.27-16.02.30:138][  0]LogAIModule: Creating AISystem for world MenuLevel
+[2015.07.27-16.02.33:044][  0]LogMaterial: Missing cached shader map for material M_CharacterMaster, compiling. 
+[2015.07.27-16.02.33:459][  0]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2015.07.27-16.02.33:500][  0]LogMaterial: Missing cached shader map for material M_AssetPlatform, compiling. 
+[2015.07.27-16.02.33:555][  0]LogWorld: Game class is 'GameMode_BP_C'
+[2015.07.27-16.02.33:558][  0]LogWorld: Bringing World /Temp/Autosaves/Game/Level/UEDPCMenuLevel.MenuLevel up for play (max tick rate 0) at 2015.07.27-18.02.33
+[2015.07.27-16.02.33:558][  0]LogWorld: Bringing up level for play took: 0.001066
+[2015.07.27-16.02.33:655][  0]LogInit:Display: Game Engine Initialized.
+[2015.07.27-16.02.33:923][  0]LogAssetRegistry: FAssetRegistry took 0.0003 seconds to start up
+[2015.07.27-16.02.33:924][  0]LogLoad: Full Startup: 78.34 seconds (BP compile: 1.68 seconds)
+[2015.07.27-16.02.33:975][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.07.27-16.02.33:978][  0]LogContentStreaming: Texture pool size is 1000.000000MB
+[2015.07.27-16.02.34:088][  1]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:2).
+[2015.07.27-16.02.43:019][407]Closing by request
+[2015.07.27-16.02.43:019][407]LogWindows: FPlatformMisc::RequestExit(0)
+[2015.07.27-16.02.43:714][408]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.07.27-16.02.43:720][408]LogExit: Preparing to exit.
+[2015.07.27-16.02.43:778][408]LogExit: Game engine shut down
+[2015.07.27-16.02.43:782][408]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007219A86480
+[2015.07.27-16.02.43:996][408]LogExit: Object subsystem successfully closed.
+[2015.07.27-16.02.44:004][408]LogD3D11RHI: Shutdown
+[2015.07.27-16.02.44:004][408]LogD3D11RHI: CleanupD3DDevice
+[2015.07.27-16.02.44:030][408]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.07.27-16.02.44:041][408]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (108)
+[2015.07.27-16.02.44:960][408]LogModuleManager: Shutting down and abandoning module AssetRegistry (107)
+[2015.07.27-16.02.44:960][408]LogModuleManager: Shutting down and abandoning module AutomationWorker (106)
+[2015.07.27-16.02.44:960][408]LogModuleManager: Shutting down and abandoning module CharacterAI (105)
+[2015.07.27-16.02.44:960][408]LogModuleManager: Shutting down and abandoning module AITestSuite (104)
+[2015.07.27-16.02.44:960][408]LogModuleManager: Shutting down and abandoning module GameplayDebugger (103)
+[2015.07.27-16.02.44:960][408]LogModuleManager: Shutting down and abandoning module AIModule (102)
+[2015.07.27-16.02.44:960][408]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (101)
+[2015.07.27-16.02.44:960][408]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (100)
+[2015.07.27-16.02.44:960][408]LogModuleManager: Shutting down and abandoning module ProfilerService (99)
+[2015.07.27-16.02.45:070][408]LogModuleManager: Shutting down and abandoning module TaskGraph (98)
+[2015.07.27-16.02.45:070][408]LogModuleManager: Shutting down and abandoning module SlateRemote (97)
+[2015.07.27-16.02.45:070][408]LogModuleManager: Shutting down and abandoning module SteamVRController (96)
+[2015.07.27-16.02.45:070][408]LogModuleManager: Shutting down and abandoning module SteamVR (95)
+[2015.07.27-16.02.45:070][408]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (94)
+[2015.07.27-16.02.45:070][408]LogModuleManager: Shutting down and abandoning module OculusRift (93)
+[2015.07.27-16.02.45:070][408]LogModuleManager: Shutting down and abandoning module LeapMotionController (92)
+[2015.07.27-16.02.45:080][408]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (91)
+[2015.07.27-16.02.45:080][408]LogModuleManager: Shutting down and abandoning module CableComponent (90)
+[2015.07.27-16.02.45:080][408]LogModuleManager: Shutting down and abandoning module DesktopPlatform (89)
+[2015.07.27-16.02.45:080][408]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (88)
+[2015.07.27-16.02.45:080][408]LogModuleManager: Shutting down and abandoning module HotReload (87)
+[2015.07.27-16.02.45:080][408]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (86)
+[2015.07.27-16.02.45:080][408]LogModuleManager: Shutting down and abandoning module UObjectPlugin (85)
+[2015.07.27-16.02.45:080][408]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (84)
+[2015.07.27-16.02.45:080][408]LogModuleManager: Shutting down and abandoning module SourceControl (83)
+[2015.07.27-16.02.45:080][408]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (82)
+[2015.07.27-16.02.45:080][408]LogModuleManager: Shutting down and abandoning module BlankPlugin (81)
+[2015.07.27-16.02.45:080][408]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.07.27-16.02.45:080][408]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.07.27-16.02.45:080][408]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.07.27-16.02.45:081][408]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.07.27-16.02.45:081][408]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.07.27-16.02.45:081][408]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.07.27-16.02.45:081][408]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.07.27-16.02.45:081][408]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.07.27-16.02.45:081][408]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.07.27-16.02.45:081][408]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.07.27-16.02.45:081][408]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.07.27-16.02.45:081][408]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.07.27-16.02.45:081][408]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.07.27-16.02.45:081][408]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.07.27-16.02.45:081][408]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.07.27-16.02.45:081][408]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.07.27-16.02.45:081][408]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.07.27-16.02.45:081][408]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.07.27-16.02.45:083][408]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.07.27-16.02.45:083][408]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.07.27-16.02.45:083][408]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.07.27-16.02.45:083][408]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.07.27-16.02.45:083][408]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.07.27-16.02.45:083][408]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.07.27-16.02.45:083][408]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.07.27-16.02.45:083][408]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.07.27-16.02.45:083][408]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.07.27-16.02.45:083][408]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.07.27-16.02.45:535][408]LogDerivedDataCache: Shutdown
+[2015.07.27-16.02.45:535][408]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.07.27-16.02.45:535][408]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.07.27-16.02.45:535][408]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.07.27-16.02.45:535][408]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.07.27-16.02.45:535][408]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.07.27-16.02.45:535][408]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.07.27-16.02.45:535][408]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.07.27-16.02.45:535][408]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.07.27-16.02.45:535][408]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.07.27-16.02.45:535][408]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.07.27-16.02.45:535][408]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.07.27-16.02.45:535][408]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.07.27-16.02.45:535][408]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.07.27-16.02.45:535][408]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.07.27-16.02.45:535][408]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.07.27-16.02.45:535][408]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.07.27-16.02.45:535][408]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.07.27-16.02.45:535][408]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.07.27-16.02.45:535][408]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.07.27-16.02.45:535][408]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.07.27-16.02.45:535][408]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.07.27-16.02.45:535][408]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.07.27-16.02.45:535][408]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.07.27-16.02.45:535][408]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.07.27-16.02.45:535][408]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.07.27-16.02.45:535][408]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.07.27-16.02.45:535][408]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.07.27-16.02.45:535][408]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.07.27-16.02.45:535][408]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.07.27-16.02.45:535][408]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.07.27-16.02.45:535][408]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.07.27-16.02.45:535][408]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.07.27-16.02.45:535][408]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.07.27-16.02.45:535][408]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.07.27-16.02.45:535][408]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.07.27-16.02.45:535][408]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.07.27-16.02.45:536][408]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.07.27-16.02.45:536][408]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.07.27-16.02.45:536][408]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.07.27-16.02.45:536][408]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.07.27-16.02.45:536][408]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.07.27-16.02.45:536][408]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.07.27-16.02.45:536][408]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.07.27-16.02.45:536][408]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.07.27-16.02.45:536][408]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.07.27-16.02.45:536][408]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.07.27-16.02.45:536][408]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.07.27-16.02.45:536][408]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.07.27-16.02.45:536][408]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.07.27-16.02.45:536][408]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.07.27-16.02.45:536][408]LogExit: Exiting.
+[2015.07.27-16.02.45:538][408]Log file closed, 07/27/15 18:02:45
