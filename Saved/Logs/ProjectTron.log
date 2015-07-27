@@ -621,4 +621,336 @@ Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localizat
 [2015.07.27-11.52.16:933][ 85]LogPlayLevel: PIE: World Init took: (0.001078s)
 [2015.07.27-11.52.16:933][ 85]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/MenuLevel.MenuLevel to /Game/Level/UEDPIE_0_MenuLevel.MenuLevel (0.005959s)
 [2015.07.27-11.52.16:933][ 85]LogWorld: Game class is 'GameMode_BP_C'
-[2015.07.27-11.52.16:935][ 85]LogWorld: Bringing World /Game/Level/UEDPIE_0_MenuLevel.MenuLevel up for play
+[2015.07.27-11.52.16:935][ 85]LogWorld: Bringing World /Game/Level/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 60) at 2015.07.27-13.52.16
+[2015.07.27-11.52.16:935][ 85]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameSession_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.27-11.52.16:936][ 85]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_MenuLevel.MenuLevel:PersistentLevel.GameNetworkManager_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.27-11.52.16:936][ 85]LogWorld: Bringing up level for play took: 0.001163
+[2015.07.27-11.52.16:936][ 85]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.27-11.52.21:395][183]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C67352DB20
+[2015.07.27-11.55.13:568][ 36]LogD3D11RHI: InitD3DDevice
+[2015.07.27-11.55.13:685][ 36]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.27-11.55.13:718][ 36]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.27-11.55.54:635][293]LogD3D11RHI: InitD3DDevice
+[2015.07.27-11.55.58:953][551]LogD3D11RHI: InitD3DDevice
+[2015.07.27-11.56.03:443][819]BlueprintLog: New page: Compile Multiplayer_Menu
+[2015.07.27-11.56.03:619][819]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C6381D36A0
+[2015.07.27-11.56.03:620][819]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C6561FD300
+[2015.07.27-11.56.03:653][819]BlueprintEditorCompileResults: Info [0741.94] Compile of Multiplayer_Menu successful! [in 210 ms]
+[2015.07.27-11.56.04:076][844]LogD3D11RHI: InitD3DDevice
+[2015.07.27-11.56.04:089][844]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/Multiplayer_Menu" FILE="../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Widget/Multiplayer_Menu.uasset" SILENT=true
+[2015.07.27-11.56.04:184][844]LogSavePackage: Save=60.867977ms
+[2015.07.27-11.56.04:184][844]LogSavePackage: Moving '../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/Multiplayer_Menu698376CB4A27ED2A067271960135879A.tmp' to '../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Widget/Multiplayer_Menu.uasset'
+[2015.07.27-11.56.05:065][897]LogD3D11RHI: InitD3DDevice
+[2015.07.27-11.56.11:656][288]LogD3D11RHI: InitD3DDevice
+[2015.07.27-11.56.15:662][522]LogD3D11RHI: InitD3DDevice
+[2015.07.27-11.56.20:371][797]LogD3D11RHI: InitD3DDevice
+[2015.07.27-11.56.28:716][291]LogD3D11RHI: InitD3DDevice
+[2015.07.27-11.56.31:429][450]LogEditorTransaction: Undo Move Widget
+[2015.07.27-11.56.31:464][450]LogD3D11RHI: InitD3DDevice
+[2015.07.27-11.56.43:693][174]LogD3D11RHI: InitD3DDevice
+[2015.07.27-11.57.08:004][623]LogD3D11RHI: InitD3DDevice
+[2015.07.27-11.58.13:458][530]BlueprintLog: New page: Compile Multiplayer_Menu
+[2015.07.27-11.58.13:625][530]BlueprintEditorCompileResults: Info [0871.91] Compile of Multiplayer_Menu successful! [in 167 ms]
+[2015.07.27-11.58.16:563][703]LogD3D11RHI: InitD3DDevice
+[2015.07.27-11.58.19:941][901]LogD3D11RHI: InitD3DDevice
+[2015.07.27-11.58.22:120][ 29]BlueprintLog: New page: Compile Multiplayer_Menu
+[2015.07.27-11.58.22:271][ 29]BlueprintEditorCompileResults: Info [0880.56] Compile of Multiplayer_Menu successful! [in 150 ms]
+[2015.07.27-11.58.22:719][ 55]LogD3D11RHI: InitD3DDevice
+[2015.07.27-11.58.22:738][ 55]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/Multiplayer_Menu" FILE="../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Widget/Multiplayer_Menu.uasset" SILENT=true
+[2015.07.27-11.58.22:830][ 55]LogSavePackage: Save=62.081009ms
+[2015.07.27-11.58.22:830][ 55]LogSavePackage: Moving '../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/Multiplayer_MenuCD5520FE4E51B275ABC05AA611DAD3FA.tmp' to '../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Widget/Multiplayer_Menu.uasset'
+[2015.07.27-11.59.08:560][779]LogD3D11RHI: InitD3DDevice
+[2015.07.27-11.59.11:074][929]LogEditorTransaction: Undo Move Widget
+[2015.07.27-11.59.11:108][929]LogD3D11RHI: InitD3DDevice
+[2015.07.27-11.59.38:899][588]BlueprintLog: New page: Compile Multiplayer_Menu
+[2015.07.27-11.59.39:052][588]BlueprintEditorCompileResults: Info [0957.34] Compile of Multiplayer_Menu successful! [in 153 ms]
+[2015.07.27-11.59.39:421][609]LogD3D11RHI: InitD3DDevice
+[2015.07.27-11.59.39:447][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/Multiplayer_Menu" FILE="../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Widget/Multiplayer_Menu.uasset" SILENT=true
+[2015.07.27-11.59.39:551][609]LogSavePackage: Save=75.306740ms
+[2015.07.27-11.59.39:552][609]LogSavePackage: Moving '../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/Multiplayer_Menu76D42EEB492CCEC999F142957216AB22.tmp' to '../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Widget/Multiplayer_Menu.uasset'
+[2015.07.27-11.59.45:990][994]LogD3D11RHI: InitD3DDevice
+[2015.07.27-11.59.51:496][324]LogD3D11RHI: InitD3DDevice
+[2015.07.27-12.00.00:121][841]LogD3D11RHI: InitD3DDevice
+[2015.07.27-12.00.09:295][386]BlueprintLog: New page: Compile Multiplayer_Menu
+[2015.07.27-12.00.09:521][386]BlueprintEditorCompileResults: Info [0987.81] Compile of Multiplayer_Menu successful! [in 225 ms]
+[2015.07.27-12.00.09:871][406]LogD3D11RHI: InitD3DDevice
+[2015.07.27-12.00.09:901][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/Multiplayer_Menu" FILE="../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Widget/Multiplayer_Menu.uasset" SILENT=true
+[2015.07.27-12.00.09:991][406]LogSavePackage: Save=62.367985ms
+[2015.07.27-12.00.09:991][406]LogSavePackage: Moving '../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/Multiplayer_MenuB0026B12465D12C5B6CAE493FBAB8C6A.tmp' to '../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Widget/Multiplayer_Menu.uasset'
+[2015.07.27-12.00.22:687][166]BlueprintLog: New page: Compile Multiplayer_Menu
+[2015.07.27-12.00.22:831][166]BlueprintEditorCompileResults: Info [1001.12] Compile of Multiplayer_Menu successful! [in 144 ms]
+[2015.07.27-12.00.23:266][191]LogD3D11RHI: InitD3DDevice
+[2015.07.27-12.00.23:284][191]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/Multiplayer_Menu" FILE="../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Widget/Multiplayer_Menu.uasset" SILENT=true
+[2015.07.27-12.00.23:375][191]LogSavePackage: Save=62.688908ms
+[2015.07.27-12.00.23:375][191]LogSavePackage: Moving '../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/Multiplayer_Menu32A514E64A216C98C5F5479FD5C968C8.tmp' to '../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Widget/Multiplayer_Menu.uasset'
+[2015.07.27-12.00.38:327][ 82]BlueprintLog: New page: Compile Multiplayer_Menu
+[2015.07.27-12.00.38:558][ 82]BlueprintEditorCompileResults: Info [1016.84] Compile of Multiplayer_Menu successful! [in 229 ms]
+[2015.07.27-12.00.38:827][ 97]LogD3D11RHI: InitD3DDevice
+[2015.07.27-12.00.38:853][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/Multiplayer_Menu" FILE="../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Widget/Multiplayer_Menu.uasset" SILENT=true
+[2015.07.27-12.00.38:979][ 97]LogSavePackage: Save=97.809631ms
+[2015.07.27-12.00.38:979][ 97]LogSavePackage: Moving '../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/Multiplayer_Menu064DEC2E4EBB59F97CE56F95185EC14D.tmp' to '../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Widget/Multiplayer_Menu.uasset'
+[2015.07.27-12.01.18:232][431]BlueprintLog: New page: Compile Multiplayer_Menu
+[2015.07.27-12.01.18:442][431]BlueprintEditorCompileResults: Info [1056.73] Compile of Multiplayer_Menu successful! [in 210 ms]
+[2015.07.27-12.01.23:580][739]LogD3D11RHI: InitD3DDevice
+[2015.07.27-12.01.23:922][756]LogD3D11RHI: InitD3DDevice
+[2015.07.27-12.01.35:531][405]LogD3D11RHI: InitD3DDevice
+[2015.07.27-12.01.40:135][660]LogD3D11RHI: InitD3DDevice
+[2015.07.27-12.01.44:356][913]LogD3D11RHI: InitD3DDevice
+[2015.07.27-12.01.49:113][195]LogD3D11RHI: InitD3DDevice
+[2015.07.27-12.01.59:917][834]LogD3D11RHI: InitD3DDevice
+[2015.07.27-12.02.02:166][968]BlueprintLog: New page: Compile Multiplayer_Menu
+[2015.07.27-12.02.02:367][968]BlueprintEditorCompileResults: Info [1100.65] Compile of Multiplayer_Menu successful! [in 200 ms]
+[2015.07.27-12.02.02:734][989]LogD3D11RHI: InitD3DDevice
+[2015.07.27-12.02.02:747][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/Multiplayer_Menu" FILE="../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Widget/Multiplayer_Menu.uasset" SILENT=true
+[2015.07.27-12.02.02:920][989]LogSavePackage: Save=133.868256ms
+[2015.07.27-12.02.02:920][989]LogSavePackage: Moving '../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/Multiplayer_Menu1179C227421EBE64FFDE36B5E2417D38.tmp' to '../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Widget/Multiplayer_Menu.uasset'
+[2015.07.27-12.02.19:141][960]LogD3D11RHI: InitD3DDevice
+[2015.07.27-12.02.21:815][117]LogD3D11RHI: InitD3DDevice
+[2015.07.27-12.02.28:389][501]BlueprintLog: New page: Compile Multiplayer_Menu
+[2015.07.27-12.02.28:632][501]BlueprintEditorCompileResults: Info [1126.92] Compile of Multiplayer_Menu successful! [in 241 ms]
+[2015.07.27-12.02.38:537][ 86]BlueprintLog: New page: Compile Multiplayer_Menu
+[2015.07.27-12.02.38:823][ 86]BlueprintEditorCompileResults: Info [1137.11] Compile of Multiplayer_Menu successful! [in 285 ms]
+[2015.07.27-12.02.39:028][ 97]LogD3D11RHI: InitD3DDevice
+[2015.07.27-12.02.39:050][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/Multiplayer_Menu" FILE="../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Widget/Multiplayer_Menu.uasset" SILENT=true
+[2015.07.27-12.02.39:205][ 97]LogSavePackage: Save=125.297287ms
+[2015.07.27-12.02.39:205][ 97]LogSavePackage: Moving '../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/Multiplayer_MenuF0C299184C6E8398E3678196B0155816.tmp' to '../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Widget/Multiplayer_Menu.uasset'
+[2015.07.27-12.02.49:686][721]LogD3D11RHI: InitD3DDevice
+[2015.07.27-12.02.57:659][196]LogD3D11RHI: InitD3DDevice
+[2015.07.27-12.03.07:243][767]BlueprintLog: New page: Compile Multiplayer_Menu
+[2015.07.27-12.03.07:541][767]BlueprintEditorCompileResults: Info [1165.83] Compile of Multiplayer_Menu successful! [in 298 ms]
+[2015.07.27-12.03.07:902][787]LogD3D11RHI: InitD3DDevice
+[2015.07.27-12.03.07:922][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/Multiplayer_Menu" FILE="../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Widget/Multiplayer_Menu.uasset" SILENT=true
+[2015.07.27-12.03.08:110][787]LogSavePackage: Save=153.792313ms
+[2015.07.27-12.03.08:110][787]LogSavePackage: Moving '../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/Multiplayer_Menu18DBFCB14461EE3015B93E9BD64F3D52.tmp' to '../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Widget/Multiplayer_Menu.uasset'
+[2015.07.27-12.03.46:743][456]LogD3D11RHI: InitD3DDevice
+[2015.07.27-12.04.01:406][283]LogD3D11RHI: InitD3DDevice
+[2015.07.27-12.04.01:681][295]LogD3D11RHI: InitD3DDevice
+[2015.07.27-12.04.08:713][570]LogD3D11RHI: InitD3DDevice
+[2015.07.27-12.04.08:965][582]LogD3D11RHI: InitD3DDevice
+[2015.07.27-12.04.31:014][286]LogD3D11RHI: InitD3DDevice
+[2015.07.27-12.04.39:977][313]LogD3D11RHI: InitD3DDevice
+[2015.07.27-12.04.40:229][313]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/MenuLevel' took 0.058
+[2015.07.27-12.04.40:234][313]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ProjectTronInstance] ([1] browsable assets)...
+[2015.07.27-12.04.40:234][313]OBJ SavePackage: Finished generating thumbnails for package [/Game/ProjectTronInstance]
+[2015.07.27-12.04.40:235][313]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectTronInstance" FILE="../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/Autosaves/Game/ProjectTronInstance_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.07.27-12.04.40:347][313]LogSavePackage: Save=73.603050ms
+[2015.07.27-12.04.40:347][313]LogSavePackage: Moving '../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/ProjectTronInstance_Auto1A56642A940061F20A98C5B8CED91C8CB.tmp' to '../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/Autosaves/Game/ProjectTronInstance_Auto1.uasset'
+[2015.07.27-12.04.40:349][313]LogFileHelpers: Auto-saving content packages took 0.119
+[2015.07.27-12.13.21:279][912]LogD3D11RHI: InitD3DDevice
+[2015.07.27-12.13.29:778][292]BlueprintLog: New page: Compile ProjectTronInstance
+[2015.07.27-12.13.30:291][292]BlueprintEditorCompileResults: Info [1788.58] Compile of ProjectTronInstance successful! [in 513 ms]
+[2015.07.27-12.13.30:474][300]LogD3D11RHI: InitD3DDevice
+[2015.07.27-12.13.30:491][300]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectTronInstance" FILE="../../../../../../Users/Quentin/Desktop/ProjectTron/Content/ProjectTronInstance.uasset" SILENT=true
+[2015.07.27-12.13.30:653][300]LogSavePackage: Save=72.985680ms
+[2015.07.27-12.13.30:653][300]LogSavePackage: Moving '../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/ProjectTronInstance5B9AE3D6421E81D69E8970B54663B59E.tmp' to '../../../../../../Users/Quentin/Desktop/ProjectTron/Content/ProjectTronInstance.uasset'
+[2015.07.27-12.13.32:517][410]LogD3D11RHI: InitD3DDevice
+[2015.07.27-12.13.32:540][410]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/Multiplayer_Menu" FILE="../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Widget/Multiplayer_Menu.uasset" SILENT=true
+[2015.07.27-12.13.32:650][410]LogSavePackage: Save=77.250046ms
+[2015.07.27-12.13.32:650][410]LogSavePackage: Moving '../../../../../../Users/Quentin/Desktop/ProjectTron/Saved/Multiplayer_Menu07DB82E44C17710038E0339379BFB740.tmp' to '../../../../../../Users/Quentin/Desktop/ProjectTron/Content/Widget/Multiplayer_Menu.uasset'
+[2015.07.27-12.13.33:834][464]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.07.27-12.13.34:156][465]Cmd: QUIT_EDITOR
+[2015.07.27-12.13.35:527][465]LogExit: Preparing to exit.
+[2015.07.27-12.13.36:529][465]LogExit: Editor shut down
+[2015.07.27-12.13.36:529][465]LogExit: Transaction tracking system shut down
+[2015.07.27-12.13.36:532][465]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C63E99F6A0
+[2015.07.27-12.13.36:534][465]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C63E9E1080
+[2015.07.27-12.13.36:534][465]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C63E6E39C0
+[2015.07.27-12.13.36:534][465]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C63E969A80
+[2015.07.27-12.13.36:536][465]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C64D1082C0
+[2015.07.27-12.13.36:536][465]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C657366480
+[2015.07.27-12.13.36:537][465]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C657367560
+[2015.07.27-12.13.37:036][465]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C6286E3C40
+[2015.07.27-12.13.37:036][465]LogExit: Object subsystem successfully closed.
+[2015.07.27-12.13.37:329][465]LogD3D11RHI: Shutdown
+[2015.07.27-12.13.37:329][465]LogD3D11RHI: CleanupD3DDevice
+[2015.07.27-12.13.37:418][465]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.07.27-12.13.37:465][465]LogModuleManager: Shutting down and abandoning module SequencerWidgets (189)
+[2015.07.27-12.13.37:466][465]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2015.07.27-12.13.37:466][465]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2015.07.27-12.13.37:466][465]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2015.07.27-12.13.37:466][465]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2015.07.27-12.13.37:466][465]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2015.07.27-12.13.37:476][465]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2015.07.27-12.13.37:476][465]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2015.07.27-12.13.37:476][465]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2015.07.27-12.13.37:476][465]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2015.07.27-12.13.37:476][465]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2015.07.27-12.13.37:498][465]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2015.07.27-12.13.37:498][465]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2015.07.27-12.13.37:498][465]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2015.07.27-12.13.37:498][465]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2015.07.27-12.13.37:498][465]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2015.07.27-12.13.37:498][465]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2015.07.27-12.13.37:498][465]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2015.07.27-12.13.37:498][465]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2015.07.27-12.13.37:498][465]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2015.07.27-12.13.37:498][465]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2015.07.27-12.13.37:498][465]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2015.07.27-12.13.37:552][465]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2015.07.27-12.13.37:552][465]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2015.07.27-12.13.37:552][465]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2015.07.27-12.13.37:552][465]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2015.07.27-12.13.37:552][465]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2015.07.27-12.13.38:014][465]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2015.07.27-12.13.38:014][465]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2015.07.27-12.13.38:014][465]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2015.07.27-12.13.38:014][465]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2015.07.27-12.13.38:023][465]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2015.07.27-12.13.38:023][465]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2015.07.27-12.13.38:032][465]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2015.07.27-12.13.38:032][465]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2015.07.27-12.13.38:032][465]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2015.07.27-12.13.38:032][465]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2015.07.27-12.13.38:032][465]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2015.07.27-12.13.38:032][465]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2015.07.27-12.13.38:032][465]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2015.07.27-12.13.38:032][465]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2015.07.27-12.13.38:032][465]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2015.07.27-12.13.38:032][465]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2015.07.27-12.13.38:032][465]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2015.07.27-12.13.38:032][465]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2015.07.27-12.13.38:032][465]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2015.07.27-12.13.38:032][465]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2015.07.27-12.13.38:032][465]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2015.07.27-12.13.38:032][465]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2015.07.27-12.13.38:032][465]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2015.07.27-12.13.38:042][465]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2015.07.27-12.13.38:042][465]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2015.07.27-12.13.38:042][465]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2015.07.27-12.13.38:042][465]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2015.07.27-12.13.38:055][465]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2015.07.27-12.13.38:078][465]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2015.07.27-12.13.38:078][465]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2015.07.27-12.13.38:078][465]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2015.07.27-12.13.38:078][465]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2015.07.27-12.13.38:247][465]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2015.07.27-12.13.38:266][465]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2015.07.27-12.13.38:266][465]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2015.07.27-12.13.38:266][465]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2015.07.27-12.13.38:266][465]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2015.07.27-12.13.38:266][465]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2015.07.27-12.13.38:275][465]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2015.07.27-12.13.38:275][465]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2015.07.27-12.13.38:275][465]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2015.07.27-12.13.38:288][465]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2015.07.27-12.13.38:289][465]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2015.07.27-12.13.38:289][465]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2015.07.27-12.13.38:289][465]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2015.07.27-12.13.38:289][465]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2015.07.27-12.13.38:289][465]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2015.07.27-12.13.38:289][465]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2015.07.27-12.13.38:289][465]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2015.07.27-12.13.38:289][465]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2015.07.27-12.13.38:512][465]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2015.07.27-12.13.38:541][465]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2015.07.27-12.13.38:541][465]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2015.07.27-12.13.38:541][465]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2015.07.27-12.13.38:541][465]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2015.07.27-12.13.38:541][465]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2015.07.27-12.13.38:541][465]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2015.07.27-12.13.38:550][465]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2015.07.27-12.13.38:550][465]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2015.07.27-12.13.38:550][465]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2015.07.27-12.13.38:582][465]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2015.07.27-12.13.38:592][465]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2015.07.27-12.13.38:592][465]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2015.07.27-12.13.38:592][465]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2015.07.27-12.13.38:592][465]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2015.07.27-12.13.38:605][465]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2015.07.27-12.13.38:605][465]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2015.07.27-12.13.38:605][465]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2015.07.27-12.13.38:605][465]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2015.07.27-12.13.38:618][465]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2015.07.27-12.13.38:624][465]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2015.07.27-12.13.38:624][465]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2015.07.27-12.13.38:624][465]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2015.07.27-12.13.38:624][465]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2015.07.27-12.13.38:624][465]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2015.07.27-12.13.38:624][465]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2015.07.27-12.13.38:635][465]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2015.07.27-12.13.38:636][465]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2015.07.27-12.13.38:636][465]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2015.07.27-12.13.38:637][465]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2015.07.27-12.13.38:637][465]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.07.27-12.13.38:638][465]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.07.27-12.13.38:675][465]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.07.27-12.13.38:776][465]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.07.27-12.13.38:776][465]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.07.27-12.13.38:848][465]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.07.27-12.13.38:848][465]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.07.27-12.13.38:849][465]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.07.27-12.13.38:849][465]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.07.27-12.13.38:849][465]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.07.27-12.13.38:866][465]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.07.27-12.13.38:866][465]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.07.27-12.13.38:882][465]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.07.27-12.13.38:882][465]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.07.27-12.13.38:882][465]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.07.27-12.13.38:882][465]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.07.27-12.13.38:895][465]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.07.27-12.13.38:895][465]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.07.27-12.13.38:895][465]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.07.27-12.13.38:895][465]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.07.27-12.13.38:897][465]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.07.27-12.13.38:897][465]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.07.27-12.13.38:897][465]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.07.27-12.13.38:897][465]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.07.27-12.13.38:897][465]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.07.27-12.13.38:897][465]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.07.27-12.13.38:897][465]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.07.27-12.13.38:897][465]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.07.27-12.13.38:897][465]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.07.27-12.13.38:914][465]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.07.27-12.13.38:922][465]LogDerivedDataCache: Shutdown
+[2015.07.27-12.13.38:922][465]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.07.27-12.13.38:931][465]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.07.27-12.13.38:931][465]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.07.27-12.13.38:939][465]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.07.27-12.13.38:939][465]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.07.27-12.13.38:940][465]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.07.27-12.13.38:940][465]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.07.27-12.13.38:940][465]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.07.27-12.13.38:940][465]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.07.27-12.13.38:940][465]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.07.27-12.13.38:940][465]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.07.27-12.13.38:954][465]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.07.27-12.13.38:954][465]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.07.27-12.13.38:954][465]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.07.27-12.13.38:954][465]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.07.27-12.13.38:954][465]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.07.27-12.13.38:954][465]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.07.27-12.13.38:954][465]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.07.27-12.13.38:954][465]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.07.27-12.13.38:955][465]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.07.27-12.13.38:955][465]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.07.27-12.13.38:955][465]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.07.27-12.13.38:955][465]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.07.27-12.13.38:955][465]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.07.27-12.13.38:955][465]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.07.27-12.13.38:955][465]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.07.27-12.13.38:955][465]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.07.27-12.13.38:955][465]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.07.27-12.13.38:955][465]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.07.27-12.13.38:955][465]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.07.27-12.13.38:955][465]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.07.27-12.13.38:955][465]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.07.27-12.13.38:955][465]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.07.27-12.13.38:955][465]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.07.27-12.13.38:955][465]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.07.27-12.13.38:955][465]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.07.27-12.13.38:955][465]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.07.27-12.13.38:955][465]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.07.27-12.13.38:955][465]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.07.27-12.13.38:955][465]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.07.27-12.13.38:955][465]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.07.27-12.13.38:974][465]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.07.27-12.13.38:984][465]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.07.27-12.13.38:985][465]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.07.27-12.13.38:985][465]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.07.27-12.13.38:985][465]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.07.27-12.13.38:985][465]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.07.27-12.13.38:997][465]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.07.27-12.13.38:997][465]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.07.27-12.13.39:004][465]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.07.27-12.13.39:022][465]LogExit: Exiting.
+[2015.07.27-12.13.39:048][465]Log file closed, 07/27/15 14:13:39
